@@ -17,7 +17,7 @@ public class GreivinShield : MonoBehaviour
 
 
     void playerShield() {
-        if (Input.GetMouseButton(0)){
+        if (Input.GetMouseButton(0) && animator.GetFloat("Speed") < 0.01){
             animator.SetBool("Shield", true);
             
 
