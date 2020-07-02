@@ -121867,11 +121867,9 @@ GameObject:
   - component: {fileID: 2018922647}
   - component: {fileID: 2018922646}
   - component: {fileID: 2018922645}
-  - component: {fileID: 2018922644}
   - component: {fileID: 2018922643}
-  - component: {fileID: 2018922642}
-  - component: {fileID: 2018922641}
   - component: {fileID: 2018922640}
+  - component: {fileID: 2018922644}
   m_Layer: 0
   m_Name: Greivin
   m_TagString: Untagged
@@ -121895,32 +121893,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.15}
   serializedVersion: 2
   m_Radius: 0.1
---- !u!114 &2018922641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2018922639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25bcf17fd9a7b4a08ac960f9cb277c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 2018922643}
---- !u!114 &2018922642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2018922639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4416e65564c04af0b2eb2066834cc88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 2018922643}
 --- !u!95 &2018922643
 Animator:
   serializedVersion: 3
@@ -121949,10 +121921,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018922639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 319dca1e8bdeb4bda987b0d5185a465b, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ea1db9d8ef47ca4f92a22b87d586e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 6.29
+  movementSpeed: 5
   rb: {fileID: 2018922645}
   animator: {fileID: 2018922643}
 --- !u!50 &2018922645
