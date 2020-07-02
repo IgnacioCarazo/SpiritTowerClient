@@ -1,0 +1,4463 @@
+fileFormatVersion: 2
+guid: abb9739acae1d49459bfac86fc789cb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2966025879046522780
+    second: DS DSi - Children of Mana - Skeleton_0
+  - first:
+      213: -1309875282824806641
+    second: DS DSi - Children of Mana - Skeleton_1
+  - first:
+      213: -877572232732661417
+    second: DS DSi - Children of Mana - Skeleton_2
+  - first:
+      213: 8867987647737677125
+    second: DS DSi - Children of Mana - Skeleton_3
+  - first:
+      213: -1580442737119899181
+    second: DS DSi - Children of Mana - Skeleton_4
+  - first:
+      213: -8363453573794041628
+    second: DS DSi - Children of Mana - Skeleton_5
+  - first:
+      213: -9003156878402737774
+    second: DS DSi - Children of Mana - Skeleton_6
+  - first:
+      213: -1975634094197703225
+    second: DS DSi - Children of Mana - Skeleton_7
+  - first:
+      213: -8793445305446898053
+    second: DS DSi - Children of Mana - Skeleton_8
+  - first:
+      213: -8617650995394202364
+    second: DS DSi - Children of Mana - Skeleton_9
+  - first:
+      213: -6003451796421967166
+    second: DS DSi - Children of Mana - Skeleton_10
+  - first:
+      213: -6929289318709053773
+    second: DS DSi - Children of Mana - Skeleton_11
+  - first:
+      213: -291669480219225100
+    second: DS DSi - Children of Mana - Skeleton_12
+  - first:
+      213: -4269542766331145655
+    second: DS DSi - Children of Mana - Skeleton_13
+  - first:
+      213: -7625644462247514528
+    second: DS DSi - Children of Mana - Skeleton_14
+  - first:
+      213: -8743856641966961041
+    second: DS DSi - Children of Mana - Skeleton_15
+  - first:
+      213: -345762403836369848
+    second: DS DSi - Children of Mana - Skeleton_16
+  - first:
+      213: -6642422398603790527
+    second: DS DSi - Children of Mana - Skeleton_17
+  - first:
+      213: 6624136750871990767
+    second: DS DSi - Children of Mana - Skeleton_18
+  - first:
+      213: -5518172081246240571
+    second: DS DSi - Children of Mana - Skeleton_19
+  - first:
+      213: 8616498347245110202
+    second: DS DSi - Children of Mana - Skeleton_20
+  - first:
+      213: 7830600203278733647
+    second: DS DSi - Children of Mana - Skeleton_21
+  - first:
+      213: -4228356651820892061
+    second: DS DSi - Children of Mana - Skeleton_22
+  - first:
+      213: -8886399784472307434
+    second: DS DSi - Children of Mana - Skeleton_23
+  - first:
+      213: -4017820497374746776
+    second: DS DSi - Children of Mana - Skeleton_24
+  - first:
+      213: 6151755938937318891
+    second: DS DSi - Children of Mana - Skeleton_25
+  - first:
+      213: -8371256819979794217
+    second: DS DSi - Children of Mana - Skeleton_26
+  - first:
+      213: 5155745488230254580
+    second: DS DSi - Children of Mana - Skeleton_27
+  - first:
+      213: 7868760580313749921
+    second: DS DSi - Children of Mana - Skeleton_28
+  - first:
+      213: -9060410217662421691
+    second: DS DSi - Children of Mana - Skeleton_29
+  - first:
+      213: -3211756135020420584
+    second: DS DSi - Children of Mana - Skeleton_30
+  - first:
+      213: -6526250893959258830
+    second: DS DSi - Children of Mana - Skeleton_31
+  - first:
+      213: 390846275422301961
+    second: DS DSi - Children of Mana - Skeleton_32
+  - first:
+      213: 824194524626770567
+    second: DS DSi - Children of Mana - Skeleton_33
+  - first:
+      213: 1811163704203828364
+    second: DS DSi - Children of Mana - Skeleton_34
+  - first:
+      213: -6989081840983779982
+    second: DS DSi - Children of Mana - Skeleton_35
+  - first:
+      213: -334848993646436504
+    second: DS DSi - Children of Mana - Skeleton_36
+  - first:
+      213: 4543383676121932779
+    second: DS DSi - Children of Mana - Skeleton_37
+  - first:
+      213: 2442730171904280012
+    second: DS DSi - Children of Mana - Skeleton_38
+  - first:
+      213: -1294329542292166667
+    second: DS DSi - Children of Mana - Skeleton_39
+  - first:
+      213: 1527298167376786501
+    second: DS DSi - Children of Mana - Skeleton_40
+  - first:
+      213: 7785364975755696854
+    second: DS DSi - Children of Mana - Skeleton_41
+  - first:
+      213: -4568283001658412528
+    second: DS DSi - Children of Mana - Skeleton_42
+  - first:
+      213: 6333226937613863663
+    second: DS DSi - Children of Mana - Skeleton_43
+  - first:
+      213: 9185279405827211462
+    second: DS DSi - Children of Mana - Skeleton_44
+  - first:
+      213: -6509707211227138648
+    second: DS DSi - Children of Mana - Skeleton_45
+  - first:
+      213: 7028200998047014712
+    second: DS DSi - Children of Mana - Skeleton_46
+  - first:
+      213: -1327732294581515319
+    second: DS DSi - Children of Mana - Skeleton_47
+  - first:
+      213: -2099959230043607477
+    second: DS DSi - Children of Mana - Skeleton_48
+  - first:
+      213: 4701057389600731166
+    second: DS DSi - Children of Mana - Skeleton_49
+  - first:
+      213: 1500734994191464524
+    second: DS DSi - Children of Mana - Skeleton_50
+  - first:
+      213: 3188639292270672066
+    second: DS DSi - Children of Mana - Skeleton_51
+  - first:
+      213: 1289380747759385383
+    second: DS DSi - Children of Mana - Skeleton_52
+  - first:
+      213: -3883590091729881476
+    second: DS DSi - Children of Mana - Skeleton_53
+  - first:
+      213: -7711099821580650071
+    second: DS DSi - Children of Mana - Skeleton_54
+  - first:
+      213: -4135100301262369837
+    second: DS DSi - Children of Mana - Skeleton_55
+  - first:
+      213: -2190338856926394162
+    second: DS DSi - Children of Mana - Skeleton_56
+  - first:
+      213: -461709570436196683
+    second: DS DSi - Children of Mana - Skeleton_57
+  - first:
+      213: 2717022570222644137
+    second: DS DSi - Children of Mana - Skeleton_58
+  - first:
+      213: 771054208092482272
+    second: DS DSi - Children of Mana - Skeleton_59
+  - first:
+      213: 4493517043295876094
+    second: DS DSi - Children of Mana - Skeleton_60
+  - first:
+      213: -4220625763520601585
+    second: DS DSi - Children of Mana - Skeleton_61
+  - first:
+      213: -3200237610522876303
+    second: DS DSi - Children of Mana - Skeleton_62
+  - first:
+      213: 1226515511791675816
+    second: DS DSi - Children of Mana - Skeleton_63
+  - first:
+      213: 4765720844871938962
+    second: DS DSi - Children of Mana - Skeleton_64
+  - first:
+      213: -7782170519737532268
+    second: DS DSi - Children of Mana - Skeleton_65
+  - first:
+      213: -3039817887462459735
+    second: DS DSi - Children of Mana - Skeleton_66
+  - first:
+      213: -8534523096681754870
+    second: DS DSi - Children of Mana - Skeleton_67
+  - first:
+      213: 3613545377863898491
+    second: DS DSi - Children of Mana - Skeleton_68
+  - first:
+      213: 4637709480599719052
+    second: DS DSi - Children of Mana - Skeleton_69
+  - first:
+      213: 3237905441583159238
+    second: DS DSi - Children of Mana - Skeleton_70
+  - first:
+      213: 3251740119809850020
+    second: DS DSi - Children of Mana - Skeleton_71
+  - first:
+      213: 3582716746175077119
+    second: DS DSi - Children of Mana - Skeleton_72
+  - first:
+      213: -4032785454990713885
+    second: DS DSi - Children of Mana - Skeleton_73
+  - first:
+      213: 2421811656238444019
+    second: DS DSi - Children of Mana - Skeleton_74
+  - first:
+      213: 1584536886696453442
+    second: DS DSi - Children of Mana - Skeleton_75
+  - first:
+      213: -1883931466916012544
+    second: DS DSi - Children of Mana - Skeleton_76
+  - first:
+      213: 3519621027336887523
+    second: DS DSi - Children of Mana - Skeleton_77
+  - first:
+      213: -5704521495378873901
+    second: DS DSi - Children of Mana - Skeleton_78
+  - first:
+      213: -1403939782274388603
+    second: DS DSi - Children of Mana - Skeleton_79
+  - first:
+      213: -223482457647307795
+    second: DS DSi - Children of Mana - Skeleton_80
+  - first:
+      213: 8614189591671921674
+    second: DS DSi - Children of Mana - Skeleton_81
+  - first:
+      213: 1933844445226623115
+    second: DS DSi - Children of Mana - Skeleton_82
+  - first:
+      213: 5373853278657519991
+    second: DS DSi - Children of Mana - Skeleton_83
+  - first:
+      213: -7420729976142683206
+    second: DS DSi - Children of Mana - Skeleton_84
+  - first:
+      213: -1542748212277361020
+    second: DS DSi - Children of Mana - Skeleton_85
+  - first:
+      213: 9067758269953041460
+    second: DS DSi - Children of Mana - Skeleton_86
+  - first:
+      213: -3453061998436827278
+    second: DS DSi - Children of Mana - Skeleton_87
+  - first:
+      213: 8550468251499764018
+    second: DS DSi - Children of Mana - Skeleton_88
+  - first:
+      213: -7463802635387921678
+    second: DS DSi - Children of Mana - Skeleton_89
+  - first:
+      213: 8077829228869313237
+    second: DS DSi - Children of Mana - Skeleton_90
+  - first:
+      213: -8725658567831876900
+    second: DS DSi - Children of Mana - Skeleton_91
+  - first:
+      213: 7044871224422163245
+    second: DS DSi - Children of Mana - Skeleton_92
+  - first:
+      213: 5108734862748962767
+    second: DS DSi - Children of Mana - Skeleton_93
+  - first:
+      213: -624712209099968756
+    second: DS DSi - Children of Mana - Skeleton_94
+  - first:
+      213: 7222268869640030990
+    second: DS DSi - Children of Mana - Skeleton_95
+  - first:
+      213: -8966663008739646497
+    second: DS DSi - Children of Mana - Skeleton_96
+  - first:
+      213: -332009328609423338
+    second: DS DSi - Children of Mana - Skeleton_97
+  - first:
+      213: -2287984680944232458
+    second: DS DSi - Children of Mana - Skeleton_98
+  - first:
+      213: 6646542627454857504
+    second: DS DSi - Children of Mana - Skeleton_99
+  - first:
+      213: -8848642371769667784
+    second: DS DSi - Children of Mana - Skeleton_100
+  - first:
+      213: 2180789058965976894
+    second: DS DSi - Children of Mana - Skeleton_101
+  - first:
+      213: -5330501161422172579
+    second: DS DSi - Children of Mana - Skeleton_102
+  - first:
+      213: 9174009520948547091
+    second: DS DSi - Children of Mana - Skeleton_103
+  - first:
+      213: -3491768212002113294
+    second: DS DSi - Children of Mana - Skeleton_104
+  - first:
+      213: 5003991370545331913
+    second: DS DSi - Children of Mana - Skeleton_105
+  - first:
+      213: -7399332114745110470
+    second: DS DSi - Children of Mana - Skeleton_106
+  - first:
+      213: 6522768683407093877
+    second: DS DSi - Children of Mana - Skeleton_107
+  - first:
+      213: 8429778264415166330
+    second: DS DSi - Children of Mana - Skeleton_108
+  - first:
+      213: 824130698768429426
+    second: DS DSi - Children of Mana - Skeleton_109
+  - first:
+      213: -4749004569459170673
+    second: DS DSi - Children of Mana - Skeleton_110
+  - first:
+      213: 3530643527323127449
+    second: DS DSi - Children of Mana - Skeleton_111
+  - first:
+      213: 4383859121681440319
+    second: DS DSi - Children of Mana - Skeleton_112
+  - first:
+      213: -6593260925751247488
+    second: DS DSi - Children of Mana - Skeleton_113
+  - first:
+      213: 3643609259642213919
+    second: DS DSi - Children of Mana - Skeleton_114
+  - first:
+      213: 1526129409714976507
+    second: DS DSi - Children of Mana - Skeleton_115
+  - first:
+      213: -1824369571555005032
+    second: DS DSi - Children of Mana - Skeleton_116
+  - first:
+      213: -8015994363359448735
+    second: DS DSi - Children of Mana - Skeleton_117
+  - first:
+      213: -2100007386272881737
+    second: DS DSi - Children of Mana - Skeleton_118
+  - first:
+      213: 4950768965938179904
+    second: DS DSi - Children of Mana - Skeleton_119
+  - first:
+      213: 5397017954509288658
+    second: DS DSi - Children of Mana - Skeleton_120
+  - first:
+      213: 677662118545472418
+    second: DS DSi - Children of Mana - Skeleton_121
+  - first:
+      213: 2587860697607323657
+    second: DS DSi - Children of Mana - Skeleton_122
+  - first:
+      213: 1529424804523004929
+    second: DS DSi - Children of Mana - Skeleton_123
+  - first:
+      213: -124759587972559751
+    second: DS DSi - Children of Mana - Skeleton_124
+  - first:
+      213: 8627629177742110473
+    second: DS DSi - Children of Mana - Skeleton_125
+  - first:
+      213: -871609562616633165
+    second: DS DSi - Children of Mana - Skeleton_126
+  - first:
+      213: -5074598615173507917
+    second: DS DSi - Children of Mana - Skeleton_127
+  - first:
+      213: -7231217126275714389
+    second: DS DSi - Children of Mana - Skeleton_128
+  - first:
+      213: -5737929285119194083
+    second: DS DSi - Children of Mana - Skeleton_129
+  - first:
+      213: 6549495808041890130
+    second: DS DSi - Children of Mana - Skeleton_130
+  - first:
+      213: 6274953877548870066
+    second: DS DSi - Children of Mana - Skeleton_131
+  - first:
+      213: -5584906177763298170
+    second: DS DSi - Children of Mana - Skeleton_132
+  - first:
+      213: -2407175773335527282
+    second: DS DSi - Children of Mana - Skeleton_133
+  - first:
+      213: 437949688694097293
+    second: DS DSi - Children of Mana - Skeleton_134
+  - first:
+      213: 78644772791949379
+    second: DS DSi - Children of Mana - Skeleton_135
+  - first:
+      213: -6282053702766680846
+    second: DS DSi - Children of Mana - Skeleton_136
+  - first:
+      213: -755821990316332057
+    second: DS DSi - Children of Mana - Skeleton_137
+  - first:
+      213: 1147921187403555141
+    second: DS DSi - Children of Mana - Skeleton_138
+  - first:
+      213: -4814205920712427971
+    second: DS DSi - Children of Mana - Skeleton_139
+  - first:
+      213: 7002404841267243744
+    second: DS DSi - Children of Mana - Skeleton_140
+  - first:
+      213: -1151116257391101872
+    second: DS DSi - Children of Mana - Skeleton_141
+  - first:
+      213: 8029475745562380713
+    second: DS DSi - Children of Mana - Skeleton_142
+  - first:
+      213: -3983102566476329154
+    second: DS DSi - Children of Mana - Skeleton_143
+  - first:
+      213: -3305183923628407375
+    second: DS DSi - Children of Mana - Skeleton_144
+  - first:
+      213: 2563522105416131979
+    second: DS DSi - Children of Mana - Skeleton_145
+  - first:
+      213: -593511285231489324
+    second: DS DSi - Children of Mana - Skeleton_146
+  - first:
+      213: -103365742819500664
+    second: DS DSi - Children of Mana - Skeleton_147
+  - first:
+      213: 4343930919028541353
+    second: DS DSi - Children of Mana - Skeleton_148
+  - first:
+      213: -4700482662929317539
+    second: DS DSi - Children of Mana - Skeleton_149
+  - first:
+      213: -4274204550728879187
+    second: DS DSi - Children of Mana - Skeleton_150
+  - first:
+      213: -2305667027220073373
+    second: DS DSi - Children of Mana - Skeleton_151
+  - first:
+      213: -6430953362834473636
+    second: DS DSi - Children of Mana - Skeleton_152
+  - first:
+      213: 7804151941326499572
+    second: DS DSi - Children of Mana - Skeleton_153
+  - first:
+      213: -3284103903521117286
+    second: DS DSi - Children of Mana - Skeleton_154
+  - first:
+      213: -5494285223347954369
+    second: DS DSi - Children of Mana - Skeleton_155
+  - first:
+      213: -8009763167039501702
+    second: DS DSi - Children of Mana - Skeleton_156
+  - first:
+      213: 7518262208028581781
+    second: DS DSi - Children of Mana - Skeleton_157
+  - first:
+      213: -4697548097094154804
+    second: DS DSi - Children of Mana - Skeleton_158
+  - first:
+      213: -7287960174091844283
+    second: DS DSi - Children of Mana - Skeleton_159
+  - first:
+      213: 2421193908569676109
+    second: DS DSi - Children of Mana - Skeleton_160
+  - first:
+      213: -5763394680789482694
+    second: DS DSi - Children of Mana - Skeleton_161
+  - first:
+      213: -7494127125768002384
+    second: DS DSi - Children of Mana - Skeleton_162
+  - first:
+      213: -6269551539980742618
+    second: DS DSi - Children of Mana - Skeleton_163
+  - first:
+      213: 2671887199993505587
+    second: DS DSi - Children of Mana - Skeleton_164
+  - first:
+      213: -6611664853311927763
+    second: DS DSi - Children of Mana - Skeleton_165
+  - first:
+      213: 4668482523407546915
+    second: DS DSi - Children of Mana - Skeleton_166
+  - first:
+      213: -6471573681151954444
+    second: DS DSi - Children of Mana - Skeleton_167
+  - first:
+      213: -373782891852744814
+    second: DS DSi - Children of Mana - Skeleton_168
+  - first:
+      213: 4506366625354446701
+    second: DS DSi - Children of Mana - Skeleton_169
+  - first:
+      213: 5871985138883421469
+    second: DS DSi - Children of Mana - Skeleton_170
+  - first:
+      213: 5979365688060160771
+    second: DS DSi - Children of Mana - Skeleton_171
+  - first:
+      213: 8848892544185263238
+    second: DS DSi - Children of Mana - Skeleton_172
+  - first:
+      213: 4117360223419720628
+    second: DS DSi - Children of Mana - Skeleton_173
+  - first:
+      213: -4537622673038840671
+    second: DS DSi - Children of Mana - Skeleton_174
+  - first:
+      213: 6191745469215895378
+    second: DS DSi - Children of Mana - Skeleton_175
+  - first:
+      213: 5969563249682994143
+    second: DS DSi - Children of Mana - Skeleton_176
+  - first:
+      213: -8033921959078603850
+    second: DS DSi - Children of Mana - Skeleton_177
+  - first:
+      213: 2061800668829332653
+    second: DS DSi - Children of Mana - Skeleton_178
+  - first:
+      213: 8386919650816302503
+    second: DS DSi - Children of Mana - Skeleton_179
+  - first:
+      213: -7367872493856429081
+    second: DS DSi - Children of Mana - Skeleton_180
+  - first:
+      213: -4362778881895186581
+    second: DS DSi - Children of Mana - Skeleton_181
+  - first:
+      213: -3598913526205297510
+    second: DS DSi - Children of Mana - Skeleton_182
+  - first:
+      213: -5088279912707427858
+    second: DS DSi - Children of Mana - Skeleton_183
+  - first:
+      213: -8973536635834602077
+    second: DS DSi - Children of Mana - Skeleton_184
+  - first:
+      213: 3959691234634212556
+    second: DS DSi - Children of Mana - Skeleton_185
+  - first:
+      213: -4961520538100330434
+    second: DS DSi - Children of Mana - Skeleton_186
+  - first:
+      213: 6408123495707434525
+    second: DS DSi - Children of Mana - Skeleton_187
+  - first:
+      213: -7033700247636581936
+    second: DS DSi - Children of Mana - Skeleton_188
+  - first:
+      213: -459230621244663308
+    second: DS DSi - Children of Mana - Skeleton_189
+  - first:
+      213: -9088974511344961914
+    second: DS DSi - Children of Mana - Skeleton_190
+  - first:
+      213: 2283649254220552637
+    second: DS DSi - Children of Mana - Skeleton_191
+  - first:
+      213: -497016665834579679
+    second: DS DSi - Children of Mana - Skeleton_192
+  - first:
+      213: -8670004914144922656
+    second: DS DSi - Children of Mana - Skeleton_193
+  - first:
+      213: -9110937979828235306
+    second: DS DSi - Children of Mana - Skeleton_194
+  - first:
+      213: 3652244379074073182
+    second: DS DSi - Children of Mana - Skeleton_195
+  - first:
+      213: 4265673370843492515
+    second: DS DSi - Children of Mana - Skeleton_196
+  - first:
+      213: -1658467726883830577
+    second: DS DSi - Children of Mana - Skeleton_197
+  - first:
+      213: 6638764482379734534
+    second: DS DSi - Children of Mana - Skeleton_198
+  - first:
+      213: 3254831089412647850
+    second: DS DSi - Children of Mana - Skeleton_199
+  - first:
+      213: -795128129083669180
+    second: DS DSi - Children of Mana - Skeleton_200
+  - first:
+      213: -8499391905963810022
+    second: DS DSi - Children of Mana - Skeleton_201
+  - first:
+      213: -6340799743052192561
+    second: DS DSi - Children of Mana - Skeleton_202
+  - first:
+      213: -7356211141201637202
+    second: DS DSi - Children of Mana - Skeleton_203
+  - first:
+      213: -4961397449285314503
+    second: DS DSi - Children of Mana - Skeleton_204
+  - first:
+      213: 8326935225157758353
+    second: DS DSi - Children of Mana - Skeleton_205
+  - first:
+      213: 6900205229389894892
+    second: DS DSi - Children of Mana - Skeleton_206
+  - first:
+      213: 5903591068686835063
+    second: DS DSi - Children of Mana - Skeleton_207
+  - first:
+      213: 5726358238011459292
+    second: DS DSi - Children of Mana - Skeleton_208
+  - first:
+      213: 7929404262175222778
+    second: DS DSi - Children of Mana - Skeleton_209
+  - first:
+      213: 3822468996525326710
+    second: DS DSi - Children of Mana - Skeleton_210
+  - first:
+      213: 3431387310800446378
+    second: DS DSi - Children of Mana - Skeleton_211
+  - first:
+      213: -6156005751693047014
+    second: DS DSi - Children of Mana - Skeleton_212
+  - first:
+      213: 5434488055917622400
+    second: DS DSi - Children of Mana - Skeleton_213
+  - first:
+      213: 1507138265557712995
+    second: DS DSi - Children of Mana - Skeleton_214
+  - first:
+      213: 3752639288461753420
+    second: DS DSi - Children of Mana - Skeleton_215
+  - first:
+      213: -5994763168903133272
+    second: DS DSi - Children of Mana - Skeleton_216
+  - first:
+      213: 1647221386251653013
+    second: DS DSi - Children of Mana - Skeleton_217
+  - first:
+      213: 6644770909019115869
+    second: DS DSi - Children of Mana - Skeleton_218
+  - first:
+      213: -5983225624453768530
+    second: DS DSi - Children of Mana - Skeleton_219
+  - first:
+      213: 859328038323149178
+    second: DS DSi - Children of Mana - Skeleton_220
+  - first:
+      213: -2441400631654285860
+    second: DS DSi - Children of Mana - Skeleton_221
+  - first:
+      213: -1391711451259708375
+    second: DS DSi - Children of Mana - Skeleton_222
+  - first:
+      213: -5872081899479390039
+    second: DS DSi - Children of Mana - Skeleton_223
+  - first:
+      213: 4799743733564953840
+    second: DS DSi - Children of Mana - Skeleton_224
+  - first:
+      213: 7139537969883048546
+    second: DS DSi - Children of Mana - Skeleton_225
+  - first:
+      213: -8049345677709474624
+    second: DS DSi - Children of Mana - Skeleton_226
+  - first:
+      213: 795493567310751004
+    second: DS DSi - Children of Mana - Skeleton_227
+  - first:
+      213: 6999389933707345274
+    second: DS DSi - Children of Mana - Skeleton_228
+  - first:
+      213: -381327220533988960
+    second: DS DSi - Children of Mana - Skeleton_229
+  - first:
+      213: -661957618190899333
+    second: DS DSi - Children of Mana - Skeleton_230
+  - first:
+      213: -2289158352971071062
+    second: DS DSi - Children of Mana - Skeleton_231
+  - first:
+      213: -2079171627631349342
+    second: DS DSi - Children of Mana - Skeleton_232
+  - first:
+      213: -1850845321020470363
+    second: DS DSi - Children of Mana - Skeleton_233
+  - first:
+      213: -3459582220657836254
+    second: DS DSi - Children of Mana - Skeleton_234
+  - first:
+      213: 4175406182925839575
+    second: DS DSi - Children of Mana - Skeleton_235
+  - first:
+      213: 3230549707045337828
+    second: DS DSi - Children of Mana - Skeleton_236
+  - first:
+      213: 5647432581725858231
+    second: DS DSi - Children of Mana - Skeleton_237
+  - first:
+      213: -4799936561385624914
+    second: DS DSi - Children of Mana - Skeleton_238
+  - first:
+      213: 2958680958517014677
+    second: DS DSi - Children of Mana - Skeleton_239
+  - first:
+      213: -292884962707505398
+    second: DS DSi - Children of Mana - Skeleton_240
+  - first:
+      213: -1291669387892196089
+    second: DS DSi - Children of Mana - Skeleton_241
+  - first:
+      213: 4799296501406412809
+    second: DS DSi - Children of Mana - Skeleton_242
+  - first:
+      213: -7686766374280828415
+    second: DS DSi - Children of Mana - Skeleton_243
+  - first:
+      213: -2018872076314314726
+    second: DS DSi - Children of Mana - Skeleton_244
+  - first:
+      213: -1730425347008681211
+    second: DS DSi - Children of Mana - Skeleton_245
+  - first:
+      213: 1543189549347677477
+    second: DS DSi - Children of Mana - Skeleton_246
+  - first:
+      213: 3582350849540519883
+    second: DS DSi - Children of Mana - Skeleton_247
+  - first:
+      213: -5029954867737275228
+    second: DS DSi - Children of Mana - Skeleton_248
+  - first:
+      213: -7164111579310284
+    second: DS DSi - Children of Mana - Skeleton_249
+  - first:
+      213: 6036592534997892708
+    second: DS DSi - Children of Mana - Skeleton_250
+  - first:
+      213: 5186167920121410854
+    second: DS DSi - Children of Mana - Skeleton_251
+  - first:
+      213: 5165633044428989066
+    second: DS DSi - Children of Mana - Skeleton_252
+  - first:
+      213: -4874607093952974457
+    second: DS DSi - Children of Mana - Skeleton_253
+  - first:
+      213: -8335292331678326530
+    second: DS DSi - Children of Mana - Skeleton_254
+  - first:
+      213: 6087863770919329157
+    second: DS DSi - Children of Mana - Skeleton_255
+  - first:
+      213: 5670323810985165104
+    second: DS DSi - Children of Mana - Skeleton_256
+  - first:
+      213: -6305390332652637822
+    second: DS DSi - Children of Mana - Skeleton_257
+  - first:
+      213: 8318731285657953066
+    second: DS DSi - Children of Mana - Skeleton_258
+  - first:
+      213: -6783061237323047050
+    second: DS DSi - Children of Mana - Skeleton_259
+  - first:
+      213: 3588056927267261080
+    second: DS DSi - Children of Mana - Skeleton_260
+  - first:
+      213: -6384511297321784694
+    second: DS DSi - Children of Mana - Skeleton_261
+  - first:
+      213: 109900494636733193
+    second: DS DSi - Children of Mana - Skeleton_262
+  - first:
+      213: 4758629773108199284
+    second: DS DSi - Children of Mana - Skeleton_263
+  - first:
+      213: 5036765300358794919
+    second: DS DSi - Children of Mana - Skeleton_264
+  - first:
+      213: -3756178520750620730
+    second: DS DSi - Children of Mana - Skeleton_265
+  - first:
+      213: 2417625365601565866
+    second: DS DSi - Children of Mana - Skeleton_266
+  - first:
+      213: 7078790937726070401
+    second: DS DSi - Children of Mana - Skeleton_267
+  - first:
+      213: -535343016266909510
+    second: DS DSi - Children of Mana - Skeleton_268
+  - first:
+      213: 1106275143382943470
+    second: DS DSi - Children of Mana - Skeleton_269
+  - first:
+      213: 4598496825581612612
+    second: DS DSi - Children of Mana - Skeleton_270
+  - first:
+      213: -4385470947969511402
+    second: DS DSi - Children of Mana - Skeleton_271
+  - first:
+      213: -923443966818365773
+    second: DS DSi - Children of Mana - Skeleton_272
+  - first:
+      213: 8281024159450313283
+    second: DS DSi - Children of Mana - Skeleton_273
+  - first:
+      213: -2368894971358857449
+    second: DS DSi - Children of Mana - Skeleton_274
+  - first:
+      213: 6544020742014756116
+    second: DS DSi - Children of Mana - Skeleton_275
+  - first:
+      213: -3132693855596598294
+    second: DS DSi - Children of Mana - Skeleton_276
+  - first:
+      213: 6918526482689025360
+    second: DS DSi - Children of Mana - Skeleton_277
+  - first:
+      213: -5189691808290182157
+    second: DS DSi - Children of Mana - Skeleton_278
+  - first:
+      213: -9123119228459935469
+    second: DS DSi - Children of Mana - Skeleton_279
+  - first:
+      213: -3432367111844875273
+    second: DS DSi - Children of Mana - Skeleton_280
+  - first:
+      213: 5198966897796103922
+    second: DS DSi - Children of Mana - Skeleton_281
+  - first:
+      213: 9214614923742582331
+    second: DS DSi - Children of Mana - Skeleton_282
+  - first:
+      213: -5582181657013914632
+    second: DS DSi - Children of Mana - Skeleton_283
+  - first:
+      213: -2368062552332287718
+    second: DS DSi - Children of Mana - Skeleton_284
+  - first:
+      213: -6846112320842537557
+    second: DS DSi - Children of Mana - Skeleton_285
+  - first:
+      213: -3865888757076748560
+    second: DS DSi - Children of Mana - Skeleton_286
+  - first:
+      213: 6840878584600764163
+    second: DS DSi - Children of Mana - Skeleton_287
+  - first:
+      213: 94990133469573981
+    second: DS DSi - Children of Mana - Skeleton_288
+  - first:
+      213: -4938897897320640297
+    second: DS DSi - Children of Mana - Skeleton_289
+  - first:
+      213: -4809900853585389559
+    second: DS DSi - Children of Mana - Skeleton_290
+  - first:
+      213: 5604964142918306460
+    second: DS DSi - Children of Mana - Skeleton_291
+  - first:
+      213: 1502170876978292520
+    second: DS DSi - Children of Mana - Skeleton_292
+  - first:
+      213: -5029602411600634973
+    second: DS DSi - Children of Mana - Skeleton_293
+  - first:
+      213: 1530583055761257428
+    second: DS DSi - Children of Mana - Skeleton_294
+  - first:
+      213: -1747158674669284140
+    second: DS DSi - Children of Mana - Skeleton_295
+  - first:
+      213: 6559606415156803867
+    second: DS DSi - Children of Mana - Skeleton_296
+  - first:
+      213: -2030024471278717660
+    second: DS DSi - Children of Mana - Skeleton_297
+  - first:
+      213: -8410394920078438196
+    second: DS DSi - Children of Mana - Skeleton_298
+  - first:
+      213: 4534642305397088765
+    second: DS DSi - Children of Mana - Skeleton_299
+  - first:
+      213: -6724324219915797279
+    second: DS DSi - Children of Mana - Skeleton_300
+  - first:
+      213: 8603674479361175205
+    second: DS DSi - Children of Mana - Skeleton_301
+  - first:
+      213: 7841448066059348614
+    second: DS DSi - Children of Mana - Skeleton_302
+  - first:
+      213: 6591470747079959524
+    second: DS DSi - Children of Mana - Skeleton_303
+  - first:
+      213: -648873560814348554
+    second: DS DSi - Children of Mana - Skeleton_304
+  - first:
+      213: -3733706040679882533
+    second: DS DSi - Children of Mana - Skeleton_305
+  - first:
+      213: 3453510395557075734
+    second: DS DSi - Children of Mana - Skeleton_306
+  - first:
+      213: -9106491567886950441
+    second: DS DSi - Children of Mana - Skeleton_307
+  - first:
+      213: 3044465843199368635
+    second: DS DSi - Children of Mana - Skeleton_308
+  - first:
+      213: -6028025731472839075
+    second: DS DSi - Children of Mana - Skeleton_309
+  - first:
+      213: -8380404630464666109
+    second: DS DSi - Children of Mana - Skeleton_310
+  - first:
+      213: -7872379936180753122
+    second: DS DSi - Children of Mana - Skeleton_311
+  - first:
+      213: -7591410416030947838
+    second: DS DSi - Children of Mana - Skeleton_312
+  - first:
+      213: 5588537158030796184
+    second: DS DSi - Children of Mana - Skeleton_313
+  - first:
+      213: 38790220361228458
+    second: DS DSi - Children of Mana - Skeleton_314
+  - first:
+      213: -1207044078115587340
+    second: DS DSi - Children of Mana - Skeleton_315
+  - first:
+      213: -7748457801821817332
+    second: DS DSi - Children of Mana - Skeleton_316
+  - first:
+      213: -5943309935396781153
+    second: DS DSi - Children of Mana - Skeleton_317
+  - first:
+      213: 1493583788382446541
+    second: DS DSi - Children of Mana - Skeleton_318
+  - first:
+      213: -8168956953434108535
+    second: DS DSi - Children of Mana - Skeleton_319
+  - first:
+      213: -5503590422515889686
+    second: DS DSi - Children of Mana - Skeleton_320
+  - first:
+      213: -3781889790619017797
+    second: DS DSi - Children of Mana - Skeleton_321
+  - first:
+      213: 6711273065918618642
+    second: DS DSi - Children of Mana - Skeleton_322
+  - first:
+      213: -8938573769228769731
+    second: DS DSi - Children of Mana - Skeleton_323
+  - first:
+      213: 7553161731140732863
+    second: DS DSi - Children of Mana - Skeleton_324
+  - first:
+      213: 37000194836658352
+    second: DS DSi - Children of Mana - Skeleton_325
+  - first:
+      213: 5223859321709482584
+    second: DS DSi - Children of Mana - Skeleton_326
+  - first:
+      213: -5588341010274542455
+    second: DS DSi - Children of Mana - Skeleton_327
+  - first:
+      213: -5349605089910698151
+    second: DS DSi - Children of Mana - Skeleton_328
+  - first:
+      213: 3082164031555163410
+    second: DS DSi - Children of Mana - Skeleton_329
+  - first:
+      213: 8327725879306532514
+    second: DS DSi - Children of Mana - Skeleton_330
+  - first:
+      213: 319950391612680624
+    second: DS DSi - Children of Mana - Skeleton_331
+  - first:
+      213: -2470186648607883736
+    second: DS DSi - Children of Mana - Skeleton_332
+  - first:
+      213: 8330286512132409565
+    second: DS DSi - Children of Mana - Skeleton_333
+  - first:
+      213: -529759808019370670
+    second: DS DSi - Children of Mana - Skeleton_334
+  - first:
+      213: -7920479474782507211
+    second: DS DSi - Children of Mana - Skeleton_335
+  - first:
+      213: 8089929043018275111
+    second: DS DSi - Children of Mana - Skeleton_336
+  - first:
+      213: -1657269114694352443
+    second: DS DSi - Children of Mana - Skeleton_337
+  - first:
+      213: -1546337498270248960
+    second: DS DSi - Children of Mana - Skeleton_338
+  - first:
+      213: 9187972054847300379
+    second: DS DSi - Children of Mana - Skeleton_339
+  - first:
+      213: -5925634253290584973
+    second: DS DSi - Children of Mana - Skeleton_340
+  - first:
+      213: -642965958179038746
+    second: DS DSi - Children of Mana - Skeleton_341
+  - first:
+      213: 664561658955845996
+    second: DS DSi - Children of Mana - Skeleton_342
+  - first:
+      213: -4707361945814320571
+    second: DS DSi - Children of Mana - Skeleton_343
+  - first:
+      213: -1619541260735967698
+    second: DS DSi - Children of Mana - Skeleton_344
+  - first:
+      213: -5823917473063808637
+    second: DS DSi - Children of Mana - Skeleton_345
+  - first:
+      213: -5817159675035903001
+    second: DS DSi - Children of Mana - Skeleton_346
+  - first:
+      213: 4568221764633511994
+    second: DS DSi - Children of Mana - Skeleton_347
+  - first:
+      213: 5853501407868610867
+    second: DS DSi - Children of Mana - Skeleton_348
+  - first:
+      213: -7184775704175990314
+    second: DS DSi - Children of Mana - Skeleton_349
+  - first:
+      213: -4994318354939587564
+    second: DS DSi - Children of Mana - Skeleton_350
+  - first:
+      213: -7275511296197722757
+    second: DS DSi - Children of Mana - Skeleton_351
+  - first:
+      213: -5615305286523178818
+    second: DS DSi - Children of Mana - Skeleton_352
+  - first:
+      213: 3980123445401562308
+    second: DS DSi - Children of Mana - Skeleton_353
+  - first:
+      213: -2447137762532504312
+    second: DS DSi - Children of Mana - Skeleton_354
+  - first:
+      213: -8240416948297600838
+    second: DS DSi - Children of Mana - Skeleton_355
+  - first:
+      213: 5987412646245698670
+    second: DS DSi - Children of Mana - Skeleton_356
+  - first:
+      213: -6451689595349121087
+    second: DS DSi - Children of Mana - Skeleton_357
+  - first:
+      213: 5635706496237095196
+    second: DS DSi - Children of Mana - Skeleton_358
+  - first:
+      213: 635928079713212036
+    second: DS DSi - Children of Mana - Skeleton_359
+  - first:
+      213: 91550230682371014
+    second: DS DSi - Children of Mana - Skeleton_360
+  - first:
+      213: 1949166919285609239
+    second: DS DSi - Children of Mana - Skeleton_361
+  - first:
+      213: -1447301612541317423
+    second: DS DSi - Children of Mana - Skeleton_362
+  - first:
+      213: -829058290365648084
+    second: DS DSi - Children of Mana - Skeleton_363
+  - first:
+      213: -1778827529844165346
+    second: DS DSi - Children of Mana - Skeleton_364
+  - first:
+      213: -7609699593668226969
+    second: DS DSi - Children of Mana - Skeleton_365
+  - first:
+      213: 4785976458665728426
+    second: DS DSi - Children of Mana - Skeleton_366
+  - first:
+      213: 6820244557675987469
+    second: DS DSi - Children of Mana - Skeleton_367
+  - first:
+      213: 3127815246768758786
+    second: DS DSi - Children of Mana - Skeleton_368
+  - first:
+      213: -8519041351011933566
+    second: DS DSi - Children of Mana - Skeleton_369
+  - first:
+      213: -7021054517733705769
+    second: DS DSi - Children of Mana - Skeleton_370
+  - first:
+      213: 2462235255746029983
+    second: DS DSi - Children of Mana - Skeleton_371
+  - first:
+      213: -5952172317661871311
+    second: DS DSi - Children of Mana - Skeleton_372
+  - first:
+      213: -5240832749456348876
+    second: DS DSi - Children of Mana - Skeleton_373
+  - first:
+      213: -375297988015267949
+    second: DS DSi - Children of Mana - Skeleton_374
+  - first:
+      213: 6198320463931950360
+    second: DS DSi - Children of Mana - Skeleton_375
+  - first:
+      213: 3535546799706237384
+    second: DS DSi - Children of Mana - Skeleton_376
+  - first:
+      213: 4715398055707461054
+    second: DS DSi - Children of Mana - Skeleton_377
+  - first:
+      213: 8214872114363212597
+    second: DS DSi - Children of Mana - Skeleton_378
+  - first:
+      213: -1906380478687913913
+    second: DS DSi - Children of Mana - Skeleton_379
+  - first:
+      213: 1443508210519934631
+    second: DS DSi - Children of Mana - Skeleton_380
+  - first:
+      213: 1856430170580030058
+    second: DS DSi - Children of Mana - Skeleton_381
+  - first:
+      213: 4778664597829959497
+    second: DS DSi - Children of Mana - Skeleton_382
+  - first:
+      213: 6251551676033860733
+    second: DS DSi - Children of Mana - Skeleton_383
+  - first:
+      213: -4624754497777605060
+    second: DS DSi - Children of Mana - Skeleton_384
+  - first:
+      213: -371965819860381324
+    second: DS DSi - Children of Mana - Skeleton_385
+  - first:
+      213: -8708476977327912541
+    second: DS DSi - Children of Mana - Skeleton_386
+  - first:
+      213: -8664692506107187738
+    second: DS DSi - Children of Mana - Skeleton_387
+  - first:
+      213: 4370992213312467110
+    second: DS DSi - Children of Mana - Skeleton_388
+  - first:
+      213: 3331736851097050244
+    second: DS DSi - Children of Mana - Skeleton_389
+  - first:
+      213: 238481272921455662
+    second: DS DSi - Children of Mana - Skeleton_390
+  - first:
+      213: -4751795627077723179
+    second: DS DSi - Children of Mana - Skeleton_391
+  - first:
+      213: 3319977818187999668
+    second: DS DSi - Children of Mana - Skeleton_392
+  - first:
+      213: 2116867125626087249
+    second: DS DSi - Children of Mana - Skeleton_393
+  - first:
+      213: -8247556093664930816
+    second: DS DSi - Children of Mana - Skeleton_394
+  - first:
+      213: -3397343085907358477
+    second: DS DSi - Children of Mana - Skeleton_395
+  - first:
+      213: 8678030385743173210
+    second: DS DSi - Children of Mana - Skeleton_396
+  - first:
+      213: 1370292368285224476
+    second: DS DSi - Children of Mana - Skeleton_397
+  - first:
+      213: -1693660385350688015
+    second: DS DSi - Children of Mana - Skeleton_398
+  - first:
+      213: -5698823138613522886
+    second: DS DSi - Children of Mana - Skeleton_399
+  - first:
+      213: 4702433271913169799
+    second: DS DSi - Children of Mana - Skeleton_400
+  - first:
+      213: 3328678332625784827
+    second: DS DSi - Children of Mana - Skeleton_401
+  - first:
+      213: 5674856677989715731
+    second: DS DSi - Children of Mana - Skeleton_402
+  - first:
+      213: -7154810096002754456
+    second: DS DSi - Children of Mana - Skeleton_403
+  - first:
+      213: -1278207076624337789
+    second: DS DSi - Children of Mana - Skeleton_404
+  - first:
+      213: -5957650794979233214
+    second: DS DSi - Children of Mana - Skeleton_405
+  - first:
+      213: -5796683745682726851
+    second: DS DSi - Children of Mana - Skeleton_406
+  - first:
+      213: 4708453336606673961
+    second: DS DSi - Children of Mana - Skeleton_407
+  - first:
+      213: 4791555102172976090
+    second: DS DSi - Children of Mana - Skeleton_408
+  - first:
+      213: 8056816385058039695
+    second: DS DSi - Children of Mana - Skeleton_409
+  - first:
+      213: -2890264897437583384
+    second: DS DSi - Children of Mana - Skeleton_410
+  - first:
+      213: 5103154560474507571
+    second: DS DSi - Children of Mana - Skeleton_411
+  - first:
+      213: -650385885392167004
+    second: DS DSi - Children of Mana - Skeleton_412
+  - first:
+      213: 4487137112000381299
+    second: DS DSi - Children of Mana - Skeleton_413
+  - first:
+      213: 1571032275647803611
+    second: DS DSi - Children of Mana - Skeleton_414
+  - first:
+      213: -8080169184198853325
+    second: DS DSi - Children of Mana - Skeleton_415
+  - first:
+      213: 5149354050486366787
+    second: DS DSi - Children of Mana - Skeleton_416
+  - first:
+      213: -1915332061332508699
+    second: DS DSi - Children of Mana - Skeleton_417
+  - first:
+      213: 8687138886926608276
+    second: DS DSi - Children of Mana - Skeleton_418
+  - first:
+      213: -381387885422928802
+    second: DS DSi - Children of Mana - Skeleton_419
+  - first:
+      213: -5497452942759923898
+    second: DS DSi - Children of Mana - Skeleton_420
+  - first:
+      213: 8951744990733618436
+    second: DS DSi - Children of Mana - Skeleton_421
+  - first:
+      213: -3396259678593737679
+    second: DS DSi - Children of Mana - Skeleton_422
+  - first:
+      213: 1105265686789513953
+    second: DS DSi - Children of Mana - Skeleton_423
+  - first:
+      213: 2449777568649282926
+    second: DS DSi - Children of Mana - Skeleton_424
+  - first:
+      213: -5354072491334824147
+    second: DS DSi - Children of Mana - Skeleton_425
+  - first:
+      213: -9062694955943507708
+    second: DS DSi - Children of Mana - Skeleton_426
+  - first:
+      213: 2903475558244591170
+    second: DS DSi - Children of Mana - Skeleton_427
+  - first:
+      213: -446649536758926872
+    second: DS DSi - Children of Mana - Skeleton_428
+  - first:
+      213: 116165999506708359
+    second: DS DSi - Children of Mana - Skeleton_429
+  - first:
+      213: 6737089201452737711
+    second: DS DSi - Children of Mana - Skeleton_430
+  - first:
+      213: 7345559593934087355
+    second: DS DSi - Children of Mana - Skeleton_431
+  - first:
+      213: 6603557042908766881
+    second: DS DSi - Children of Mana - Skeleton_432
+  - first:
+      213: -1946311399569017493
+    second: DS DSi - Children of Mana - Skeleton_433
+  - first:
+      213: 4138142892764909544
+    second: DS DSi - Children of Mana - Skeleton_434
+  - first:
+      213: -5644549006952625571
+    second: DS DSi - Children of Mana - Skeleton_435
+  - first:
+      213: -142309947999741637
+    second: DS DSi - Children of Mana - Skeleton_436
+  - first:
+      213: 6632093516810687737
+    second: DS DSi - Children of Mana - Skeleton_437
+  - first:
+      213: 2117570977098631459
+    second: DS DSi - Children of Mana - Skeleton_438
+  - first:
+      213: 6073741561588349404
+    second: DS DSi - Children of Mana - Skeleton_439
+  - first:
+      213: 6680132444590963334
+    second: DS DSi - Children of Mana - Skeleton_440
+  - first:
+      213: 639628989048615759
+    second: DS DSi - Children of Mana - Skeleton_441
+  - first:
+      213: -8921058983665860617
+    second: DS DSi - Children of Mana - Skeleton_442
+  - first:
+      213: 2286173802468857614
+    second: DS DSi - Children of Mana - Skeleton_443
+  - first:
+      213: -2125462439438577794
+    second: DS DSi - Children of Mana - Skeleton_444
+  - first:
+      213: 8598351709492768637
+    second: DS DSi - Children of Mana - Skeleton_445
+  - first:
+      213: -6544707423781408234
+    second: DS DSi - Children of Mana - Skeleton_446
+  - first:
+      213: -4514539000583014531
+    second: DS DSi - Children of Mana - Skeleton_447
+  - first:
+      213: 5601480253809512347
+    second: DS DSi - Children of Mana - Skeleton_448
+  - first:
+      213: -5715090640050946238
+    second: DS DSi - Children of Mana - Skeleton_449
+  - first:
+      213: 313298959009520622
+    second: DS DSi - Children of Mana - Skeleton_450
+  - first:
+      213: 7639258088195031061
+    second: DS DSi - Children of Mana - Skeleton_451
+  - first:
+      213: -2487515559280161709
+    second: DS DSi - Children of Mana - Skeleton_452
+  - first:
+      213: -6843709321726375763
+    second: DS DSi - Children of Mana - Skeleton_453
+  - first:
+      213: -4605462272104951088
+    second: DS DSi - Children of Mana - Skeleton_454
+  - first:
+      213: 5281716609686626044
+    second: DS DSi - Children of Mana - Skeleton_455
+  - first:
+      213: 6651802037667653612
+    second: DS DSi - Children of Mana - Skeleton_456
+  - first:
+      213: 533735538496847868
+    second: DS DSi - Children of Mana - Skeleton_457
+  - first:
+      213: -2900647381017070431
+    second: DS DSi - Children of Mana - Skeleton_458
+  - first:
+      213: 8724065472040215332
+    second: DS DSi - Children of Mana - Skeleton_459
+  - first:
+      213: 168718077083052756
+    second: DS DSi - Children of Mana - Skeleton_460
+  - first:
+      213: 2481291114320831294
+    second: DS DSi - Children of Mana - Skeleton_461
+  - first:
+      213: -2036070045924699777
+    second: DS DSi - Children of Mana - Skeleton_462
+  - first:
+      213: 5781614274659196252
+    second: DS DSi - Children of Mana - Skeleton_463
+  - first:
+      213: 2099739072575132769
+    second: DS DSi - Children of Mana - Skeleton_464
+  - first:
+      213: -1063373156346383217
+    second: DS DSi - Children of Mana - Skeleton_465
+  - first:
+      213: 5382016259110115801
+    second: DS DSi - Children of Mana - Skeleton_466
+  - first:
+      213: 9123889428214350285
+    second: DS DSi - Children of Mana - Skeleton_467
+  - first:
+      213: -4018834559287723719
+    second: DS DSi - Children of Mana - Skeleton_468
+  - first:
+      213: 4372531691747472969
+    second: DS DSi - Children of Mana - Skeleton_469
+  - first:
+      213: 3628893552300024942
+    second: DS DSi - Children of Mana - Skeleton_470
+  - first:
+      213: 3062600322150385457
+    second: DS DSi - Children of Mana - Skeleton_471
+  - first:
+      213: -7732813176354941574
+    second: DS DSi - Children of Mana - Skeleton_472
+  - first:
+      213: -6900107005311798633
+    second: DS DSi - Children of Mana - Skeleton_473
+  - first:
+      213: 8386636333404138799
+    second: DS DSi - Children of Mana - Skeleton_474
+  - first:
+      213: -7238131183257831344
+    second: DS DSi - Children of Mana - Skeleton_475
+  - first:
+      213: -6347824856174513845
+    second: DS DSi - Children of Mana - Skeleton_476
+  - first:
+      213: 6040126588599375113
+    second: DS DSi - Children of Mana - Skeleton_477
+  - first:
+      213: -5082942247908099287
+    second: DS DSi - Children of Mana - Skeleton_478
+  - first:
+      213: 5050401605897480397
+    second: DS DSi - Children of Mana - Skeleton_479
+  - first:
+      213: -9026453424049441375
+    second: DS DSi - Children of Mana - Skeleton_480
+  - first:
+      213: -4835935881023864086
+    second: DS DSi - Children of Mana - Skeleton_481
+  - first:
+      213: -1241652760707222864
+    second: DS DSi - Children of Mana - Skeleton_482
+  - first:
+      213: -3939347991078691745
+    second: DS DSi - Children of Mana - Skeleton_483
+  - first:
+      213: 1109478659751465165
+    second: DS DSi - Children of Mana - Skeleton_484
+  - first:
+      213: -7722299966583451780
+    second: DS DSi - Children of Mana - Skeleton_485
+  - first:
+      213: -922346211488623252
+    second: DS DSi - Children of Mana - Skeleton_486
+  - first:
+      213: -8772678989685694501
+    second: DS DSi - Children of Mana - Skeleton_487
+  - first:
+      213: -5884790647104216440
+    second: DS DSi - Children of Mana - Skeleton_488
+  - first:
+      213: -3819009013905561642
+    second: DS DSi - Children of Mana - Skeleton_489
+  - first:
+      213: 7262339262130859042
+    second: DS DSi - Children of Mana - Skeleton_490
+  - first:
+      213: 2241619492297155288
+    second: DS DSi - Children of Mana - Skeleton_491
+  - first:
+      213: 457001051584969928
+    second: DS DSi - Children of Mana - Skeleton_492
+  - first:
+      213: -5775530277166803306
+    second: DS DSi - Children of Mana - Skeleton_493
+  - first:
+      213: -1856503074289368012
+    second: DS DSi - Children of Mana - Skeleton_494
+  - first:
+      213: -7155735318174056640
+    second: DS DSi - Children of Mana - Skeleton_495
+  - first:
+      213: 3579524922303445040
+    second: DS DSi - Children of Mana - Skeleton_496
+  - first:
+      213: 7334013554548497575
+    second: DS DSi - Children of Mana - Skeleton_497
+  - first:
+      213: -5610470516778131328
+    second: DS DSi - Children of Mana - Skeleton_498
+  - first:
+      213: 4160988085432416654
+    second: DS DSi - Children of Mana - Skeleton_499
+  - first:
+      213: 3777534653624052378
+    second: DS DSi - Children of Mana - Skeleton_500
+  - first:
+      213: -1372575010045847680
+    second: DS DSi - Children of Mana - Skeleton_501
+  - first:
+      213: -3057645973206231232
+    second: DS DSi - Children of Mana - Skeleton_502
+  - first:
+      213: -6382148557739786976
+    second: DS DSi - Children of Mana - Skeleton_503
+  - first:
+      213: 5277524760572316427
+    second: DS DSi - Children of Mana - Skeleton_504
+  - first:
+      213: 3646199213624072036
+    second: DS DSi - Children of Mana - Skeleton_505
+  - first:
+      213: -1163009489408228403
+    second: DS DSi - Children of Mana - Skeleton_506
+  - first:
+      213: 1184929954784485613
+    second: DS DSi - Children of Mana - Skeleton_507
+  - first:
+      213: 4493475601399642660
+    second: DS DSi - Children of Mana - Skeleton_508
+  - first:
+      213: 5412401560465747716
+    second: DS DSi - Children of Mana - Skeleton_509
+  - first:
+      213: -7607486792010075776
+    second: DS DSi - Children of Mana - Skeleton_510
+  - first:
+      213: 2296733325273747220
+    second: DS DSi - Children of Mana - Skeleton_511
+  - first:
+      213: 8227893959919201395
+    second: DS DSi - Children of Mana - Skeleton_512
+  - first:
+      213: -7311072436175738812
+    second: DS DSi - Children of Mana - Skeleton_513
+  - first:
+      213: -549156646735021124
+    second: DS DSi - Children of Mana - Skeleton_514
+  - first:
+      213: -8971379452248196350
+    second: DS DSi - Children of Mana - Skeleton_515
+  - first:
+      213: 7186522064201207069
+    second: DS DSi - Children of Mana - Skeleton_516
+  - first:
+      213: 158781270923725971
+    second: DS DSi - Children of Mana - Skeleton_517
+  - first:
+      213: -4227741150707466294
+    second: DS DSi - Children of Mana - Skeleton_518
+  - first:
+      213: 8738436180644963670
+    second: DS DSi - Children of Mana - Skeleton_519
+  - first:
+      213: -4007191218316652669
+    second: DS DSi - Children of Mana - Skeleton_520
+  - first:
+      213: 5752886049617251746
+    second: DS DSi - Children of Mana - Skeleton_521
+  - first:
+      213: 8651776083935073360
+    second: DS DSi - Children of Mana - Skeleton_522
+  - first:
+      213: 3083540286615822788
+    second: DS DSi - Children of Mana - Skeleton_523
+  - first:
+      213: 6421296938063466802
+    second: DS DSi - Children of Mana - Skeleton_524
+  - first:
+      213: -2847145890091939094
+    second: DS DSi - Children of Mana - Skeleton_525
+  - first:
+      213: 184860531635226769
+    second: DS DSi - Children of Mana - Skeleton_526
+  - first:
+      213: 6567265481364082012
+    second: DS DSi - Children of Mana - Skeleton_527
+  - first:
+      213: 7977706992200015855
+    second: DS DSi - Children of Mana - Skeleton_528
+  - first:
+      213: 4620233878462024924
+    second: DS DSi - Children of Mana - Skeleton_529
+  - first:
+      213: 6688440458642311206
+    second: DS DSi - Children of Mana - Skeleton_530
+  - first:
+      213: -7370145509787409361
+    second: DS DSi - Children of Mana - Skeleton_531
+  - first:
+      213: 4376230107669942986
+    second: DS DSi - Children of Mana - Skeleton_532
+  - first:
+      213: -628946779295396549
+    second: DS DSi - Children of Mana - Skeleton_533
+  - first:
+      213: 6395532225218036746
+    second: DS DSi - Children of Mana - Skeleton_534
+  - first:
+      213: -4381510328862739761
+    second: DS DSi - Children of Mana - Skeleton_535
+  - first:
+      213: 2021291755454964946
+    second: DS DSi - Children of Mana - Skeleton_536
+  - first:
+      213: -6067136715794749278
+    second: DS DSi - Children of Mana - Skeleton_537
+  - first:
+      213: 7848116498793506912
+    second: DS DSi - Children of Mana - Skeleton_538
+  - first:
+      213: 7465482885168309985
+    second: DS DSi - Children of Mana - Skeleton_539
+  - first:
+      213: 1325483577101078380
+    second: DS DSi - Children of Mana - Skeleton_540
+  - first:
+      213: -6052510076786356450
+    second: DS DSi - Children of Mana - Skeleton_541
+  - first:
+      213: 7511263502046884883
+    second: DS DSi - Children of Mana - Skeleton_542
+  - first:
+      213: 1747181940004733168
+    second: DS DSi - Children of Mana - Skeleton_543
+  - first:
+      213: 600069929706513047
+    second: DS DSi - Children of Mana - Skeleton_544
+  - first:
+      213: -6446847038465742193
+    second: DS DSi - Children of Mana - Skeleton_545
+  - first:
+      213: 5081067061748406054
+    second: DS DSi - Children of Mana - Skeleton_546
+  - first:
+      213: -7432959071794770853
+    second: DS DSi - Children of Mana - Skeleton_547
+  - first:
+      213: 1701002734140725672
+    second: DS DSi - Children of Mana - Skeleton_548
+  - first:
+      213: 1018964843997264129
+    second: DS DSi - Children of Mana - Skeleton_549
+  - first:
+      213: 8478331192460706824
+    second: DS DSi - Children of Mana - Skeleton_550
+  - first:
+      213: 7689752281506581555
+    second: DS DSi - Children of Mana - Skeleton_551
+  - first:
+      213: 2261435234495349021
+    second: DS DSi - Children of Mana - Skeleton_552
+  - first:
+      213: 6302358476382560196
+    second: DS DSi - Children of Mana - Skeleton_553
+  - first:
+      213: 3053995827047921597
+    second: DS DSi - Children of Mana - Skeleton_554
+  - first:
+      213: -5774400096764530869
+    second: DS DSi - Children of Mana - Skeleton_555
+  - first:
+      213: -7899252599445883870
+    second: DS DSi - Children of Mana - Skeleton_556
+  - first:
+      213: -4254263894705283404
+    second: DS DSi - Children of Mana - Skeleton_557
+  - first:
+      213: 7104156794771387629
+    second: DS DSi - Children of Mana - Skeleton_558
+  - first:
+      213: 2692608980647801667
+    second: DS DSi - Children of Mana - Skeleton_559
+  - first:
+      213: -1201688698453989106
+    second: DS DSi - Children of Mana - Skeleton_560
+  - first:
+      213: 2365660070270642636
+    second: DS DSi - Children of Mana - Skeleton_561
+  - first:
+      213: -4860542374554396710
+    second: DS DSi - Children of Mana - Skeleton_562
+  - first:
+      213: -3167794330800624905
+    second: DS DSi - Children of Mana - Skeleton_563
+  - first:
+      213: 7435843608901522116
+    second: DS DSi - Children of Mana - Skeleton_564
+  - first:
+      213: -372338063430584126
+    second: DS DSi - Children of Mana - Skeleton_565
+  - first:
+      213: -3860337394702619126
+    second: DS DSi - Children of Mana - Skeleton_566
+  - first:
+      213: -8464882724900760224
+    second: DS DSi - Children of Mana - Skeleton_567
+  - first:
+      213: -1214374876005757834
+    second: DS DSi - Children of Mana - Skeleton_568
+  - first:
+      213: -1534453117231665030
+    second: DS DSi - Children of Mana - Skeleton_569
+  - first:
+      213: -8035696566759653510
+    second: DS DSi - Children of Mana - Skeleton_570
+  - first:
+      213: 8454772582964062238
+    second: DS DSi - Children of Mana - Skeleton_571
+  - first:
+      213: -9177301065670273126
+    second: DS DSi - Children of Mana - Skeleton_572
+  - first:
+      213: -287032430438989934
+    second: DS DSi - Children of Mana - Skeleton_573
+  - first:
+      213: -5878023784679586207
+    second: DS DSi - Children of Mana - Skeleton_574
+  - first:
+      213: -4292987883673816747
+    second: DS DSi - Children of Mana - Skeleton_575
+  - first:
+      213: 2924692200387221565
+    second: DS DSi - Children of Mana - Skeleton_576
+  - first:
+      213: 4207516647026327827
+    second: DS DSi - Children of Mana - Skeleton_577
+  - first:
+      213: 2002338627574968037
+    second: DS DSi - Children of Mana - Skeleton_578
+  - first:
+      213: -4125475206327572443
+    second: DS DSi - Children of Mana - Skeleton_579
+  - first:
+      213: -7926601383091772522
+    second: DS DSi - Children of Mana - Skeleton_580
+  - first:
+      213: 2528599199720115249
+    second: DS DSi - Children of Mana - Skeleton_581
+  - first:
+      213: -1424282206187064793
+    second: DS DSi - Children of Mana - Skeleton_582
+  - first:
+      213: -9103826259468790389
+    second: DS DSi - Children of Mana - Skeleton_583
+  - first:
+      213: 5487324083025893909
+    second: DS DSi - Children of Mana - Skeleton_584
+  - first:
+      213: 1201810259214421462
+    second: DS DSi - Children of Mana - Skeleton_585
+  - first:
+      213: -749956254154607190
+    second: DS DSi - Children of Mana - Skeleton_586
+  - first:
+      213: -4716849050085943429
+    second: DS DSi - Children of Mana - Skeleton_587
+  - first:
+      213: -5419327535062502506
+    second: DS DSi - Children of Mana - Skeleton_588
+  - first:
+      213: 7828235271818282007
+    second: DS DSi - Children of Mana - Skeleton_589
+  - first:
+      213: -8817842865048064632
+    second: DS DSi - Children of Mana - Skeleton_590
+  - first:
+      213: -4589647340883362498
+    second: DS DSi - Children of Mana - Skeleton_591
+  - first:
+      213: 5081412178907798486
+    second: DS DSi - Children of Mana - Skeleton_592
+  - first:
+      213: 4424822872824849554
+    second: DS DSi - Children of Mana - Skeleton_593
+  - first:
+      213: 4578826313352286219
+    second: DS DSi - Children of Mana - Skeleton_594
+  - first:
+      213: -5124827368073922865
+    second: DS DSi - Children of Mana - Skeleton_595
+  - first:
+      213: 818598807459541258
+    second: DS DSi - Children of Mana - Skeleton_596
+  - first:
+      213: -1316965854941076996
+    second: DS DSi - Children of Mana - Skeleton_597
+  - first:
+      213: 8127592931831256237
+    second: DS DSi - Children of Mana - Skeleton_598
+  - first:
+      213: 988904455902819660
+    second: DS DSi - Children of Mana - Skeleton_599
+  - first:
+      213: 5644228981903121034
+    second: DS DSi - Children of Mana - Skeleton_600
+  - first:
+      213: 1962992932981651101
+    second: DS DSi - Children of Mana - Skeleton_601
+  - first:
+      213: 9071315461682726832
+    second: DS DSi - Children of Mana - Skeleton_602
+  - first:
+      213: -4372103298982506623
+    second: DS DSi - Children of Mana - Skeleton_603
+  - first:
+      213: -6138038811834402738
+    second: DS DSi - Children of Mana - Skeleton_604
+  - first:
+      213: -9216298255643044425
+    second: DS DSi - Children of Mana - Skeleton_605
+  - first:
+      213: -921802173751085955
+    second: DS DSi - Children of Mana - Skeleton_606
+  - first:
+      213: 407039500120229535
+    second: DS DSi - Children of Mana - Skeleton_607
+  - first:
+      213: -724555227337923562
+    second: DS DSi - Children of Mana - Skeleton_608
+  - first:
+      213: 1762442280286373434
+    second: DS DSi - Children of Mana - Skeleton_609
+  - first:
+      213: 9189665290041871379
+    second: DS DSi - Children of Mana - Skeleton_610
+  - first:
+      213: -8329179476675688193
+    second: DS DSi - Children of Mana - Skeleton_611
+  - first:
+      213: 2703897587416070975
+    second: DS DSi - Children of Mana - Skeleton_612
+  - first:
+      213: 1506048308455286554
+    second: DS DSi - Children of Mana - Skeleton_613
+  - first:
+      213: 3728498200779856491
+    second: DS DSi - Children of Mana - Skeleton_614
+  - first:
+      213: -2210849945681629662
+    second: DS DSi - Children of Mana - Skeleton_615
+  - first:
+      213: -228664261378054753
+    second: DS DSi - Children of Mana - Skeleton_616
+  - first:
+      213: -7124510463594526552
+    second: DS DSi - Children of Mana - Skeleton_617
+  - first:
+      213: 8687389279237481824
+    second: DS DSi - Children of Mana - Skeleton_618
+  - first:
+      213: 1211204244205449275
+    second: DS DSi - Children of Mana - Skeleton_619
+  - first:
+      213: 3513542954408640588
+    second: DS DSi - Children of Mana - Skeleton_620
+  - first:
+      213: -4994232235571401741
+    second: DS DSi - Children of Mana - Skeleton_621
+  - first:
+      213: -2131837312971542573
+    second: DS DSi - Children of Mana - Skeleton_622
+  - first:
+      213: 4670040325250669476
+    second: DS DSi - Children of Mana - Skeleton_623
+  - first:
+      213: 2833870477616671200
+    second: DS DSi - Children of Mana - Skeleton_624
+  - first:
+      213: 576021922111928241
+    second: DS DSi - Children of Mana - Skeleton_625
+  - first:
+      213: 7010912966832884546
+    second: DS DSi - Children of Mana - Skeleton_626
+  - first:
+      213: 7519350884625155074
+    second: DS DSi - Children of Mana - Skeleton_627
+  - first:
+      213: 6310572752581353101
+    second: DS DSi - Children of Mana - Skeleton_628
+  - first:
+      213: 1094850461986690314
+    second: DS DSi - Children of Mana - Skeleton_629
+  - first:
+      213: 1578065849793132928
+    second: DS DSi - Children of Mana - Skeleton_630
+  - first:
+      213: 233741004416770510
+    second: DS DSi - Children of Mana - Skeleton_631
+  - first:
+      213: -4542924787581379743
+    second: DS DSi - Children of Mana - Skeleton_632
+  - first:
+      213: 2679658419966481636
+    second: DS DSi - Children of Mana - Skeleton_633
+  - first:
+      213: 6793264554561955555
+    second: DS DSi - Children of Mana - Skeleton_634
+  - first:
+      213: 3182845012994968169
+    second: DS DSi - Children of Mana - Skeleton_635
+  - first:
+      213: -8441737840068062015
+    second: DS DSi - Children of Mana - Skeleton_636
+  - first:
+      213: 8845816482354096300
+    second: DS DSi - Children of Mana - Skeleton_637
+  - first:
+      213: 1851923587133930889
+    second: DS DSi - Children of Mana - Skeleton_638
+  - first:
+      213: -9201942626036141304
+    second: DS DSi - Children of Mana - Skeleton_639
+  - first:
+      213: -2125782202159115911
+    second: DS DSi - Children of Mana - Skeleton_640
+  - first:
+      213: -3959010807668216173
+    second: DS DSi - Children of Mana - Skeleton_641
+  - first:
+      213: -4092425189309288535
+    second: DS DSi - Children of Mana - Skeleton_642
+  - first:
+      213: 7632272471867425425
+    second: DS DSi - Children of Mana - Skeleton_643
+  - first:
+      213: 3315451192071217430
+    second: DS DSi - Children of Mana - Skeleton_644
+  - first:
+      213: -3864072902746538791
+    second: DS DSi - Children of Mana - Skeleton_645
+  - first:
+      213: -7738988820274123306
+    second: DS DSi - Children of Mana - Skeleton_646
+  - first:
+      213: -6518852311679632938
+    second: DS DSi - Children of Mana - Skeleton_647
+  - first:
+      213: 6632455706112211016
+    second: DS DSi - Children of Mana - Skeleton_648
+  - first:
+      213: 8998025479091108101
+    second: DS DSi - Children of Mana - Skeleton_649
+  - first:
+      213: 9127816596219721290
+    second: DS DSi - Children of Mana - Skeleton_650
+  - first:
+      213: 3191286269484518056
+    second: DS DSi - Children of Mana - Skeleton_651
+  - first:
+      213: -7557101330446275302
+    second: DS DSi - Children of Mana - Skeleton_652
+  - first:
+      213: -2925109094061483233
+    second: DS DSi - Children of Mana - Skeleton_653
+  - first:
+      213: -6035840914783068095
+    second: DS DSi - Children of Mana - Skeleton_654
+  - first:
+      213: 4160920520205601447
+    second: DS DSi - Children of Mana - Skeleton_655
+  - first:
+      213: 4560008352941874852
+    second: DS DSi - Children of Mana - Skeleton_656
+  - first:
+      213: 693010041240312360
+    second: DS DSi - Children of Mana - Skeleton_657
+  - first:
+      213: -1828693652333567337
+    second: DS DSi - Children of Mana - Skeleton_658
+  - first:
+      213: 63987959808527629
+    second: DS DSi - Children of Mana - Skeleton_659
+  - first:
+      213: 2612153128136646041
+    second: DS DSi - Children of Mana - Skeleton_660
+  - first:
+      213: -3380004071847206091
+    second: DS DSi - Children of Mana - Skeleton_661
+  - first:
+      213: -7207336060622026962
+    second: DS DSi - Children of Mana - Skeleton_662
+  - first:
+      213: 3334727567144054273
+    second: DS DSi - Children of Mana - Skeleton_663
+  - first:
+      213: -8741510246458777197
+    second: DS DSi - Children of Mana - Skeleton_664
+  - first:
+      213: -4824304084316047335
+    second: DS DSi - Children of Mana - Skeleton_665
+  - first:
+      213: 2105247017455276875
+    second: DS DSi - Children of Mana - Skeleton_666
+  - first:
+      213: 5427444004121770439
+    second: DS DSi - Children of Mana - Skeleton_667
+  - first:
+      213: 2628719083688201106
+    second: DS DSi - Children of Mana - Skeleton_668
+  - first:
+      213: -1406442852714183920
+    second: DS DSi - Children of Mana - Skeleton_669
+  - first:
+      213: 6756360670048985259
+    second: DS DSi - Children of Mana - Skeleton_670
+  - first:
+      213: -3798224404863779637
+    second: DS DSi - Children of Mana - Skeleton_671
+  - first:
+      213: 7908845181195376224
+    second: DS DSi - Children of Mana - Skeleton_672
+  - first:
+      213: 2812209983609077254
+    second: DS DSi - Children of Mana - Skeleton_673
+  - first:
+      213: 3532230475896564725
+    second: DS DSi - Children of Mana - Skeleton_674
+  - first:
+      213: 7708979244407004234
+    second: DS DSi - Children of Mana - Skeleton_675
+  - first:
+      213: -6801494919687662914
+    second: DS DSi - Children of Mana - Skeleton_676
+  - first:
+      213: -4005148109993150581
+    second: DS DSi - Children of Mana - Skeleton_677
+  - first:
+      213: 1711458553489852076
+    second: DS DSi - Children of Mana - Skeleton_678
+  - first:
+      213: 3001181921432770964
+    second: DS DSi - Children of Mana - Skeleton_679
+  - first:
+      213: -6351660960952037105
+    second: DS DSi - Children of Mana - Skeleton_680
+  - first:
+      213: 9017083355963197709
+    second: DS DSi - Children of Mana - Skeleton_681
+  - first:
+      213: -6463937589898372296
+    second: DS DSi - Children of Mana - Skeleton_682
+  - first:
+      213: 656082042278102856
+    second: DS DSi - Children of Mana - Skeleton_683
+  - first:
+      213: -189035933595376788
+    second: DS DSi - Children of Mana - Skeleton_684
+  - first:
+      213: 838085259950936028
+    second: DS DSi - Children of Mana - Skeleton_685
+  - first:
+      213: 7632831314286404417
+    second: DS DSi - Children of Mana - Skeleton_686
+  - first:
+      213: -3670762105199262280
+    second: DS DSi - Children of Mana - Skeleton_687
+  - first:
+      213: -1013410143061313751
+    second: DS DSi - Children of Mana - Skeleton_688
+  - first:
+      213: 5315086336693888068
+    second: DS DSi - Children of Mana - Skeleton_689
+  - first:
+      213: -5433709162028971819
+    second: DS DSi - Children of Mana - Skeleton_690
+  - first:
+      213: -103122434296312920
+    second: DS DSi - Children of Mana - Skeleton_691
+  - first:
+      213: -8080828684093715979
+    second: DS DSi - Children of Mana - Skeleton_692
+  - first:
+      213: -8354335885974124131
+    second: DS DSi - Children of Mana - Skeleton_693
+  - first:
+      213: -5035585699502717038
+    second: DS DSi - Children of Mana - Skeleton_694
+  - first:
+      213: -2622372580942407384
+    second: DS DSi - Children of Mana - Skeleton_695
+  - first:
+      213: -8816010989275373668
+    second: DS DSi - Children of Mana - Skeleton_696
+  - first:
+      213: -391975479220632042
+    second: DS DSi - Children of Mana - Skeleton_697
+  - first:
+      213: 6285081211627986441
+    second: DS DSi - Children of Mana - Skeleton_698
+  - first:
+      213: 4099708251034513251
+    second: DS DSi - Children of Mana - Skeleton_699
+  - first:
+      213: -7906451557951200629
+    second: DS DSi - Children of Mana - Skeleton_700
+  - first:
+      213: -689564581245743398
+    second: DS DSi - Children of Mana - Skeleton_701
+  - first:
+      213: 3658594547214357056
+    second: DS DSi - Children of Mana - Skeleton_702
+  - first:
+      213: 1501771811507305800
+    second: DS DSi - Children of Mana - Skeleton_703
+  - first:
+      213: -5101947447771408181
+    second: DS DSi - Children of Mana - Skeleton_704
+  - first:
+      213: -5023228618484202777
+    second: DS DSi - Children of Mana - Skeleton_705
+  - first:
+      213: -9185373409807194018
+    second: DS DSi - Children of Mana - Skeleton_706
+  - first:
+      213: -7033820255437182830
+    second: DS DSi - Children of Mana - Skeleton_707
+  - first:
+      213: 7909458456386609765
+    second: DS DSi - Children of Mana - Skeleton_708
+  - first:
+      213: 4738127459345032853
+    second: DS DSi - Children of Mana - Skeleton_709
+  - first:
+      213: 5808450368394293325
+    second: DS DSi - Children of Mana - Skeleton_710
+  - first:
+      213: 1167761568612646487
+    second: DS DSi - Children of Mana - Skeleton_711
+  - first:
+      213: -1783773679699392169
+    second: DS DSi - Children of Mana - Skeleton_712
+  - first:
+      213: -5843542153126776248
+    second: DS DSi - Children of Mana - Skeleton_713
+  - first:
+      213: 3204257179098472887
+    second: DS DSi - Children of Mana - Skeleton_714
+  - first:
+      213: -8870810080322133839
+    second: DS DSi - Children of Mana - Skeleton_715
+  - first:
+      213: 3966698206608993202
+    second: DS DSi - Children of Mana - Skeleton_716
+  - first:
+      213: 4213919067466724661
+    second: DS DSi - Children of Mana - Skeleton_717
+  - first:
+      213: -5358375452009158017
+    second: DS DSi - Children of Mana - Skeleton_718
+  - first:
+      213: -737353077858275361
+    second: DS DSi - Children of Mana - Skeleton_719
+  - first:
+      213: 7833286371583334264
+    second: DS DSi - Children of Mana - Skeleton_720
+  - first:
+      213: 4257336211486396025
+    second: DS DSi - Children of Mana - Skeleton_721
+  - first:
+      213: -7846330200109407324
+    second: DS DSi - Children of Mana - Skeleton_722
+  - first:
+      213: -5543712881003321865
+    second: DS DSi - Children of Mana - Skeleton_723
+  - first:
+      213: 2719470089266863646
+    second: DS DSi - Children of Mana - Skeleton_724
+  - first:
+      213: -147473325130610310
+    second: DS DSi - Children of Mana - Skeleton_725
+  - first:
+      213: 2458541817740139271
+    second: DS DSi - Children of Mana - Skeleton_726
+  - first:
+      213: 5051412065383787134
+    second: DS DSi - Children of Mana - Skeleton_727
+  - first:
+      213: 9148893089318015650
+    second: DS DSi - Children of Mana - Skeleton_728
+  - first:
+      213: -6063153406863335414
+    second: DS DSi - Children of Mana - Skeleton_729
+  - first:
+      213: -7356905469432629276
+    second: DS DSi - Children of Mana - Skeleton_730
+  - first:
+      213: -1230118350167003993
+    second: DS DSi - Children of Mana - Skeleton_731
+  - first:
+      213: -2171003308315632223
+    second: DS DSi - Children of Mana - Skeleton_732
+  - first:
+      213: 5056946877612337998
+    second: DS DSi - Children of Mana - Skeleton_733
+  - first:
+      213: -6125974377301162425
+    second: DS DSi - Children of Mana - Skeleton_734
+  - first:
+      213: 6059105954464399107
+    second: DS DSi - Children of Mana - Skeleton_735
+  - first:
+      213: 7692967455931793119
+    second: DS DSi - Children of Mana - Skeleton_736
+  - first:
+      213: -1362147465840727242
+    second: DS DSi - Children of Mana - Skeleton_737
+  - first:
+      213: 4391258012794029172
+    second: DS DSi - Children of Mana - Skeleton_738
+  - first:
+      213: -2535177614009619587
+    second: DS DSi - Children of Mana - Skeleton_739
+  - first:
+      213: -1265739936166085093
+    second: DS DSi - Children of Mana - Skeleton_740
+  - first:
+      213: -5391655614374894031
+    second: DS DSi - Children of Mana - Skeleton_741
+  - first:
+      213: -425365740054901833
+    second: DS DSi - Children of Mana - Skeleton_742
+  - first:
+      213: 2968905186989206642
+    second: DS DSi - Children of Mana - Skeleton_743
+  - first:
+      213: -3607137421854181184
+    second: DS DSi - Children of Mana - Skeleton_744
+  - first:
+      213: -2700556961085450760
+    second: DS DSi - Children of Mana - Skeleton_745
+  - first:
+      213: 6440574171612327209
+    second: DS DSi - Children of Mana - Skeleton_746
+  - first:
+      213: 5797562619229197753
+    second: DS DSi - Children of Mana - Skeleton_747
+  - first:
+      213: -7755561275343241529
+    second: DS DSi - Children of Mana - Skeleton_748
+  - first:
+      213: 8380096396647602305
+    second: DS DSi - Children of Mana - Skeleton_749
+  - first:
+      213: 951194903070011198
+    second: DS DSi - Children of Mana - Skeleton_750
+  - first:
+      213: -3124203521042943926
+    second: DS DSi - Children of Mana - Skeleton_751
+  - first:
+      213: 6614757825042446270
+    second: DS DSi - Children of Mana - Skeleton_752
+  - first:
+      213: 6634228357467379065
+    second: DS DSi - Children of Mana - Skeleton_753
+  - first:
+      213: 4643538036133392310
+    second: DS DSi - Children of Mana - Skeleton_754
+  - first:
+      213: -2692962956106831392
+    second: DS DSi - Children of Mana - Skeleton_755
+  - first:
+      213: 4806094179809576437
+    second: DS DSi - Children of Mana - Skeleton_756
+  - first:
+      213: 8049928127126860555
+    second: DS DSi - Children of Mana - Skeleton_757
+  - first:
+      213: 8041634244716377140
+    second: DS DSi - Children of Mana - Skeleton_758
+  - first:
+      213: 1795487806196270243
+    second: DS DSi - Children of Mana - Skeleton_759
+  - first:
+      213: 3284163288365128829
+    second: DS DSi - Children of Mana - Skeleton_760
+  - first:
+      213: 6324866189265681477
+    second: DS DSi - Children of Mana - Skeleton_761
+  - first:
+      213: -3248806107237477191
+    second: DS DSi - Children of Mana - Skeleton_762
+  - first:
+      213: -9124441859273738720
+    second: DS DSi - Children of Mana - Skeleton_763
+  - first:
+      213: 6072514434028866380
+    second: DS DSi - Children of Mana - Skeleton_764
+  - first:
+      213: 4329309093976420585
+    second: DS DSi - Children of Mana - Skeleton_765
+  - first:
+      213: -4644900309834594725
+    second: DS DSi - Children of Mana - Skeleton_766
+  - first:
+      213: 4834696623573597275
+    second: DS DSi - Children of Mana - Skeleton_767
+  - first:
+      213: 2736812594089220329
+    second: DS DSi - Children of Mana - Skeleton_768
+  - first:
+      213: 4879319262625266185
+    second: DS DSi - Children of Mana - Skeleton_769
+  - first:
+      213: -6180943419438059209
+    second: DS DSi - Children of Mana - Skeleton_770
+  - first:
+      213: 7806456814060723037
+    second: DS DSi - Children of Mana - Skeleton_771
+  - first:
+      213: -4045624549245332577
+    second: DS DSi - Children of Mana - Skeleton_772
+  - first:
+      213: 4951597630192359462
+    second: DS DSi - Children of Mana - Skeleton_773
+  - first:
+      213: -575438232964184291
+    second: DS DSi - Children of Mana - Skeleton_774
+  - first:
+      213: -8348927909549414269
+    second: DS DSi - Children of Mana - Skeleton_775
+  - first:
+      213: -7760723486533000166
+    second: DS DSi - Children of Mana - Skeleton_776
+  - first:
+      213: -4188412121187900256
+    second: DS DSi - Children of Mana - Skeleton_777
+  - first:
+      213: 8915677263159851866
+    second: DS DSi - Children of Mana - Skeleton_778
+  - first:
+      213: 8028121815671947690
+    second: DS DSi - Children of Mana - Skeleton_779
+  - first:
+      213: 7483518242454073997
+    second: DS DSi - Children of Mana - Skeleton_780
+  - first:
+      213: -813418808054890827
+    second: DS DSi - Children of Mana - Skeleton_781
+  - first:
+      213: -7908944060994872299
+    second: DS DSi - Children of Mana - Skeleton_782
+  - first:
+      213: 5293715124990979224
+    second: DS DSi - Children of Mana - Skeleton_783
+  - first:
+      213: 924077810291747974
+    second: DS DSi - Children of Mana - Skeleton_784
+  - first:
+      213: -5913955831652101736
+    second: DS DSi - Children of Mana - Skeleton_785
+  - first:
+      213: 4500728372797789531
+    second: DS DSi - Children of Mana - Skeleton_786
+  - first:
+      213: -8261969199498251572
+    second: DS DSi - Children of Mana - Skeleton_787
+  - first:
+      213: 7688397439491141256
+    second: DS DSi - Children of Mana - Skeleton_788
+  - first:
+      213: 7543762515549900137
+    second: DS DSi - Children of Mana - Skeleton_789
+  - first:
+      213: 4874223572515762636
+    second: DS DSi - Children of Mana - Skeleton_790
+  - first:
+      213: 7012059555770761003
+    second: DS DSi - Children of Mana - Skeleton_791
+  - first:
+      213: -946017065184750787
+    second: DS DSi - Children of Mana - Skeleton_792
+  - first:
+      213: -4782481149321262977
+    second: DS DSi - Children of Mana - Skeleton_793
+  - first:
+      213: 7641930075257381051
+    second: DS DSi - Children of Mana - Skeleton_794
+  - first:
+      213: -3887308818685955570
+    second: DS DSi - Children of Mana - Skeleton_795
+  - first:
+      213: -328995722747884739
+    second: DS DSi - Children of Mana - Skeleton_796
+  - first:
+      213: 914137063023151263
+    second: DS DSi - Children of Mana - Skeleton_797
+  - first:
+      213: 2296536079915882438
+    second: DS DSi - Children of Mana - Skeleton_798
+  - first:
+      213: -1896241144902270589
+    second: DS DSi - Children of Mana - Skeleton_799
+  - first:
+      213: 6102238947151746655
+    second: DS DSi - Children of Mana - Skeleton_800
+  - first:
+      213: 2524399059930054919
+    second: DS DSi - Children of Mana - Skeleton_801
+  - first:
+      213: -7881711840164294145
+    second: DS DSi - Children of Mana - Skeleton_802
+  - first:
+      213: 2043196934482313174
+    second: DS DSi - Children of Mana - Skeleton_803
+  - first:
+      213: -8927563649688379468
+    second: DS DSi - Children of Mana - Skeleton_804
+  - first:
+      213: 7394486139331612107
+    second: DS DSi - Children of Mana - Skeleton_805
+  - first:
+      213: -1352926678817252119
+    second: DS DSi - Children of Mana - Skeleton_806
+  - first:
+      213: -4518558385805050151
+    second: DS DSi - Children of Mana - Skeleton_807
+  - first:
+      213: -906338967116017132
+    second: DS DSi - Children of Mana - Skeleton_808
+  - first:
+      213: -3901015368753169098
+    second: DS DSi - Children of Mana - Skeleton_809
+  - first:
+      213: -1921007542843672524
+    second: DS DSi - Children of Mana - Skeleton_810
+  - first:
+      213: 5765663858614810095
+    second: DS DSi - Children of Mana - Skeleton_811
+  - first:
+      213: 1014425134711395583
+    second: DS DSi - Children of Mana - Skeleton_812
+  - first:
+      213: -1976070653353341943
+    second: DS DSi - Children of Mana - Skeleton_813
+  - first:
+      213: 2281435709075878847
+    second: DS DSi - Children of Mana - Skeleton_814
+  - first:
+      213: -7497078149527747239
+    second: DS DSi - Children of Mana - Skeleton_815
+  - first:
+      213: -2368499726532497513
+    second: DS DSi - Children of Mana - Skeleton_816
+  - first:
+      213: 3387745278953056104
+    second: DS DSi - Children of Mana - Skeleton_817
+  - first:
+      213: -565446053495814023
+    second: DS DSi - Children of Mana - Skeleton_818
+  - first:
+      213: 4626600710312497945
+    second: DS DSi - Children of Mana - Skeleton_819
+  - first:
+      213: 6917349757116844642
+    second: DS DSi - Children of Mana - Skeleton_820
+  - first:
+      213: -6107800981944336658
+    second: DS DSi - Children of Mana - Skeleton_821
+  - first:
+      213: -1515720517835387535
+    second: DS DSi - Children of Mana - Skeleton_822
+  - first:
+      213: 4194715110938550720
+    second: DS DSi - Children of Mana - Skeleton_823
+  - first:
+      213: -9083814831418035665
+    second: DS DSi - Children of Mana - Skeleton_824
+  - first:
+      213: -2904257617743167367
+    second: DS DSi - Children of Mana - Skeleton_825
+  - first:
+      213: -5585008176749523773
+    second: DS DSi - Children of Mana - Skeleton_826
+  - first:
+      213: -3801944410040273693
+    second: DS DSi - Children of Mana - Skeleton_827
+  - first:
+      213: 4678236334546219528
+    second: DS DSi - Children of Mana - Skeleton_828
+  - first:
+      213: -5065707042927091733
+    second: DS DSi - Children of Mana - Skeleton_829
+  - first:
+      213: 6164241585814818985
+    second: DS DSi - Children of Mana - Skeleton_830
+  - first:
+      213: 8002252406593871178
+    second: DS DSi - Children of Mana - Skeleton_831
+  - first:
+      213: 6139310931093197027
+    second: DS DSi - Children of Mana - Skeleton_832
+  - first:
+      213: 6617072562412026986
+    second: DS DSi - Children of Mana - Skeleton_833
+  - first:
+      213: 2743849147694251025
+    second: DS DSi - Children of Mana - Skeleton_834
+  - first:
+      213: 1439127407094806306
+    second: DS DSi - Children of Mana - Skeleton_835
+  - first:
+      213: 9219247096016511083
+    second: DS DSi - Children of Mana - Skeleton_836
+  - first:
+      213: -5780356932767658093
+    second: DS DSi - Children of Mana - Skeleton_837
+  - first:
+      213: -3246657141428411097
+    second: DS DSi - Children of Mana - Skeleton_838
+  - first:
+      213: -609060031550079897
+    second: DS DSi - Children of Mana - Skeleton_839
+  - first:
+      213: 2410791182157228454
+    second: DS DSi - Children of Mana - Skeleton_840
+  - first:
+      213: 8061990378691707099
+    second: DS DSi - Children of Mana - Skeleton_841
+  - first:
+      213: -2644126069859885695
+    second: DS DSi - Children of Mana - Skeleton_842
+  - first:
+      213: 7758257409766153762
+    second: DS DSi - Children of Mana - Skeleton_843
+  - first:
+      213: -6628513434050503482
+    second: DS DSi - Children of Mana - Skeleton_844
+  - first:
+      213: 8063500344453990006
+    second: DS DSi - Children of Mana - Skeleton_845
+  - first:
+      213: -7908124769836500238
+    second: DS DSi - Children of Mana - Skeleton_846
+  - first:
+      213: -4851773662770092477
+    second: DS DSi - Children of Mana - Skeleton_847
+  - first:
+      213: 6713971030160050475
+    second: DS DSi - Children of Mana - Skeleton_848
+  - first:
+      213: -3882808872636796841
+    second: DS DSi - Children of Mana - Skeleton_849
+  - first:
+      213: 4439816841867197493
+    second: DS DSi - Children of Mana - Skeleton_850
+  - first:
+      213: -7823895994897266427
+    second: DS DSi - Children of Mana - Skeleton_851
+  - first:
+      213: 4364241596161065861
+    second: DS DSi - Children of Mana - Skeleton_852
+  - first:
+      213: 6262054609461323219
+    second: DS DSi - Children of Mana - Skeleton_853
+  - first:
+      213: 7059743919825086890
+    second: DS DSi - Children of Mana - Skeleton_854
+  - first:
+      213: 7318465133970693204
+    second: DS DSi - Children of Mana - Skeleton_855
+  - first:
+      213: 3531633109248856452
+    second: DS DSi - Children of Mana - Skeleton_856
+  - first:
+      213: -3671327995088777337
+    second: DS DSi - Children of Mana - Skeleton_857
+  - first:
+      213: 8596319400812485160
+    second: DS DSi - Children of Mana - Skeleton_858
+  - first:
+      213: -1832510072037229606
+    second: DS DSi - Children of Mana - Skeleton_859
+  - first:
+      213: -7397290011346049135
+    second: DS DSi - Children of Mana - Skeleton_860
+  - first:
+      213: -7016942111446657941
+    second: DS DSi - Children of Mana - Skeleton_861
+  - first:
+      213: -3025326467504773560
+    second: DS DSi - Children of Mana - Skeleton_862
+  - first:
+      213: -5389519477663382932
+    second: DS DSi - Children of Mana - Skeleton_863
+  - first:
+      213: 88428647853049310
+    second: DS DSi - Children of Mana - Skeleton_864
+  - first:
+      213: -8686198430283484725
+    second: DS DSi - Children of Mana - Skeleton_865
+  - first:
+      213: -1104172834402946079
+    second: DS DSi - Children of Mana - Skeleton_866
+  - first:
+      213: -2347491015497991389
+    second: DS DSi - Children of Mana - Skeleton_867
+  - first:
+      213: 4737971310729152776
+    second: DS DSi - Children of Mana - Skeleton_868
+  - first:
+      213: 8619738369523348304
+    second: DS DSi - Children of Mana - Skeleton_869
+  - first:
+      213: -3131121082463376890
+    second: DS DSi - Children of Mana - Skeleton_870
+  - first:
+      213: 7855826467467538106
+    second: DS DSi - Children of Mana - Skeleton_871
+  - first:
+      213: 2284543850943347437
+    second: DS DSi - Children of Mana - Skeleton_872
+  - first:
+      213: -5376101793268352752
+    second: DS DSi - Children of Mana - Skeleton_873
+  - first:
+      213: 294508562154438099
+    second: DS DSi - Children of Mana - Skeleton_874
+  - first:
+      213: -1267531987982462614
+    second: DS DSi - Children of Mana - Skeleton_875
+  - first:
+      213: 5787245900950482611
+    second: DS DSi - Children of Mana - Skeleton_876
+  - first:
+      213: 20182752909133550
+    second: DS DSi - Children of Mana - Skeleton_877
+  - first:
+      213: -3471369982471702667
+    second: DS DSi - Children of Mana - Skeleton_878
+  - first:
+      213: 4655671396950329493
+    second: DS DSi - Children of Mana - Skeleton_879
+  - first:
+      213: -4883686213112361934
+    second: DS DSi - Children of Mana - Skeleton_880
+  - first:
+      213: 4943679655324523209
+    second: DS DSi - Children of Mana - Skeleton_881
+  - first:
+      213: 8385437829173084163
+    second: DS DSi - Children of Mana - Skeleton_882
+  - first:
+      213: 854194827107529614
+    second: DS DSi - Children of Mana - Skeleton_883
+  - first:
+      213: -6776386409285617464
+    second: DS DSi - Children of Mana - Skeleton_884
+  - first:
+      213: 9100089720769343439
+    second: DS DSi - Children of Mana - Skeleton_885
+  - first:
+      213: 7941616352119127482
+    second: DS DSi - Children of Mana - Skeleton_886
+  - first:
+      213: -439173197532380398
+    second: DS DSi - Children of Mana - Skeleton_887
+  - first:
+      213: -5904308615345483612
+    second: DS DSi - Children of Mana - Skeleton_888
+  - first:
+      213: -700022367781890667
+    second: DS DSi - Children of Mana - Skeleton_889
+  - first:
+      213: -6890533595012028810
+    second: DS DSi - Children of Mana - Skeleton_890
+  - first:
+      213: 4884915329619594680
+    second: DS DSi - Children of Mana - Skeleton_891
+  - first:
+      213: 7540665808502336448
+    second: DS DSi - Children of Mana - Skeleton_892
+  - first:
+      213: -1593545765444591191
+    second: DS DSi - Children of Mana - Skeleton_893
+  - first:
+      213: 9014426579070005128
+    second: DS DSi - Children of Mana - Skeleton_894
+  - first:
+      213: 5557211828914999514
+    second: DS DSi - Children of Mana - Skeleton_895
+  - first:
+      213: 5468688129197953375
+    second: DS DSi - Children of Mana - Skeleton_896
+  - first:
+      213: -8796215958627784572
+    second: DS DSi - Children of Mana - Skeleton_897
+  - first:
+      213: 3586591750244850117
+    second: DS DSi - Children of Mana - Skeleton_898
+  - first:
+      213: 5541013523553216949
+    second: DS DSi - Children of Mana - Skeleton_899
+  - first:
+      213: -6524585712654378156
+    second: DS DSi - Children of Mana - Skeleton_900
+  - first:
+      213: -7014983200992383248
+    second: DS DSi - Children of Mana - Skeleton_901
+  - first:
+      213: 995462593228293412
+    second: DS DSi - Children of Mana - Skeleton_902
+  - first:
+      213: 8866733239922299411
+    second: DS DSi - Children of Mana - Skeleton_903
+  - first:
+      213: 8723401742596934498
+    second: DS DSi - Children of Mana - Skeleton_904
+  - first:
+      213: -5957917735281930059
+    second: DS DSi - Children of Mana - Skeleton_905
+  - first:
+      213: 500963978252448865
+    second: DS DSi - Children of Mana - Skeleton_906
+  - first:
+      213: 8417230985932321230
+    second: DS DSi - Children of Mana - Skeleton_907
+  - first:
+      213: 6364460980554125580
+    second: DS DSi - Children of Mana - Skeleton_908
+  - first:
+      213: -8357382450240645257
+    second: DS DSi - Children of Mana - Skeleton_909
+  - first:
+      213: -2868798731558189464
+    second: DS DSi - Children of Mana - Skeleton_910
+  - first:
+      213: 8126008939775562694
+    second: DS DSi - Children of Mana - Skeleton_911
+  - first:
+      213: -541838193803512644
+    second: DS DSi - Children of Mana - Skeleton_912
+  - first:
+      213: -2358395996278875762
+    second: DS DSi - Children of Mana - Skeleton_913
+  - first:
+      213: -2592774031772804916
+    second: DS DSi - Children of Mana - Skeleton_914
+  - first:
+      213: 2836034733936712172
+    second: DS DSi - Children of Mana - Skeleton_915
+  - first:
+      213: -3992067562982030314
+    second: DS DSi - Children of Mana - Skeleton_916
+  - first:
+      213: 45034672014670579
+    second: DS DSi - Children of Mana - Skeleton_917
+  - first:
+      213: 737147233714599792
+    second: DS DSi - Children of Mana - Skeleton_918
+  - first:
+      213: 6472372171881418063
+    second: DS DSi - Children of Mana - Skeleton_919
+  - first:
+      213: 965781628147961562
+    second: DS DSi - Children of Mana - Skeleton_920
+  - first:
+      213: -7401902004349566788
+    second: DS DSi - Children of Mana - Skeleton_921
+  - first:
+      213: 491923379681833796
+    second: DS DSi - Children of Mana - Skeleton_922
+  - first:
+      213: 1956181953173360325
+    second: DS DSi - Children of Mana - Skeleton_923
+  - first:
+      213: 5582474194064982258
+    second: DS DSi - Children of Mana - Skeleton_924
+  - first:
+      213: 6864378031474798381
+    second: DS DSi - Children of Mana - Skeleton_925
+  - first:
+      213: -4566616892579262210
+    second: DS DSi - Children of Mana - Skeleton_926
+  - first:
+      213: -1521320703547867754
+    second: DS DSi - Children of Mana - Skeleton_927
+  - first:
+      213: 3411436354391070876
+    second: DS DSi - Children of Mana - Skeleton_928
+  - first:
+      213: 1460696177817167790
+    second: DS DSi - Children of Mana - Skeleton_929
+  - first:
+      213: 6642648116833631057
+    second: DS DSi - Children of Mana - Skeleton_930
+  - first:
+      213: -5906893790703883449
+    second: DS DSi - Children of Mana - Skeleton_931
+  - first:
+      213: -2732278256090768883
+    second: DS DSi - Children of Mana - Skeleton_932
+  - first:
+      213: 5899884191549223472
+    second: DS DSi - Children of Mana - Skeleton_933
+  - first:
+      213: -6321115882386385286
+    second: DS DSi - Children of Mana - Skeleton_934
+  - first:
+      213: 3555552202772580729
+    second: DS DSi - Children of Mana - Skeleton_935
+  - first:
+      213: -2168334645021716331
+    second: DS DSi - Children of Mana - Skeleton_936
+  - first:
+      213: -3373284515197784884
+    second: DS DSi - Children of Mana - Skeleton_937
+  - first:
+      213: 2945682257188285674
+    second: DS DSi - Children of Mana - Skeleton_938
+  - first:
+      213: 391940374103175711
+    second: DS DSi - Children of Mana - Skeleton_939
+  - first:
+      213: 3161245114228185415
+    second: DS DSi - Children of Mana - Skeleton_940
+  - first:
+      213: -906916739065127575
+    second: DS DSi - Children of Mana - Skeleton_941
+  - first:
+      213: 5100402488567199936
+    second: DS DSi - Children of Mana - Skeleton_942
+  - first:
+      213: 8774871736842332080
+    second: DS DSi - Children of Mana - Skeleton_943
+  - first:
+      213: -7975908246191809603
+    second: DS DSi - Children of Mana - Skeleton_944
+  - first:
+      213: 5879400700615327339
+    second: DS DSi - Children of Mana - Skeleton_945
+  - first:
+      213: -5346235397988037867
+    second: DS DSi - Children of Mana - Skeleton_946
+  - first:
+      213: -2960108878631158028
+    second: DS DSi - Children of Mana - Skeleton_947
+  - first:
+      213: 6412901655234003789
+    second: DS DSi - Children of Mana - Skeleton_948
+  - first:
+      213: 7639436492782526531
+    second: DS DSi - Children of Mana - Skeleton_949
+  - first:
+      213: -6077355290824298598
+    second: DS DSi - Children of Mana - Skeleton_950
+  - first:
+      213: 6788169975621114060
+    second: DS DSi - Children of Mana - Skeleton_951
+  - first:
+      213: 4458727118643428719
+    second: DS DSi - Children of Mana - Skeleton_952
+  - first:
+      213: -3921288305116776439
+    second: DS DSi - Children of Mana - Skeleton_953
+  - first:
+      213: 6140527325523468081
+    second: DS DSi - Children of Mana - Skeleton_954
+  - first:
+      213: 8833468063785308295
+    second: DS DSi - Children of Mana - Skeleton_955
+  - first:
+      213: 1661414061221679257
+    second: DS DSi - Children of Mana - Skeleton_956
+  - first:
+      213: -5291986148374267691
+    second: DS DSi - Children of Mana - Skeleton_957
+  - first:
+      213: -3929547572669624189
+    second: DS DSi - Children of Mana - Skeleton_958
+  - first:
+      213: 9160027123181632703
+    second: DS DSi - Children of Mana - Skeleton_959
+  - first:
+      213: 787461193806064329
+    second: DS DSi - Children of Mana - Skeleton_960
+  - first:
+      213: 813009867208596298
+    second: DS DSi - Children of Mana - Skeleton_961
+  - first:
+      213: 6863453604435593674
+    second: DS DSi - Children of Mana - Skeleton_962
+  - first:
+      213: 6898253432151528742
+    second: DS DSi - Children of Mana - Skeleton_963
+  - first:
+      213: 1555143587732977901
+    second: DS DSi - Children of Mana - Skeleton_964
+  - first:
+      213: 8502000556444425989
+    second: DS DSi - Children of Mana - Skeleton_965
+  - first:
+      213: 2871984692486396646
+    second: DS DSi - Children of Mana - Skeleton_966
+  - first:
+      213: -5734400741665494622
+    second: DS DSi - Children of Mana - Skeleton_967
+  - first:
+      213: 4188944853095458375
+    second: DS DSi - Children of Mana - Skeleton_968
+  - first:
+      213: 2618288210573684677
+    second: DS DSi - Children of Mana - Skeleton_969
+  - first:
+      213: -5157413275853575840
+    second: DS DSi - Children of Mana - Skeleton_970
+  - first:
+      213: -2817598510474831326
+    second: DS DSi - Children of Mana - Skeleton_971
+  - first:
+      213: -6979206905871018051
+    second: DS DSi - Children of Mana - Skeleton_972
+  - first:
+      213: -6323726236401991364
+    second: DS DSi - Children of Mana - Skeleton_973
+  - first:
+      213: 8712938322263235626
+    second: DS DSi - Children of Mana - Skeleton_974
+  - first:
+      213: 3042058476665597207
+    second: DS DSi - Children of Mana - Skeleton_975
+  - first:
+      213: -6820441987162924370
+    second: DS DSi - Children of Mana - Skeleton_976
+  - first:
+      213: 6243367155842421244
+    second: DS DSi - Children of Mana - Skeleton_977
+  - first:
+      213: 7130332952848105525
+    second: DS DSi - Children of Mana - Skeleton_978
+  - first:
+      213: 1737074330443421482
+    second: DS DSi - Children of Mana - Skeleton_979
+  - first:
+      213: 7623023625533695885
+    second: DS DSi - Children of Mana - Skeleton_980
+  - first:
+      213: -1345323208139507356
+    second: DS DSi - Children of Mana - Skeleton_981
+  - first:
+      213: -7998429347422298579
+    second: DS DSi - Children of Mana - Skeleton_982
+  - first:
+      213: 2663512066279805397
+    second: DS DSi - Children of Mana - Skeleton_983
+  - first:
+      213: 7971131769251055155
+    second: DS DSi - Children of Mana - Skeleton_984
+  - first:
+      213: -5604999492877113424
+    second: DS DSi - Children of Mana - Skeleton_985
+  - first:
+      213: 2729063332503127731
+    second: DS DSi - Children of Mana - Skeleton_986
+  - first:
+      213: -2995766878002031229
+    second: DS DSi - Children of Mana - Skeleton_987
+  - first:
+      213: -8569881125044854215
+    second: DS DSi - Children of Mana - Skeleton_988
+  - first:
+      213: 5794592094793984905
+    second: DS DSi - Children of Mana - Skeleton_989
+  - first:
+      213: 7124918360025788046
+    second: DS DSi - Children of Mana - Skeleton_990
+  - first:
+      213: -5325539556053181995
+    second: DS DSi - Children of Mana - Skeleton_991
+  - first:
+      213: -2372391120803292895
+    second: DS DSi - Children of Mana - Skeleton_992
+  - first:
+      213: -4685484490493191103
+    second: DS DSi - Children of Mana - Skeleton_993
+  - first:
+      213: -1742382725712689921
+    second: DS DSi - Children of Mana - Skeleton_994
+  - first:
+      213: 1161761595685791143
+    second: DS DSi - Children of Mana - Skeleton_995
+  - first:
+      213: -7005369710562450731
+    second: DS DSi - Children of Mana - Skeleton_996
+  - first:
+      213: 1768226755766042938
+    second: DS DSi - Children of Mana - Skeleton_997
+  - first:
+      213: 5592885106617215596
+    second: DS DSi - Children of Mana - Skeleton_998
+  - first:
+      213: -3529134977603024879
+    second: DS DSi - Children of Mana - Skeleton_999
+  - first:
+      213: -1350273210687972572
+    second: DS DSi - Children of Mana - Skeleton_1000
+  - first:
+      213: -8771137611747244717
+    second: DS DSi - Children of Mana - Skeleton_1001
+  - first:
+      213: 2251818701819931523
+    second: DS DSi - Children of Mana - Skeleton_1002
+  - first:
+      213: -2775445613886174864
+    second: DS DSi - Children of Mana - Skeleton_1003
+  - first:
+      213: 245016281567677449
+    second: DS DSi - Children of Mana - Skeleton_1004
+  - first:
+      213: 797068413617207835
+    second: DS DSi - Children of Mana - Skeleton_1005
+  - first:
+      213: -6440809217559688602
+    second: DS DSi - Children of Mana - Skeleton_1006
+  - first:
+      213: 8143745694451803478
+    second: DS DSi - Children of Mana - Skeleton_1007
+  - first:
+      213: -2246926729751814498
+    second: DS DSi - Children of Mana - Skeleton_1008
+  - first:
+      213: -2708636687147408265
+    second: DS DSi - Children of Mana - Skeleton_1009
+  - first:
+      213: 6741334142641409440
+    second: DS DSi - Children of Mana - Skeleton_1010
+  - first:
+      213: 5103358022096595568
+    second: DS DSi - Children of Mana - Skeleton_1011
+  - first:
+      213: 1661467665149945809
+    second: DS DSi - Children of Mana - Skeleton_1012
+  - first:
+      213: 2108876580589538198
+    second: DS DSi - Children of Mana - Skeleton_1013
+  - first:
+      213: -4403485134140957452
+    second: DS DSi - Children of Mana - Skeleton_1014
+  - first:
+      213: -6583090013057610244
+    second: DS DSi - Children of Mana - Skeleton_1015
+  - first:
+      213: 2071416582685120824
+    second: DS DSi - Children of Mana - Skeleton_1016
+  - first:
+      213: 5562782933414310960
+    second: DS DSi - Children of Mana - Skeleton_1017
+  - first:
+      213: 4950370010725028609
+    second: DS DSi - Children of Mana - Skeleton_1018
+  - first:
+      213: -8019974863110569110
+    second: DS DSi - Children of Mana - Skeleton_1019
+  - first:
+      213: -2304909655308659940
+    second: DS DSi - Children of Mana - Skeleton_1020
+  - first:
+      213: -3194488908877599626
+    second: DS DSi - Children of Mana - Skeleton_1021
+  - first:
+      213: -2828290399071793688
+    second: DS DSi - Children of Mana - Skeleton_1022
+  - first:
+      213: 6870341174938980908
+    second: DS DSi - Children of Mana - Skeleton_1023
+  - first:
+      213: 1904706478675634905
+    second: DS DSi - Children of Mana - Skeleton_1024
+  - first:
+      213: 7946084111422180649
+    second: DS DSi - Children of Mana - Skeleton_1025
+  - first:
+      213: 6925901913127812585
+    second: DS DSi - Children of Mana - Skeleton_1026
+  - first:
+      213: 3470102051094029050
+    second: DS DSi - Children of Mana - Skeleton_1027
+  - first:
+      213: 5246697066995917
+    second: DS DSi - Children of Mana - Skeleton_1028
+  - first:
+      213: 1792724610911153603
+    second: DS DSi - Children of Mana - Skeleton_1029
+  - first:
+      213: -1857718560910815489
+    second: DS DSi - Children of Mana - Skeleton_1030
+  - first:
+      213: -3808725036040185986
+    second: DS DSi - Children of Mana - Skeleton_1031
+  - first:
+      213: -1965367311251041080
+    second: DS DSi - Children of Mana - Skeleton_1032
+  - first:
+      213: 2846095344055804400
+    second: DS DSi - Children of Mana - Skeleton_1033
+  - first:
+      213: -8700266994194311461
+    second: DS DSi - Children of Mana - Skeleton_1034
+  - first:
+      213: -6583373842443991806
+    second: DS DSi - Children of Mana - Skeleton_1035
+  - first:
+      213: 556761256439510954
+    second: DS DSi - Children of Mana - Skeleton_1036
+  - first:
+      213: 9123355378024443483
+    second: DS DSi - Children of Mana - Skeleton_1037
+  - first:
+      213: -6135271661196881085
+    second: DS DSi - Children of Mana - Skeleton_1038
+  - first:
+      213: -2888653036332570958
+    second: DS DSi - Children of Mana - Skeleton_1039
+  - first:
+      213: -6896947889548845544
+    second: DS DSi - Children of Mana - Skeleton_1040
+  - first:
+      213: -2173254046673212391
+    second: DS DSi - Children of Mana - Skeleton_1041
+  - first:
+      213: 7209375373158714320
+    second: DS DSi - Children of Mana - Skeleton_1042
+  - first:
+      213: -635354755817904761
+    second: DS DSi - Children of Mana - Skeleton_1043
+  - first:
+      213: 6772245393794899543
+    second: DS DSi - Children of Mana - Skeleton_1044
+  - first:
+      213: 5072015125036860625
+    second: DS DSi - Children of Mana - Skeleton_1045
+  - first:
+      213: 2662939536809369937
+    second: DS DSi - Children of Mana - Skeleton_1046
+  - first:
+      213: 2333386832642515626
+    second: DS DSi - Children of Mana - Skeleton_1047
+  - first:
+      213: 3934411848489172789
+    second: DS DSi - Children of Mana - Skeleton_1048
+  - first:
+      213: 7162984853636196907
+    second: DS DSi - Children of Mana - Skeleton_1049
+  - first:
+      213: -2761523172690134031
+    second: DS DSi - Children of Mana - Skeleton_1050
+  - first:
+      213: 8143328853551734683
+    second: DS DSi - Children of Mana - Skeleton_1051
+  - first:
+      213: 3455104702537029023
+    second: DS DSi - Children of Mana - Skeleton_1052
+  - first:
+      213: 8534805539024074355
+    second: DS DSi - Children of Mana - Skeleton_1053
+  - first:
+      213: 2642902457424410923
+    second: DS DSi - Children of Mana - Skeleton_1054
+  - first:
+      213: 1172503849121365309
+    second: DS DSi - Children of Mana - Skeleton_1055
+  - first:
+      213: 7545488154913279379
+    second: DS DSi - Children of Mana - Skeleton_1056
+  - first:
+      213: -7136090148428724609
+    second: DS DSi - Children of Mana - Skeleton_1057
+  - first:
+      213: -4279382270695091768
+    second: DS DSi - Children of Mana - Skeleton_1058
+  - first:
+      213: -7758829431302300194
+    second: DS DSi - Children of Mana - Skeleton_1059
+  - first:
+      213: -3621413705937358299
+    second: DS DSi - Children of Mana - Skeleton_1060
+  - first:
+      213: 1904170571504508618
+    second: DS DSi - Children of Mana - Skeleton_1061
+  - first:
+      213: 3862408588218646955
+    second: DS DSi - Children of Mana - Skeleton_1062
+  - first:
+      213: -3336112513420548202
+    second: DS DSi - Children of Mana - Skeleton_1063
+  - first:
+      213: 8609042153948268260
+    second: DS DSi - Children of Mana - Skeleton_1064
+  - first:
+      213: -6181105954300688850
+    second: DS DSi - Children of Mana - Skeleton_1065
+  - first:
+      213: -7097064433444201391
+    second: DS DSi - Children of Mana - Skeleton_1066
+  - first:
+      213: 2037405119683131455
+    second: DS DSi - Children of Mana - Skeleton_1067
+  - first:
+      213: -7173849806980145164
+    second: DS DSi - Children of Mana - Skeleton_1068
+  - first:
+      213: -5322411046805580966
+    second: DS DSi - Children of Mana - Skeleton_1069
+  - first:
+      213: 7196163431118591045
+    second: DS DSi - Children of Mana - Skeleton_1070
+  - first:
+      213: 5549439131409632766
+    second: DS DSi - Children of Mana - Skeleton_1071
+  - first:
+      213: -4294705695563220377
+    second: DS DSi - Children of Mana - Skeleton_1072
+  - first:
+      213: -7788399274182886050
+    second: DS DSi - Children of Mana - Skeleton_1073
+  - first:
+      213: -9013851536320296008
+    second: DS DSi - Children of Mana - Skeleton_1074
+  - first:
+      213: 3496670861001037337
+    second: DS DSi - Children of Mana - Skeleton_1075
+  - first:
+      213: 3207092626394755253
+    second: DS DSi - Children of Mana - Skeleton_1076
+  - first:
+      213: 5441138656091551562
+    second: DS DSi - Children of Mana - Skeleton_1077
+  - first:
+      213: -4738699322434774240
+    second: DS DSi - Children of Mana - Skeleton_1078
+  - first:
+      213: 6613357792033586112
+    second: DS DSi - Children of Mana - Skeleton_1079
+  - first:
+      213: 4967696505335832283
+    second: DS DSi - Children of Mana - Skeleton_1080
+  - first:
+      213: -1351192979304934646
+    second: DS DSi - Children of Mana - Skeleton_1081
+  - first:
+      213: -574251484670015279
+    second: DS DSi - Children of Mana - Skeleton_1082
+  - first:
+      213: 1371121606635153504
+    second: DS DSi - Children of Mana - Skeleton_1083
+  - first:
+      213: 1930660422793844695
+    second: DS DSi - Children of Mana - Skeleton_1084
+  - first:
+      213: 4917972294570349651
+    second: DS DSi - Children of Mana - Skeleton_1085
+  - first:
+      213: -6661563921792154091
+    second: DS DSi - Children of Mana - Skeleton_1086
+  - first:
+      213: 8411312456639504060
+    second: DS DSi - Children of Mana - Skeleton_1087
+  - first:
+      213: 168616122589189793
+    second: DS DSi - Children of Mana - Skeleton_1088
+  - first:
+      213: 8836930611298871218
+    second: DS DSi - Children of Mana - Skeleton_1089
+  - first:
+      213: -518283859749980578
+    second: DS DSi - Children of Mana - Skeleton_1090
+  - first:
+      213: 5390608157537087251
+    second: DS DSi - Children of Mana - Skeleton_1091
+  - first:
+      213: 6408263852080723808
+    second: DS DSi - Children of Mana - Skeleton_1092
+  - first:
+      213: -691524624054459388
+    second: DS DSi - Children of Mana - Skeleton_1093
+  - first:
+      213: -7725307508326483380
+    second: DS DSi - Children of Mana - Skeleton_1094
+  - first:
+      213: 940184149383831121
+    second: DS DSi - Children of Mana - Skeleton_1095
+  - first:
+      213: 8502855937286430068
+    second: DS DSi - Children of Mana - Skeleton_1096
+  - first:
+      213: -1068790832029435594
+    second: DS DSi - Children of Mana - Skeleton_1097
+  - first:
+      213: 7505988709104059124
+    second: DS DSi - Children of Mana - Skeleton_1098
+  - first:
+      213: -3245252566099514867
+    second: DS DSi - Children of Mana - Skeleton_1099
+  - first:
+      213: 8114217224788646742
+    second: DS DSi - Children of Mana - Skeleton_1100
+  - first:
+      213: -7692898724636864443
+    second: DS DSi - Children of Mana - Skeleton_1101
+  - first:
+      213: -3848381791563614538
+    second: DS DSi - Children of Mana - Skeleton_1102
+  - first:
+      213: -5766056451754404034
+    second: DS DSi - Children of Mana - Skeleton_1103
+  - first:
+      213: -1554252031883445272
+    second: DS DSi - Children of Mana - Skeleton_1104
+  - first:
+      213: 3758960316277912040
+    second: DS DSi - Children of Mana - Skeleton_1105
+  - first:
+      213: -9114901582054923317
+    second: DS DSi - Children of Mana - Skeleton_1106
+  - first:
+      213: 879027948604915917
+    second: DS DSi - Children of Mana - Skeleton_1107
+  - first:
+      213: -257127176260886812
+    second: DS DSi - Children of Mana - Skeleton_1108
+  - first:
+      213: -4737058914103579837
+    second: DS DSi - Children of Mana - Skeleton_1109
+  - first:
+      213: -1168174876388017612
+    second: DS DSi - Children of Mana - Skeleton_1110
+  - first:
+      213: 2057009862564217087
+    second: DS DSi - Children of Mana - Skeleton_1111
+  - first:
+      213: 2012353116623602175
+    second: DS DSi - Children of Mana - Skeleton_1112
+  - first:
+      213: -6312941254986766302
+    second: DS DSi - Children of Mana - Skeleton_1113
+  - first:
+      213: 5698810075580440148
+    second: DS DSi - Children of Mana - Skeleton_1114
+  - first:
+      213: 6753860471131828416
+    second: DS DSi - Children of Mana - Skeleton_1115
+  - first:
+      213: 1295306716808618521
+    second: DS DSi - Children of Mana - Skeleton_1116
+  - first:
+      213: 7049354224378176267
+    second: DS DSi - Children of Mana - Skeleton_1117
+  - first:
+      213: -6892419509936016248
+    second: DS DSi - Children of Mana - Skeleton_1118
+  - first:
+      213: 4564318991225100704
+    second: DS DSi - Children of Mana - Skeleton_1119
+  - first:
+      213: -862842638504018456
+    second: DS DSi - Children of Mana - Skeleton_1120
+  - first:
+      213: -2587702629136246365
+    second: DS DSi - Children of Mana - Skeleton_1121
+  - first:
+      213: 743980897748738580
+    second: DS DSi - Children of Mana - Skeleton_1122
+  - first:
+      213: 13510536621765212
+    second: DS DSi - Children of Mana - Skeleton_1123
+  - first:
+      213: -8823793308463973694
+    second: DS DSi - Children of Mana - Skeleton_1124
+  - first:
+      213: 3850388295303199044
+    second: DS DSi - Children of Mana - Skeleton_1125
+  - first:
+      213: -7515856820208097553
+    second: DS DSi - Children of Mana - Skeleton_1126
+  - first:
+      213: -6591676619163121417
+    second: DS DSi - Children of Mana - Skeleton_1127
+  - first:
+      213: 8720231679767922932
+    second: DS DSi - Children of Mana - Skeleton_1128
+  - first:
+      213: 8235138564813891886
+    second: DS DSi - Children of Mana - Skeleton_1129
+  - first:
+      213: -1380437632874489451
+    second: DS DSi - Children of Mana - Skeleton_1130
+  - first:
+      213: -8687665122033784101
+    second: DS DSi - Children of Mana - Skeleton_1131
+  - first:
+      213: 411631971009040607
+    second: DS DSi - Children of Mana - Skeleton_1132
+  - first:
+      213: -6852383830025437075
+    second: DS DSi - Children of Mana - Skeleton_1133
+  - first:
+      213: 893531113418942712
+    second: DS DSi - Children of Mana - Skeleton_1134
+  - first:
+      213: -5405115704212316835
+    second: DS DSi - Children of Mana - Skeleton_1135
+  - first:
+      213: -317664660347328173
+    second: DS DSi - Children of Mana - Skeleton_1136
+  - first:
+      213: -5553498962424566438
+    second: DS DSi - Children of Mana - Skeleton_1137
+  - first:
+      213: -7508147553938582639
+    second: DS DSi - Children of Mana - Skeleton_1138
+  - first:
+      213: 7618980888565453077
+    second: DS DSi - Children of Mana - Skeleton_1139
+  - first:
+      213: 3889606144720564793
+    second: DS DSi - Children of Mana - Skeleton_1140
+  - first:
+      213: 623944021813130716
+    second: DS DSi - Children of Mana - Skeleton_1141
+  - first:
+      213: -8107456931120328537
+    second: DS DSi - Children of Mana - Skeleton_1142
+  - first:
+      213: 7533936741919433995
+    second: DS DSi - Children of Mana - Skeleton_1143
+  - first:
+      213: -773156007710383149
+    second: DS DSi - Children of Mana - Skeleton_1144
+  - first:
+      213: -8607648934467768891
+    second: DS DSi - Children of Mana - Skeleton_1145
+  - first:
+      213: 3624128781069275781
+    second: DS DSi - Children of Mana - Skeleton_1146
+  - first:
+      213: 1550362086087274919
+    second: DS DSi - Children of Mana - Skeleton_1147
+  - first:
+      213: 3986967090289192642
+    second: DS DSi - Children of Mana - Skeleton_1148
+  - first:
+      213: 5486642934722313765
+    second: DS DSi - Children of Mana - Skeleton_1149
+  - first:
+      213: -8974424039908462464
+    second: DS DSi - Children of Mana - Skeleton_1150
+  - first:
+      213: -966476651623059014
+    second: DS DSi - Children of Mana - Skeleton_1151
+  - first:
+      213: -3052989890186092334
+    second: DS DSi - Children of Mana - Skeleton_1152
+  - first:
+      213: -7862693420502260215
+    second: DS DSi - Children of Mana - Skeleton_1153
+  - first:
+      213: 4327789832529340074
+    second: DS DSi - Children of Mana - Skeleton_1154
+  - first:
+      213: 4418886032091553558
+    second: DS DSi - Children of Mana - Skeleton_1155
+  - first:
+      213: -4343152802099765276
+    second: DS DSi - Children of Mana - Skeleton_1156
+  - first:
+      213: 6439798505370660774
+    second: DS DSi - Children of Mana - Skeleton_1157
+  - first:
+      213: 3910005888469368955
+    second: DS DSi - Children of Mana - Skeleton_1158
+  - first:
+      213: -7486038075873703955
+    second: DS DSi - Children of Mana - Skeleton_1159
+  - first:
+      213: 1080383858598635582
+    second: DS DSi - Children of Mana - Skeleton_1160
+  - first:
+      213: -4712335198238476841
+    second: DS DSi - Children of Mana - Skeleton_1161
+  - first:
+      213: -5967220976025018956
+    second: DS DSi - Children of Mana - Skeleton_1162
+  - first:
+      213: -5199152694319627118
+    second: DS DSi - Children of Mana - Skeleton_1163
+  - first:
+      213: 7351059917731385663
+    second: DS DSi - Children of Mana - Skeleton_1164
+  - first:
+      213: -7491901523446957607
+    second: DS DSi - Children of Mana - Skeleton_1165
+  - first:
+      213: 3604559178765918592
+    second: DS DSi - Children of Mana - Skeleton_1166
+  - first:
+      213: -8750197227962140835
+    second: DS DSi - Children of Mana - Skeleton_1167
+  - first:
+      213: 394638669703297134
+    second: DS DSi - Children of Mana - Skeleton_1168
+  - first:
+      213: 4794851344712232334
+    second: DS DSi - Children of Mana - Skeleton_1169
+  - first:
+      213: 5535414492517778833
+    second: DS DSi - Children of Mana - Skeleton_1170
+  - first:
+      213: 376948889247448512
+    second: DS DSi - Children of Mana - Skeleton_1171
+  - first:
+      213: 5427193268804461858
+    second: DS DSi - Children of Mana - Skeleton_1172
+  - first:
+      213: 5562159546064346216
+    second: DS DSi - Children of Mana - Skeleton_1173
+  - first:
+      213: -4487159603970383178
+    second: DS DSi - Children of Mana - Skeleton_1174
+  - first:
+      213: -6294845097955384369
+    second: DS DSi - Children of Mana - Skeleton_1175
+  - first:
+      213: -7559287726327214693
+    second: DS DSi - Children of Mana - Skeleton_1176
+  - first:
+      213: -2900856174532435411
+    second: DS DSi - Children of Mana - Skeleton_1177
+  - first:
+      213: -4328571112214312374
+    second: DS DSi - Children of Mana - Skeleton_1178
+  - first:
+      213: -2918059256739757644
+    second: DS DSi - Children of Mana - Skeleton_1179
+  - first:
+      213: -8210341748983487467
+    second: DS DSi - Children of Mana - Skeleton_1180
+  - first:
+      213: 7854301645864721506
+    second: DS DSi - Children of Mana - Skeleton_1181
+  - first:
+      213: -8253068118685938766
+    second: DS DSi - Children of Mana - Skeleton_1182
+  - first:
+      213: -5086906791021868386
+    second: DS DSi - Children of Mana - Skeleton_1183
+  - first:
+      213: 4864462376217300317
+    second: DS DSi - Children of Mana - Skeleton_1184
+  - first:
+      213: 6653389851370850927
+    second: DS DSi - Children of Mana - Skeleton_1185
+  - first:
+      213: 3858692628721787924
+    second: DS DSi - Children of Mana - Skeleton_1186
+  - first:
+      213: 8480042184217541821
+    second: DS DSi - Children of Mana - Skeleton_1187
+  - first:
+      213: -515579190543268795
+    second: DS DSi - Children of Mana - Skeleton_1188
+  - first:
+      213: -3281933628798121782
+    second: DS DSi - Children of Mana - Skeleton_1189
+  - first:
+      213: 7172482543220927694
+    second: DS DSi - Children of Mana - Skeleton_1190
+  - first:
+      213: -194869579984765852
+    second: DS DSi - Children of Mana - Skeleton_1191
+  - first:
+      213: 3350887093675218391
+    second: DS DSi - Children of Mana - Skeleton_1192
+  - first:
+      213: -3255624517087279380
+    second: DS DSi - Children of Mana - Skeleton_1193
+  - first:
+      213: -8829989085499718758
+    second: DS DSi - Children of Mana - Skeleton_1194
+  - first:
+      213: -7142218275307533017
+    second: DS DSi - Children of Mana - Skeleton_1195
+  - first:
+      213: 8689629850208495704
+    second: DS DSi - Children of Mana - Skeleton_1196
+  - first:
+      213: 1875893580475417779
+    second: DS DSi - Children of Mana - Skeleton_1197
+  - first:
+      213: -3978681279969276602
+    second: DS DSi - Children of Mana - Skeleton_1198
+  - first:
+      213: 695382514629436300
+    second: DS DSi - Children of Mana - Skeleton_1199
+  - first:
+      213: -9211624776870990669
+    second: DS DSi - Children of Mana - Skeleton_1200
+  - first:
+      213: -5419936938409861786
+    second: DS DSi - Children of Mana - Skeleton_1201
+  - first:
+      213: 4841232628199966091
+    second: DS DSi - Children of Mana - Skeleton_1202
+  - first:
+      213: -2680119525408623898
+    second: DS DSi - Children of Mana - Skeleton_1203
+  - first:
+      213: 5862774182524692501
+    second: DS DSi - Children of Mana - Skeleton_1204
+  - first:
+      213: 3389955246579516202
+    second: DS DSi - Children of Mana - Skeleton_1205
+  - first:
+      213: 1613383653033691928
+    second: DS DSi - Children of Mana - Skeleton_1206
+  - first:
+      213: 2342203350679250297
+    second: DS DSi - Children of Mana - Skeleton_1207
+  - first:
+      213: -5243264815964116592
+    second: DS DSi - Children of Mana - Skeleton_1208
+  - first:
+      213: 8445034247777538355
+    second: DS DSi - Children of Mana - Skeleton_1209
+  - first:
+      213: -8170667428942192636
+    second: DS DSi - Children of Mana - Skeleton_1210
+  - first:
+      213: -7290304921005979723
+    second: DS DSi - Children of Mana - Skeleton_1211
+  - first:
+      213: 5492435201361629676
+    second: DS DSi - Children of Mana - Skeleton_1212
+  - first:
+      213: 1745505818097253471
+    second: DS DSi - Children of Mana - Skeleton_1213
+  - first:
+      213: 798037978177512107
+    second: DS DSi - Children of Mana - Skeleton_1214
+  - first:
+      213: 6817223600704083212
+    second: DS DSi - Children of Mana - Skeleton_1215
+  - first:
+      213: -612814659277119022
+    second: DS DSi - Children of Mana - Skeleton_1216
+  - first:
+      213: -4359880384887273401
+    second: DS DSi - Children of Mana - Skeleton_1217
+  - first:
+      213: -4804057159643621912
+    second: DS DSi - Children of Mana - Skeleton_1218
+  - first:
+      213: -8614058540920814553
+    second: DS DSi - Children of Mana - Skeleton_1219
+  - first:
+      213: -703496288808670023
+    second: DS DSi - Children of Mana - Skeleton_1220
+  - first:
+      213: 1849368904826464495
+    second: DS DSi - Children of Mana - Skeleton_1221
+  - first:
+      213: -8706743765163778236
+    second: DS DSi - Children of Mana - Skeleton_1222
+  - first:
+      213: 5251086578611818772
+    second: DS DSi - Children of Mana - Skeleton_1223
+  - first:
+      213: 6125301910726319584
+    second: DS DSi - Children of Mana - Skeleton_1224
+  - first:
+      213: -9175201074469502058
+    second: DS DSi - Children of Mana - Skeleton_1225
+  - first:
+      213: -5300399103238855242
+    second: DS DSi - Children of Mana - Skeleton_1226
+  - first:
+      213: 4451663096349194154
+    second: DS DSi - Children of Mana - Skeleton_1227
+  - first:
+      213: -7190723046152056195
+    second: DS DSi - Children of Mana - Skeleton_1228
+  - first:
+      213: 1623102577676856343
+    second: DS DSi - Children of Mana - Skeleton_1229
+  - first:
+      213: -1366034506255821374
+    second: DS DSi - Children of Mana - Skeleton_1230
+  - first:
+      213: -7582568534811078342
+    second: DS DSi - Children of Mana - Skeleton_1231
+  - first:
+      213: 8576182367133136560
+    second: DS DSi - Children of Mana - Skeleton_1232
+  - first:
+      213: 5830238991327381051
+    second: DS DSi - Children of Mana - Skeleton_1233
+  - first:
+      213: -547271240566827193
+    second: DS DSi - Children of Mana - Skeleton_1234
+  - first:
+      213: -896467602286126876
+    second: DS DSi - Children of Mana - Skeleton_1235
+  - first:
+      213: 1277391900248387123
+    second: DS DSi - Children of Mana - Skeleton_1236
+  - first:
+      213: 1081488372346822367
+    second: DS DSi - Children of Mana - Skeleton_1237
+  - first:
+      213: 397239143050105043
+    second: DS DSi - Children of Mana - Skeleton_1238
+  - first:
+      213: 8455311998187101672
+    second: DS DSi - Children of Mana - Skeleton_1239
+  - first:
+      213: 791968923462109550
+    second: DS DSi - Children of Mana - Skeleton_1240
+  - first:
+      213: -995135861985632397
+    second: DS DSi - Children of Mana - Skeleton_1241
+  - first:
+      213: -3899678746060726851
+    second: DS DSi - Children of Mana - Skeleton_1242
+  - first:
+      213: -3589365118051578030
+    second: DS DSi - Children of Mana - Skeleton_1243
+  - first:
+      213: 6760074480968474185
+    second: DS DSi - Children of Mana - Skeleton_1244
+  - first:
+      213: -7806376454742586483
+    second: DS DSi - Children of Mana - Skeleton_1245
+  - first:
+      213: 6338059652290117633
+    second: DS DSi - Children of Mana - Skeleton_1246
+  - first:
+      213: 6146275151261960159
+    second: DS DSi - Children of Mana - Skeleton_1247
+  - first:
+      213: 684034510989786821
+    second: DS DSi - Children of Mana - Skeleton_1248
+  - first:
+      213: -3617211030018585675
+    second: DS DSi - Children of Mana - Skeleton_1249
+  - first:
+      213: 7469600514147676857
+    second: DS DSi - Children of Mana - Skeleton_1250
+  - first:
+      213: -6658971325672891932
+    second: DS DSi - Children of Mana - Skeleton_1251
+  - first:
+      213: 4141014425454112233
+    second: DS DSi - Children of Mana - Skeleton_1252
+  - first:
+      213: 5461103676837440349
+    second: DS DSi - Children of Mana - Skeleton_1253
+  - first:
+      213: -5107836195210942041
+    second: DS DSi - Children of Mana - Skeleton_1254
+  - first:
+      213: -7456325974707949371
+    second: DS DSi - Children of Mana - Skeleton_1255
+  - first:
+      213: -4793415616878805602
+    second: DS DSi - Children of Mana - Skeleton_1256
+  - first:
+      213: -1840037910219761559
+    second: DS DSi - Children of Mana - Skeleton_1257
+  - first:
+      213: 6846008133592625845
+    second: DS DSi - Children of Mana - Skeleton_1258
+  - first:
+      213: -868374355303660323
+    second: DS DSi - Children of Mana - Skeleton_1259
+  - first:
+      213: -4448435160504436355
+    second: DS DSi - Children of Mana - Skeleton_1260
+  - first:
+      213: -6998894791821711992
+    second: DS DSi - Children of Mana - Skeleton_1261
+  - first:
+      213: -7116698005506097513
+    second: DS DSi - Children of Mana - Skeleton_1262
+  - first:
+      213: -5820365252719493990
+    second: DS DSi - Children of Mana - Skeleton_1263
+  - first:
+      213: -5253317135754311107
+    second: DS DSi - Children of Mana - Skeleton_1264
+  - first:
+      213: 7716518001593772716
+    second: DS DSi - Children of Mana - Skeleton_1265
+  - first:
+      213: 4372431903663506880
+    second: DS DSi - Children of Mana - Skeleton_1266
+  - first:
+      213: 259288789824116898
+    second: DS DSi - Children of Mana - Skeleton_1267
+  - first:
+      213: -2986486502732978459
+    second: DS DSi - Children of Mana - Skeleton_1268
+  - first:
+      213: 3526011374829489846
+    second: DS DSi - Children of Mana - Skeleton_1269
+  - first:
+      213: -990495949977858246
+    second: DS DSi - Children of Mana - Skeleton_1270
+  - first:
+      213: -1110334405114798066
+    second: DS DSi - Children of Mana - Skeleton_1271
+  - first:
+      213: 4862192064607648686
+    second: DS DSi - Children of Mana - Skeleton_1272
+  - first:
+      213: -8085237981992377733
+    second: DS DSi - Children of Mana - Skeleton_1273
+  - first:
+      213: 2826909235526662500
+    second: DS DSi - Children of Mana - Skeleton_1274
+  - first:
+      213: -8369512897380815038
+    second: DS DSi - Children of Mana - Skeleton_1275
+  - first:
+      213: 1913695414038634874
+    second: DS DSi - Children of Mana - Skeleton_1276
+  - first:
+      213: 84168281553490498
+    second: DS DSi - Children of Mana - Skeleton_1277
+  - first:
+      213: -5285496986480271103
+    second: DS DSi - Children of Mana - Skeleton_1278
+  - first:
+      213: -4111749401832541905
+    second: DS DSi - Children of Mana - Skeleton_1279
+  - first:
+      213: -4882362828092115
+    second: DS DSi - Children of Mana - Skeleton_1280
+  - first:
+      213: -2952081195991801604
+    second: DS DSi - Children of Mana - Skeleton_1281
+  - first:
+      213: -4678342617147093276
+    second: DS DSi - Children of Mana - Skeleton_1282
+  - first:
+      213: -7079925894777948584
+    second: DS DSi - Children of Mana - Skeleton_1283
+  - first:
+      213: -4934384644015277029
+    second: DS DSi - Children of Mana - Skeleton_1284
+  - first:
+      213: 2604096497311367554
+    second: DS DSi - Children of Mana - Skeleton_1285
+  - first:
+      213: 5267021948747926231
+    second: DS DSi - Children of Mana - Skeleton_1286
+  - first:
+      213: -2552648212179852513
+    second: DS DSi - Children of Mana - Skeleton_1287
+  - first:
+      213: 4396905726157569290
+    second: DS DSi - Children of Mana - Skeleton_1288
+  - first:
+      213: 6969380493530963037
+    second: DS DSi - Children of Mana - Skeleton_1289
+  - first:
+      213: -6771541012716406789
+    second: DS DSi - Children of Mana - Skeleton_1290
+  - first:
+      213: 6571628279221626327
+    second: DS DSi - Children of Mana - Skeleton_1291
+  - first:
+      213: 503511549846302503
+    second: DS DSi - Children of Mana - Skeleton_1292
+  - first:
+      213: -7373347009179344459
+    second: DS DSi - Children of Mana - Skeleton_1293
+  - first:
+      213: 2372345471032344302
+    second: DS DSi - Children of Mana - Skeleton_1294
+  - first:
+      213: 7693897580668490743
+    second: DS DSi - Children of Mana - Skeleton_1295
+  - first:
+      213: -5881713299308012446
+    second: DS DSi - Children of Mana - Skeleton_1296
+  - first:
+      213: -7886657758897848916
+    second: DS DSi - Children of Mana - Skeleton_1297
+  - first:
+      213: 3535166497917049642
+    second: DS DSi - Children of Mana - Skeleton_1298
+  - first:
+      213: -8626772025482865716
+    second: DS DSi - Children of Mana - Skeleton_1299
+  - first:
+      213: -6417678657707848333
+    second: DS DSi - Children of Mana - Skeleton_1300
+  - first:
+      213: 4762760215940050987
+    second: DS DSi - Children of Mana - Skeleton_1301
+  - first:
+      213: -7727030368635577436
+    second: DS DSi - Children of Mana - Skeleton_1302
+  - first:
+      213: -6967936035725740549
+    second: DS DSi - Children of Mana - Skeleton_1303
+  - first:
+      213: 8229852814859847282
+    second: DS DSi - Children of Mana - Skeleton_1304
+  - first:
+      213: -7324519552190655646
+    second: DS DSi - Children of Mana - Skeleton_1305
+  - first:
+      213: -630254651869401057
+    second: DS DSi - Children of Mana - Skeleton_1306
+  - first:
+      213: 7095456256501657122
+    second: DS DSi - Children of Mana - Skeleton_1307
+  - first:
+      213: 3205112599110643104
+    second: DS DSi - Children of Mana - Skeleton_1308
+  - first:
+      213: 4123093076597579660
+    second: DS DSi - Children of Mana - Skeleton_1309
+  - first:
+      213: -763379321803202838
+    second: DS DSi - Children of Mana - Skeleton_1310
+  - first:
+      213: 5690825157519232500
+    second: DS DSi - Children of Mana - Skeleton_1311
+  - first:
+      213: -8145097446989668812
+    second: DS DSi - Children of Mana - Skeleton_1312
+  - first:
+      213: 4062194683589025817
+    second: DS DSi - Children of Mana - Skeleton_1313
+  - first:
+      213: -5196731070662215252
+    second: DS DSi - Children of Mana - Skeleton_1314
+  - first:
+      213: 2159756816897769691
+    second: DS DSi - Children of Mana - Skeleton_1315
+  - first:
+      213: 4080953268734608915
+    second: DS DSi - Children of Mana - Skeleton_1316
+  - first:
+      213: 6852439613412622714
+    second: DS DSi - Children of Mana - Skeleton_1317
+  - first:
+      213: -4712062320562190891
+    second: DS DSi - Children of Mana - Skeleton_1318
+  - first:
+      213: -2873420487933413256
+    second: DS DSi - Children of Mana - Skeleton_1319
+  - first:
+      213: -5129749610665741012
+    second: DS DSi - Children of Mana - Skeleton_1320
+  - first:
+      213: 5807615291313054865
+    second: DS DSi - Children of Mana - Skeleton_1321
+  - first:
+      213: 624399905655314368
+    second: DS DSi - Children of Mana - Skeleton_1322
+  - first:
+      213: -3724059346903284370
+    second: DS DSi - Children of Mana - Skeleton_1323
+  - first:
+      213: -5221109411289663218
+    second: DS DSi - Children of Mana - Skeleton_1324
+  - first:
+      213: 2463660239698479975
+    second: DS DSi - Children of Mana - Skeleton_1325
+  - first:
+      213: 4905181921957424964
+    second: DS DSi - Children of Mana - Skeleton_1326
+  - first:
+      213: -59406069967567482
+    second: DS DSi - Children of Mana - Skeleton_1327
+  - first:
+      213: -4654518630017370515
+    second: DS DSi - Children of Mana - Skeleton_1328
+  - first:
+      213: -3823969216239553872
+    second: DS DSi - Children of Mana - Skeleton_1329
+  - first:
+      213: -2519901645828072224
+    second: DS DSi - Children of Mana - Skeleton_1330
+  - first:
+      213: -6877509320955428438
+    second: DS DSi - Children of Mana - Skeleton_1331
+  - first:
+      213: -7685612741200971820
+    second: DS DSi - Children of Mana - Skeleton_1332
+  - first:
+      213: -1175092977434683311
+    second: DS DSi - Children of Mana - Skeleton_1333
+  - first:
+      213: 5206568160091269676
+    second: DS DSi - Children of Mana - Skeleton_1334
+  - first:
+      213: 6266574033860380126
+    second: DS DSi - Children of Mana - Skeleton_1335
+  - first:
+      213: 2323924103209540504
+    second: DS DSi - Children of Mana - Skeleton_1336
+  - first:
+      213: -2341820431335888481
+    second: DS DSi - Children of Mana - Skeleton_1337
+  - first:
+      213: 5249605636805257859
+    second: DS DSi - Children of Mana - Skeleton_1338
+  - first:
+      213: 941084104964611755
+    second: DS DSi - Children of Mana - Skeleton_1339
+  - first:
+      213: 5054122455037579406
+    second: DS DSi - Children of Mana - Skeleton_1340
+  - first:
+      213: 4797937606611650029
+    second: DS DSi - Children of Mana - Skeleton_1341
+  - first:
+      213: -2348068271247561833
+    second: DS DSi - Children of Mana - Skeleton_1342
+  - first:
+      213: -6759190990725003656
+    second: DS DSi - Children of Mana - Skeleton_1343
+  - first:
+      213: 1619249427968785401
+    second: DS DSi - Children of Mana - Skeleton_1344
+  - first:
+      213: -7670215801495062079
+    second: DS DSi - Children of Mana - Skeleton_1345
+  - first:
+      213: 8977526473270206098
+    second: DS DSi - Children of Mana - Skeleton_1346
+  - first:
+      213: 940127855712971268
+    second: DS DSi - Children of Mana - Skeleton_1347
+  - first:
+      213: 409201380524141716
+    second: DS DSi - Children of Mana - Skeleton_1348
+  - first:
+      213: 2347835726321311679
+    second: DS DSi - Children of Mana - Skeleton_1349
+  - first:
+      213: -2056822201978014336
+    second: DS DSi - Children of Mana - Skeleton_1350
+  - first:
+      213: -7707975631638141349
+    second: DS DSi - Children of Mana - Skeleton_1351
+  - first:
+      213: 8057692379642270112
+    second: DS DSi - Children of Mana - Skeleton_1352
+  - first:
+      213: -4479871136189921862
+    second: DS DSi - Children of Mana - Skeleton_1353
+  - first:
+      213: -1875274039784445100
+    second: DS DSi - Children of Mana - Skeleton_1354
+  - first:
+      213: -5119859630127520452
+    second: DS DSi - Children of Mana - Skeleton_1355
+  - first:
+      213: -6271992129482218785
+    second: DS DSi - Children of Mana - Skeleton_1356
+  - first:
+      213: 5231968037034346696
+    second: DS DSi - Children of Mana - Skeleton_1357
+  - first:
+      213: -6550571416740292460
+    second: DS DSi - Children of Mana - Skeleton_1358
+  - first:
+      213: -304974342080207397
+    second: DS DSi - Children of Mana - Skeleton_1359
+  - first:
+      213: 1262240218068840667
+    second: DS DSi - Children of Mana - Skeleton_1360
+  - first:
+      213: -320081316016244420
+    second: DS DSi - Children of Mana - Skeleton_1361
+  - first:
+      213: 332615014732367507
+    second: DS DSi - Children of Mana - Skeleton_1362
+  - first:
+      213: 5259711536454540405
+    second: DS DSi - Children of Mana - Skeleton_1363
+  - first:
+      213: -3924935844236166786
+    second: DS DSi - Children of Mana - Skeleton_1364
+  - first:
+      213: -2073060120257203287
+    second: DS DSi - Children of Mana - Skeleton_1365
+  - first:
+      213: 6413514757080803612
+    second: DS DSi - Children of Mana - Skeleton_1366
+  - first:
+      213: 8421748824970312671
+    second: DS DSi - Children of Mana - Skeleton_1367
+  - first:
+      213: -8410879156517858919
+    second: DS DSi - Children of Mana - Skeleton_1368
+  - first:
+      213: 6975018153380070456
+    second: DS DSi - Children of Mana - Skeleton_1369
+  - first:
+      213: 6085115248596553497
+    second: DS DSi - Children of Mana - Skeleton_1370
+  - first:
+      213: -9160320887038071879
+    second: DS DSi - Children of Mana - Skeleton_1371
+  - first:
+      213: 2862944313748752932
+    second: DS DSi - Children of Mana - Skeleton_1372
+  - first:
+      213: -6358484810702526218
+    second: DS DSi - Children of Mana - Skeleton_1373
+  - first:
+      213: 1175207767356628081
+    second: DS DSi - Children of Mana - Skeleton_1374
+  - first:
+      213: -3046328801818837824
+    second: DS DSi - Children of Mana - Skeleton_1375
+  - first:
+      213: 1309898057762659902
+    second: DS DSi - Children of Mana - Skeleton_1376
+  - first:
+      213: 5658453607852590382
+    second: DS DSi - Children of Mana - Skeleton_1377
+  - first:
+      213: -2734544141932952624
+    second: DS DSi - Children of Mana - Skeleton_1378
+  - first:
+      213: -3419638678979774472
+    second: DS DSi - Children of Mana - Skeleton_1379
+  - first:
+      213: -7671688236905205394
+    second: DS DSi - Children of Mana - Skeleton_1380
+  - first:
+      213: 2734935297619317128
+    second: DS DSi - Children of Mana - Skeleton_1381
+  - first:
+      213: 7776100840298605656
+    second: DS DSi - Children of Mana - Skeleton_1382
+  - first:
+      213: 9165912652964646815
+    second: DS DSi - Children of Mana - Skeleton_1383
+  - first:
+      213: 8919874269964089219
+    second: DS DSi - Children of Mana - Skeleton_1384
+  - first:
+      213: 2537295075009919251
+    second: DS DSi - Children of Mana - Skeleton_1385
+  - first:
+      213: -4186299150177715270
+    second: DS DSi - Children of Mana - Skeleton_1386
+  - first:
+      213: -8966133239345768817
+    second: DS DSi - Children of Mana - Skeleton_1387
+  - first:
+      213: 4536774691593388389
+    second: DS DSi - Children of Mana - Skeleton_1388
+  - first:
+      213: 2552566873130858695
+    second: DS DSi - Children of Mana - Skeleton_1389
+  - first:
+      213: 7084189834158931750
+    second: DS DSi - Children of Mana - Skeleton_1390
+  - first:
+      213: 4303982564101795677
+    second: DS DSi - Children of Mana - Skeleton_1391
+  - first:
+      213: 672630836188213064
+    second: DS DSi - Children of Mana - Skeleton_1392
+  - first:
+      213: -3162696346674685619
+    second: DS DSi - Children of Mana - Skeleton_1393
+  - first:
+      213: -8345506828754426445
+    second: DS DSi - Children of Mana - Skeleton_1394
+  - first:
+      213: 2645149200377905244
+    second: DS DSi - Children of Mana - Skeleton_1395
+  - first:
+      213: 7231368953474225230
+    second: DS DSi - Children of Mana - Skeleton_1396
+  - first:
+      213: -6651754851887246170
+    second: DS DSi - Children of Mana - Skeleton_1397
+  - first:
+      213: 8665350861108351284
+    second: DS DSi - Children of Mana - Skeleton_1398
+  - first:
+      213: -5185986641194639105
+    second: DS DSi - Children of Mana - Skeleton_1399
+  - first:
+      213: 4447316368391865614
+    second: DS DSi - Children of Mana - Skeleton_1400
+  - first:
+      213: -2827849131616421733
+    second: DS DSi - Children of Mana - Skeleton_1401
+  - first:
+      213: 3582083131573703954
+    second: DS DSi - Children of Mana - Skeleton_1402
+  - first:
+      213: 5870361704462511734
+    second: DS DSi - Children of Mana - Skeleton_1403
+  - first:
+      213: 848534198346611118
+    second: DS DSi - Children of Mana - Skeleton_1404
+  - first:
+      213: -3125667466734227098
+    second: DS DSi - Children of Mana - Skeleton_1405
+  - first:
+      213: -6775003547062167548
+    second: DS DSi - Children of Mana - Skeleton_1406
+  - first:
+      213: -7874589963474562976
+    second: DS DSi - Children of Mana - Skeleton_1407
+  - first:
+      213: 7715607051407704917
+    second: DS DSi - Children of Mana - Skeleton_1408
+  - first:
+      213: 1592064177913232897
+    second: DS DSi - Children of Mana - Skeleton_1409
+  - first:
+      213: -2502555636892598938
+    second: DS DSi - Children of Mana - Skeleton_1410
+  - first:
+      213: 6923819650184178682
+    second: DS DSi - Children of Mana - Skeleton_1411
+  - first:
+      213: -9058778167902645163
+    second: DS DSi - Children of Mana - Skeleton_1412
+  - first:
+      213: 1418714268130618755
+    second: DS DSi - Children of Mana - Skeleton_1413
+  - first:
+      213: -2875774169534002630
+    second: DS DSi - Children of Mana - Skeleton_1414
+  - first:
+      213: -3936818956427084905
+    second: DS DSi - Children of Mana - Skeleton_1415
+  - first:
+      213: 2796233524605695221
+    second: DS DSi - Children of Mana - Skeleton_1416
+  - first:
+      213: 839663417048377006
+    second: DS DSi - Children of Mana - Skeleton_1417
+  - first:
+      213: -926414345202715174
+    second: DS DSi - Children of Mana - Skeleton_1418
+  - first:
+      213: 7124721038239914526
+    second: DS DSi - Children of Mana - Skeleton_1419
+  - first:
+      213: 3126909047518279333
+    second: DS DSi - Children of Mana - Skeleton_1420
+  - first:
+      213: -8069659496676242854
+    second: DS DSi - Children of Mana - Skeleton_1421
+  - first:
+      213: 8005723334716900405
+    second: DS DSi - Children of Mana - Skeleton_1422
+  - first:
+      213: -416352796234740760
+    second: DS DSi - Children of Mana - Skeleton_1423
+  - first:
+      213: 8986201807255321136
+    second: DS DSi - Children of Mana - Skeleton_1424
+  - first:
+      213: 550897403034780436
+    second: DS DSi - Children of Mana - Skeleton_1425
+  - first:
+      213: 3444936124332917559
+    second: DS DSi - Children of Mana - Skeleton_1426
+  - first:
+      213: 3993824333592604648
+    second: DS DSi - Children of Mana - Skeleton_1427
+  - first:
+      213: 3557134813948408844
+    second: DS DSi - Children of Mana - Skeleton_1428
+  - first:
+      213: -2888886389789269482
+    second: DS DSi - Children of Mana - Skeleton_1429
+  - first:
+      213: -2705402275998905139
+    second: DS DSi - Children of Mana - Skeleton_1430
+  - first:
+      213: 6625866780924655080
+    second: DS DSi - Children of Mana - Skeleton_1431
+  - first:
+      213: -523462515280493576
+    second: DS DSi - Children of Mana - Skeleton_1432
+  - first:
+      213: -5294262943883730465
+    second: DS DSi - Children of Mana - Skeleton_1433
+  - first:
+      213: 8566591618808886323
+    second: DS DSi - Children of Mana - Skeleton_1434
+  - first:
+      213: -5628278604107166373
+    second: DS DSi - Children of Mana - Skeleton_1435
+  - first:
+      213: -2423182882502431791
+    second: DS DSi - Children of Mana - Skeleton_1436
+  - first:
+      213: 3186954405050587074
+    second: DS DSi - Children of Mana - Skeleton_1437
+  - first:
+      213: 1115383754047125899
+    second: DS DSi - Children of Mana - Skeleton_1438
+  - first:
+      213: 30530416857113978
+    second: DS DSi - Children of Mana - Skeleton_1439
+  - first:
+      213: 424240262031468579
+    second: DS DSi - Children of Mana - Skeleton_1440
+  - first:
+      213: -6718135413876977205
+    second: DS DSi - Children of Mana - Skeleton_1441
+  - first:
+      213: -7646568668276586922
+    second: DS DSi - Children of Mana - Skeleton_1442
+  - first:
+      213: -4216827531321326088
+    second: DS DSi - Children of Mana - Skeleton_1443
+  - first:
+      213: 2755180126634083497
+    second: DS DSi - Children of Mana - Skeleton_1444
+  - first:
+      213: -6635459512705790032
+    second: DS DSi - Children of Mana - Skeleton_1445
+  - first:
+      213: 2674065965684787186
+    second: DS DSi - Children of Mana - Skeleton_1446
+  - first:
+      213: 1978107496125553140
+    second: DS DSi - Children of Mana - Skeleton_1447
+  - first:
+      213: -8825182502290781750
+    second: DS DSi - Children of Mana - Skeleton_1448
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
