@@ -48,12 +48,13 @@ public class Greivin : MonoBehaviour
 
     void FixedUpdate() {
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
+
+        // Sends to the server the input
         if (Input.GetAxisRaw("Horizontal") == -1) {
             SendData("GreivinLeft");
         } if (Input.GetAxisRaw("Horizontal") == 1) {
             SendData("GreivinRight");
-        }
-        if (Input.GetAxisRaw("Vertical") == -1) {
+        } if (Input.GetAxisRaw("Vertical") == -1) {
             SendData("GreivinDown");
         } if (Input.GetAxisRaw("Vertical") == 1) {
             SendData("GreivinUp");
@@ -64,8 +65,8 @@ public class Greivin : MonoBehaviour
     void playerShield() {
         if (Input.GetMouseButton(0)){
             animator.SetBool("Shield", true);
-            movement.y = 0;
-            movement.x = 0;
+            movement.y = 0; 
+            movement.x = 0; 
         } else {
             animator.SetBool("Shield", false);
         }
@@ -74,10 +75,14 @@ public class Greivin : MonoBehaviour
     void playerAttack() {
         if (Input.GetMouseButtonDown(1)){
             animator.SetBool("Attack", true);
+            movement.y = 0; 
+            movement.x = 0; 
         } if (Input.GetMouseButtonUp(1)) {
             animator.SetBool("Attack", false);
         }
     }
+
+    
 
 
     /// <summary> 	
@@ -104,7 +109,9 @@ public class Greivin : MonoBehaviour
 		}     
 	} 
 
-
+    /// <summary> 	
+	/// Listens message from the server using socket connection. 	
+	/// </summary> 	
     private void ListenForData() { 		
 		try { 			
 			 			
@@ -119,9 +126,12 @@ public class Greivin : MonoBehaviour
 						Array.Copy(bytes, 0, incommingData, 0, length); 						
 						// Convert byte array to string message. 						
 						string serverMessage = Encoding.ASCII.GetString(incommingData); 
+
+
+                        // The player movement responds according to the message received from the server
                         if (serverMessage == "GreivinRight"){
                             movement.x = 1;
-                            movement.y = 0;
+                            movement.y = 0;                            
                         }  if (serverMessage == "GreivinLeft"){
                             movement.x = -1;
                             movement.y = 0;
@@ -131,7 +141,7 @@ public class Greivin : MonoBehaviour
                         }  if (serverMessage == "GreivinDown"){
                             movement.x = 0;
                             movement.y = -1;
-                        }				
+                        } 
 						Debug.Log("EL SERVER RECIBIO: " + serverMessage); 					
 					} 				
 				} 			
