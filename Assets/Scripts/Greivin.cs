@@ -7,8 +7,8 @@ using System.Threading;
 using System;
 
 public class Greivin : MonoBehaviour
-{   
-
+{
+    /*
     public float movementSpeed = 5f;
     private Thread clientReceiveThread; 
     public Rigidbody2D rb;
@@ -150,5 +150,106 @@ public class Greivin : MonoBehaviour
 		catch (SocketException socketException) {             
 			Debug.Log("Socket exception: " + socketException);         
 		}     
-	}  
+	}  */
+    public float movementSpeed = 5f;
+    public Rigidbody2D rb;
+    public Animator animator;
+    
+
+    Vector2 movement;
+
+    //Variables para breadcrumbing
+    /*public enum PlayerState
+    {
+        PLAYING,
+        ENEMY_FOLLOWING,
+    };
+*/
+   // PlayerState state = PlayerState.ENEMY_FOLLOWING;
+    public List<Transform> crumbs = new List<Transform>();
+    public Transform Enemy;
+    public GameObject crumb;
+    float minCrumbDistance = 3.0f;
+    // Update is called once per frame
+    void Update()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        if (movement != Vector2.zero)
+        {
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+        }
+
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+      //  ControllPlayerState();
+    }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
+    }
+
+    /*
+    void ControllPlayerState()
+    {
+        switch (state)
+        {
+            case PlayerState.ENEMY_FOLLOWING:
+                if (crumbs.Count >= 1)
+                {
+                    if (ShouldPlaceCrumb())
+                    {
+                        DropBreadcrumb();
+                    }
+                }
+                else
+                {
+                    DropBreadcrumb();
+                }
+
+                break;
+            case PlayerState.PLAYING:
+                break;
+        }
+    }
+    */
+    public void putcrumb(bool booleano)
+    {
+        if (booleano)
+        {
+            if (crumbs.Count >= 1)
+            {
+                if (ShouldPlaceCrumb())
+                {
+                    DropBreadcrumb();
+                }
+            }
+            else
+            {
+                DropBreadcrumb();
+            }
+
+        }
+    }
+
+
+    public void DropBreadcrumb()
+    {
+        GameObject droppedCrumb = Instantiate(crumb, transform.position, Quaternion.identity, null);
+        crumbs.Add(droppedCrumb.transform);
+    }
+
+    public bool ShouldPlaceCrumb()
+    {
+        if (Vector2.Distance(transform.position, crumbs[crumbs.Count - 1].transform.position) > minCrumbDistance)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
