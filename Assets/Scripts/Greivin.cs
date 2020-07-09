@@ -53,7 +53,7 @@ public class Greivin : MonoBehaviour
     void FixedUpdate() {
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
 
-        // Sends tha input to the server
+        // Sends the input to the server
         if (Input.GetAxisRaw("Horizontal") == -1) {
             SendData("GreivinLeft");
         } if (Input.GetAxisRaw("Horizontal") == 1) {

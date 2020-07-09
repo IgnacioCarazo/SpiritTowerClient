@@ -19,7 +19,7 @@ public class EspectroMovement : MonoBehaviour
 
     private Animator animator;
     TcpClient EspectroRojoClient;
-
+    Vector2 pos;
 
     #region breadcrumb variables
 
@@ -42,16 +42,19 @@ public class EspectroMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         animator = GetComponent<Animator>();
-
+        
         lastWaypointIndex = waypoints.Count - 1;
         targetWaypoint = waypoints[targetWaypointIndex];
 
-        EspectroRojoClient = new TcpClient();
-        EspectroRojoClient.ConnectAsync("127.0.0.1", 5050);
+        
     }
     void Update()
     {
+        pos = transform.position;
+        animator.SetFloat("Speed", pos.sqrMagnitude);
+
         ControllEnemyState();
         UpdateTransform();
     }
@@ -64,6 +67,10 @@ public class EspectroMovement : MonoBehaviour
             case EnemyState.PATROLLING:
                 float distance = Vector2.Distance(transform.position, targetWaypoint.position);
                 CheckDistanceToWayPoint(distance);
+
+                // uses the correct animation comparing targetWaypoint position vs "Espectro" position
+                animator.SetFloat("Horizontal",  targetWaypoint.position.x - transform.position.x);
+                animator.SetFloat("Vertical", targetWaypoint.position.y - transform.position.y);
                 break;
             case EnemyState.FOLLOWING_PLAYER:
                 ReturnToStartingPoint();
@@ -78,7 +85,9 @@ public class EspectroMovement : MonoBehaviour
                 {
                     greivinScript.DropBreadcrumb();
                 }
-
+                // uses the correct animation comparing greivin position vs "Espectro" position
+                animator.SetFloat("Horizontal",  player.position.x - transform.position.x);
+                animator.SetFloat("Vertical", player.position.y - transform.position.y);
                 break;
             case EnemyState.FOLLOWING_BREADCRUMBS:
                 break;
@@ -132,7 +141,7 @@ public class EspectroMovement : MonoBehaviour
     {
         if (currentDistance <= minDistance)
         {
-            targetWaypointIndex++;
+            targetWaypointIndex += 1;
             UpdateTargetWayPoint();
         }
     }
