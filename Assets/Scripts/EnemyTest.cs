@@ -19,11 +19,11 @@ public class EnemyTest : MonoBehaviour
     }
     public void onDeath(){
         animator.SetBool("isDead", true);
-        StartCoroutine(destroyEn());
+        //StartCoroutine(destroyEn());
     }
 
-    IEnumerator destroyEn(){
-        yield return new WaitForSeconds(.3f);
-        this.gameObject.SetActive(false);
-    }
+    //IEnumerator destroyEn(){
+    //    yield return new WaitForSeconds(.3f);
+    //    this.gameObject.SetActive(false);
+   // }
 }

@@ -8,12 +8,16 @@ using System;
 
 public class Greivin : MonoBehaviour
 {
-    /*
+    
     public float movementSpeed = 5f;
     private Thread clientReceiveThread; 
     public Rigidbody2D rb;
     public Animator animator;
 
+    public List<Transform> crumbs = new List<Transform>();
+    public Transform Enemy;
+    public GameObject crumb;
+    float minCrumbDistance = 3.0f;
     Vector2 movement;
 
     TcpClient greivinClient;
@@ -49,7 +53,7 @@ public class Greivin : MonoBehaviour
     void FixedUpdate() {
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
 
-        // Sends to the server the input
+        // Sends tha input to the server
         if (Input.GetAxisRaw("Horizontal") == -1) {
             SendData("GreivinLeft");
         } if (Input.GetAxisRaw("Horizontal") == 1) {
@@ -62,6 +66,10 @@ public class Greivin : MonoBehaviour
     }
 
 
+
+     /// <summary> 	
+	/// Checks if the player uses the shield 	
+	/// </summary> 	
     void playerShield() {
         if (Input.GetMouseButton(0)){
             animator.SetBool("Shield", true);
@@ -72,6 +80,10 @@ public class Greivin : MonoBehaviour
         }
     }
 
+
+    /// <summary> 	
+	/// Checks if the player uses the attack 	
+	/// </summary> 	
     void playerAttack() {
         if (Input.GetMouseButtonDown(1)){
             animator.SetBool("Attack", true);
@@ -150,13 +162,8 @@ public class Greivin : MonoBehaviour
 		catch (SocketException socketException) {             
 			Debug.Log("Socket exception: " + socketException);         
 		}     
-	}  */
-    public float movementSpeed = 5f;
-    public Rigidbody2D rb;
-    public Animator animator;
+	}  
     
-
-    Vector2 movement;
 
     //Variables para breadcrumbing
     /*public enum PlayerState
@@ -166,30 +173,7 @@ public class Greivin : MonoBehaviour
     };
 */
    // PlayerState state = PlayerState.ENEMY_FOLLOWING;
-    public List<Transform> crumbs = new List<Transform>();
-    public Transform Enemy;
-    public GameObject crumb;
-    float minCrumbDistance = 3.0f;
-    // Update is called once per frame
-    void Update()
-    {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        if (movement != Vector2.zero)
-        {
-            animator.SetFloat("Horizontal", movement.x);
-            animator.SetFloat("Vertical", movement.y);
-        }
-
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-      //  ControllPlayerState();
-    }
-
-    void FixedUpdate()
-    {
-        rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
-    }
+   
 
     /*
     void ControllPlayerState()

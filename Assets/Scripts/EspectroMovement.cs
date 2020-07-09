@@ -1,6 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+using System;
 
 public class EspectroMovement : MonoBehaviour
 {
@@ -10,8 +14,13 @@ public class EspectroMovement : MonoBehaviour
     private int targetWaypointIndex = 0;
     private float minDistance = 0.1f;
     private int lastWaypointIndex;
-    private float movementSpeed = 15.0f;
+    private float movementSpeed = 5f;
     private int greivinVisto = 0;
+
+    private Animator animator;
+    TcpClient EspectroRojoClient;
+
+
     #region breadcrumb variables
 
     public enum EnemyState
@@ -33,8 +42,13 @@ public class EspectroMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        animator = GetComponent<Animator>();
+
         lastWaypointIndex = waypoints.Count - 1;
         targetWaypoint = waypoints[targetWaypointIndex];
+
+        EspectroRojoClient = new TcpClient();
+        EspectroRojoClient.ConnectAsync("127.0.0.1", 5050);
     }
     void Update()
     {
@@ -82,7 +96,7 @@ public class EspectroMovement : MonoBehaviour
         switch (state)
         {
             case EnemyState.PATROLLING:
-                if (Vector2.Distance(transform.position, player.position) < 2.0f)
+                if (Vector2.Distance(transform.position, player.position) < 4.0f)
                 {
                     lastKnownWaypoint = targetWaypoint;
                     targetWaypoint = greivinScript.crumb.transform;
@@ -175,5 +189,16 @@ public class EspectroMovement : MonoBehaviour
             greivinScript.DropBreadcrumb();
             targetWaypoint = greivinScript.crumbs[greivinScript.crumbs.Count-1];
         }
+    }
+
+
+    public void onDeath(){
+        animator.SetBool("isDead", true);
+        StartCoroutine(destroyEn());
+    }
+
+    IEnumerator destroyEn(){
+        yield return new WaitForSeconds(.3f);
+        this.gameObject.SetActive(false);
     }
 }

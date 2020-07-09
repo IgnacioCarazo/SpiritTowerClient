@@ -18,7 +18,7 @@ public class GreivinHitDetector : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision){
         if (collision.CompareTag("canAttack")) {
-            collision.GetComponent<EnemyTest>().onDeath();
+            collision.GetComponent<EspectroMovement>().onDeath();
         }
     }
 }
