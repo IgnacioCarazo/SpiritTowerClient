@@ -23,7 +23,7 @@ public class EspectroMovement : MonoBehaviour
 
     #region breadcrumb variables
 
-    public enum EnemyState
+    private enum EnemyState
     {
         PATROLLING,
         FOLLOWING_PLAYER,

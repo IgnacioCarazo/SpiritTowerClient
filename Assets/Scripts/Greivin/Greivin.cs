@@ -35,8 +35,8 @@ public class Greivin : MonoBehaviour
     void Update()
     {
         
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        // movement.x = Input.GetAxisRaw("Horizontal");
+        //movement.y = Input.GetAxisRaw("Vertical");
 
         if (movement != Vector2.zero){
             animator.SetFloat("Horizontal", movement.x);

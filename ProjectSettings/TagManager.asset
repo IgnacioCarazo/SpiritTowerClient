@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - canAttack
+  - canAttack2
+  - Greivin
   layers:
   - Default
   - TransparentFX
@@ -15,9 +17,9 @@ TagManager:
   - 
   - 
   - Unwalkable
-  - 
-  - 
-  - 
+  - Enemies
+  - Player
+  - Minimap
   - 
   - 
   - 
