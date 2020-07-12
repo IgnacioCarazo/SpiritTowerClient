@@ -9,6 +9,7 @@ using System;
 public class EspectroMovement : MonoBehaviour
 {
     public Greivin greivinScript;
+    public DemonEye eyeScript;
     public List<Transform> waypoints = new List<Transform>();
     private Transform targetWaypoint;
     private int targetWaypointIndex = 0;
@@ -54,9 +55,16 @@ public class EspectroMovement : MonoBehaviour
     {
         pos = transform.position;
         animator.SetFloat("Speed", pos.sqrMagnitude);
-
-        ControllEnemyState();
-        UpdateTransform();
+        if (!eyeScript.greivinVisto)
+        {
+            ControllEnemyState();
+            UpdateTransform();   
+        }else if (eyeScript.greivinVisto)
+        {
+            float movementStep = movementSpeed * Time.deltaTime;
+            transform.position = Vector2.MoveTowards(transform.position, player.position,movementStep);
+        }
+        
     }
 
     void ControllEnemyState()

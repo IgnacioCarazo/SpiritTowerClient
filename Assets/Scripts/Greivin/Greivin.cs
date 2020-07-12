@@ -13,7 +13,7 @@ public class Greivin : MonoBehaviour
     private Thread clientReceiveThread; 
     public Rigidbody2D rb;
     public Animator animator;
-
+    public int corazones = 5;
     public List<Transform> crumbs = new List<Transform>();
     public Transform Enemy;
     public GameObject crumb;
@@ -63,6 +63,25 @@ public class Greivin : MonoBehaviour
         } if (Input.GetAxisRaw("Vertical") == 1) {
             SendData("GreivinUp");
         }*/
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.name== "RedSpectre")
+        {
+            corazones -= 1;
+            Debug.Log("Corazones : "+corazones);
+        }
+        if (other.gameObject.name== "GreySpectre")
+        {
+            corazones -= 1;
+            Debug.Log("Corazones : "+corazones);
+        }
+        if (other.gameObject.name== "BlueSpectre")
+        {
+            corazones -= 1;
+            Debug.Log("Corazones : "+corazones);
+        }
     }
 
 

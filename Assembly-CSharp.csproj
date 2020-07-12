@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\A star\Node.cs" />
      <Compile Include="Assets\Scripts\A star\Pathfinding.cs" />
      <Compile Include="Assets\Scripts\A star\Unit.cs" />
+     <Compile Include="Assets\Scripts\Enemies\DemonEye.cs" />
      <Compile Include="Assets\Scripts\Enemies\EnemyTest.cs" />
      <Compile Include="Assets\Scripts\Enemies\EspectroMovement.cs" />
      <Compile Include="Assets\Scripts\Greivin\Greivin.cs" />
