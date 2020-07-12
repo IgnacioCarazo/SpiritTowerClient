@@ -22,21 +22,21 @@ public class Greivin : MonoBehaviour
 
     TcpClient greivinClient;
     // Start is called before the first frame update
-    void Start()
+    /*void Start()
     {
         greivinClient = new TcpClient();
         greivinClient.ConnectAsync("127.0.0.1", 5050);
         clientReceiveThread = new Thread (new ThreadStart(ListenForData)); 			
 		clientReceiveThread.IsBackground = true; 			
 		clientReceiveThread.Start();  
-    }
+    }*/
 
     // Update is called once per frame
     void Update()
     {
         
-        // movement.x = Input.GetAxisRaw("Horizontal");
-        //movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
         if (movement != Vector2.zero){
             animator.SetFloat("Horizontal", movement.x);
@@ -54,7 +54,7 @@ public class Greivin : MonoBehaviour
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
 
         // Sends the input to the server
-        if (Input.GetAxisRaw("Horizontal") == -1) {
+        /*if (Input.GetAxisRaw("Horizontal") == -1) {
             SendData("GreivinLeft");
         } if (Input.GetAxisRaw("Horizontal") == 1) {
             SendData("GreivinRight");
@@ -62,7 +62,7 @@ public class Greivin : MonoBehaviour
             SendData("GreivinDown");
         } if (Input.GetAxisRaw("Vertical") == 1) {
             SendData("GreivinUp");
-        }
+        }*/
     }
 
 
@@ -96,7 +96,7 @@ public class Greivin : MonoBehaviour
 
     
 
-
+    /*
     /// <summary> 	
 	/// Send message to server using socket connection. 	
 	/// </summary> 	
@@ -162,7 +162,7 @@ public class Greivin : MonoBehaviour
 		catch (SocketException socketException) {             
 			Debug.Log("Socket exception: " + socketException);         
 		}     
-	}  
+	}  */
     
 
     //Variables para breadcrumbing
