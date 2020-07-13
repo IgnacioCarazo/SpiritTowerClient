@@ -16,7 +16,7 @@ public class EspectroMovement : MonoBehaviour
     private float minDistance = 0.1f;
     private int lastWaypointIndex;
     private float movementSpeed = 5f;
-    private float runningSpeed =10f;
+    private float runningSpeed = 10f;
     private int greivinVisto = 0;
 
     private Animator animator;
@@ -44,14 +44,12 @@ public class EspectroMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         animator = GetComponent<Animator>();
-        
+
         lastWaypointIndex = waypoints.Count - 1;
         targetWaypoint = waypoints[targetWaypointIndex];
-
-        
     }
+
     void Update()
     {
         pos = transform.position;
@@ -59,13 +57,13 @@ public class EspectroMovement : MonoBehaviour
         if (!eyeScript.greivinVisto)
         {
             ControllEnemyState();
-            UpdateTransform();   
-        }else if (eyeScript.greivinVisto)
+            UpdateTransform();
+        }
+        else if (eyeScript.greivinVisto)
         {
             float movementStep = runningSpeed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, player.position,movementStep);
+            transform.position = Vector2.MoveTowards(transform.position, player.position, movementStep);
         }
-        
     }
 
     void ControllEnemyState()
@@ -76,26 +74,29 @@ public class EspectroMovement : MonoBehaviour
             case EnemyState.PATROLLING:
                 float distance = Vector2.Distance(transform.position, targetWaypoint.position);
                 CheckDistanceToWayPoint(distance);
-
                 // uses the correct animation comparing targetWaypoint position vs "Espectro" position
-                animator.SetFloat("Horizontal",  targetWaypoint.position.x - transform.position.x);
+                animator.SetFloat("Horizontal", targetWaypoint.position.x - transform.position.x);
                 animator.SetFloat("Vertical", targetWaypoint.position.y - transform.position.y);
                 break;
             case EnemyState.FOLLOWING_PLAYER:
                 ReturnToStartingPoint();
-                if (greivinScript.crumbs.Count >= 1)
+                if (greivinVisto > 0)
                 {
-                    if (greivinScript.ShouldPlaceCrumb())
+                    if (greivinScript.crumbs.Count >= 1)
+                    {
+                        if (greivinScript.ShouldPlaceCrumb())
+                        {
+                            greivinScript.DropBreadcrumb();
+                        }
+                    }
+                    else
                     {
                         greivinScript.DropBreadcrumb();
                     }
                 }
-                else
-                {
-                    greivinScript.DropBreadcrumb();
-                }
+
                 // uses the correct animation comparing greivin position vs "Espectro" position
-                animator.SetFloat("Horizontal",  player.position.x - transform.position.x);
+                animator.SetFloat("Horizontal", player.position.x - transform.position.x);
                 animator.SetFloat("Vertical", player.position.y - transform.position.y);
                 break;
             case EnemyState.FOLLOWING_BREADCRUMBS:
@@ -114,7 +115,6 @@ public class EspectroMovement : MonoBehaviour
         {
             float movementStep = movementSpeed * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
-
         }
     }
 
@@ -136,8 +136,12 @@ public class EspectroMovement : MonoBehaviour
                 if (Vector2.Distance(transform.position, player.position) > escapeDistance
                 )
                 {
-                    greivinScript.putcrumb(true);
+                    if (greivinVisto > 0)
+                    {
+                        greivinScript.putcrumb(true);
+                    }
                 }
+
 
                 break;
             case EnemyState.FOLLOWING_BREADCRUMBS:
@@ -145,7 +149,11 @@ public class EspectroMovement : MonoBehaviour
                 {
                     int w = 0;
                     Transform lastCrumb = greivinScript.crumbs[w];
-                    greivinScript.putcrumb(true);
+                    if (greivinVisto>0)
+                    {
+                        greivinScript.putcrumb(true);
+
+                    }
                     targetWaypoint = lastCrumb;
                     w++;
                     state = EnemyState.FOLLOWING_PLAYER;
@@ -213,19 +221,36 @@ public class EspectroMovement : MonoBehaviour
         {
             //no crumbs left
             //state = EnemyState.PATROLLING;
-            greivinScript.DropBreadcrumb();
-            targetWaypoint = greivinScript.crumbs[greivinScript.crumbs.Count-1];
+            if (greivinVisto > 0)
+            {
+                greivinScript.DropBreadcrumb();
+                targetWaypoint = greivinScript.crumbs[greivinScript.crumbs.Count - 1];
+            }
         }
     }
 
 
-    public void onDeath(){
+    public void onDeath()
+    {
         animator.SetBool("isDead", true);
         StartCoroutine(destroyEn());
+        foreach (Transform breadcrumb in greivinScript.crumbs)
+        {
+            Destroy(breadcrumb.gameObject);
+        }
+        greivinScript.crumbs.Clear();
+        greivinVisto = 0;
     }
 
-    IEnumerator destroyEn(){
+    IEnumerator destroyEn()
+    {
         yield return new WaitForSeconds(.3f);
         this.gameObject.SetActive(false);
+        foreach (Transform breadcrumb in greivinScript.crumbs)
+        {
+            Destroy(breadcrumb.gameObject);
+        }
+        greivinScript.crumbs.Clear();
+        greivinVisto = 0;
     }
 }

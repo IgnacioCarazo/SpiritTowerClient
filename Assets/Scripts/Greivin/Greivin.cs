@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Greivin : MonoBehaviour
 {
@@ -27,8 +28,6 @@ public class Greivin : MonoBehaviour
     void Start()
     {
         healthBar = GameObject.FindObjectOfType(typeof(HealthBar)) as HealthBar;
-        
-
         greivinClient = new TcpClient();
         greivinClient.ConnectAsync("127.0.0.1", 5050);
         clientReceiveThread = new Thread (new ThreadStart(ListenForData)); 			
@@ -39,6 +38,10 @@ public class Greivin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (healthBar.numOfHearts<=0)
+        {
+            SceneManager.LoadScene("ForestLvl1");
+        }
         
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -49,10 +52,8 @@ public class Greivin : MonoBehaviour
         }
 
         animator.SetFloat("Speed", movement.sqrMagnitude);
-
         playerAttack();
         playerShield();
-        
     }
 
     void FixedUpdate() {
@@ -74,15 +75,15 @@ public class Greivin : MonoBehaviour
     {
         if (other.gameObject.name== "RedSpectre")
         {
-            healthBar.numOfHearts -= 1;
+            healthBar.numOfHearts -= 5;
         }
         if (other.gameObject.name== "GreySpectre")
         {
-            healthBar.numOfHearts -= 1;
+            healthBar.numOfHearts -= 5;
         }
         if (other.gameObject.name== "BlueSpectre")
         {
-            healthBar.numOfHearts -= 1;
+            healthBar.numOfHearts -= 5;
         }
     }
 
