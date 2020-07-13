@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class JarronesScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+public void onHit(){
+        StartCoroutine(destroyEn());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    IEnumerator destroyEn(){
+    yield return new WaitForSeconds(.1f);
+       this.gameObject.SetActive(false);
     }
 }

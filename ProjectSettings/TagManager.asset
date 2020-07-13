@@ -7,6 +7,8 @@ TagManager:
   - canAttack
   - canAttack2
   - Greivin
+  - Jarron
+  - SafeZone
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Enemies
   - Player
   - Minimap
-  - 
+  - Safezone
   - 
   - 
   - 

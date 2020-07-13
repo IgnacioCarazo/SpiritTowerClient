@@ -13,24 +13,28 @@ public class Greivin : MonoBehaviour
     private Thread clientReceiveThread; 
     public Rigidbody2D rb;
     public Animator animator;
-    public int corazones = 5;
+    public HealthBar healthBar;
     public List<Transform> crumbs = new List<Transform>();
     public Transform Enemy;
     public GameObject crumb;
     float minCrumbDistance = 3.0f;
     Vector2 movement;
     private int puntaje;
+    public bool isSafe;
 
     TcpClient greivinClient;
     // Start is called before the first frame update
-    /*void Start()
+    void Start()
     {
+        healthBar = GameObject.FindObjectOfType(typeof(HealthBar)) as HealthBar;
+        
+
         greivinClient = new TcpClient();
         greivinClient.ConnectAsync("127.0.0.1", 5050);
         clientReceiveThread = new Thread (new ThreadStart(ListenForData)); 			
 		clientReceiveThread.IsBackground = true; 			
 		clientReceiveThread.Start();  
-    }*/
+    }
 
     // Update is called once per frame
     void Update()
@@ -55,7 +59,7 @@ public class Greivin : MonoBehaviour
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
 
         // Sends the input to the server
-        /*if (Input.GetAxisRaw("Horizontal") == -1) {
+        if (Input.GetAxisRaw("Horizontal") == -1) {
             SendData("GreivinLeft");
         } if (Input.GetAxisRaw("Horizontal") == 1) {
             SendData("GreivinRight");
@@ -63,25 +67,22 @@ public class Greivin : MonoBehaviour
             SendData("GreivinDown");
         } if (Input.GetAxisRaw("Vertical") == 1) {
             SendData("GreivinUp");
-        }*/
+        }
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.name== "RedSpectre")
         {
-            corazones -= 1;
-            Debug.Log("Corazones : "+corazones);
+            healthBar.numOfHearts -= 1;
         }
         if (other.gameObject.name== "GreySpectre")
         {
-            corazones -= 1;
-            Debug.Log("Corazones : "+corazones);
+            healthBar.numOfHearts -= 1;
         }
         if (other.gameObject.name== "BlueSpectre")
         {
-            corazones -= 1;
-            Debug.Log("Corazones : "+corazones);
+            healthBar.numOfHearts -= 1;
         }
     }
 
@@ -116,7 +117,7 @@ public class Greivin : MonoBehaviour
 
     
 
-    /*
+    
     /// <summary> 	
 	/// Send message to server using socket connection. 	
 	/// </summary> 	
@@ -174,7 +175,7 @@ public class Greivin : MonoBehaviour
                             movement.x = 0;
                             movement.y = -1;
                         } 
-						Debug.Log("EL SERVER RECIBIO: " + serverMessage); 					
+						//Debug.Log("EL SERVER RECIBIO: " + serverMessage); 					
 					} 				
 				} 			
 			}         
@@ -182,7 +183,7 @@ public class Greivin : MonoBehaviour
 		catch (SocketException socketException) {             
 			Debug.Log("Socket exception: " + socketException);         
 		}     
-	}  */
+	}  
     
 
     //Variables para breadcrumbing
@@ -191,7 +192,7 @@ public class Greivin : MonoBehaviour
         PLAYING,
         ENEMY_FOLLOWING,
     };
-*/
+
    // PlayerState state = PlayerState.ENEMY_FOLLOWING;
    
 
@@ -255,5 +256,14 @@ public class Greivin : MonoBehaviour
         {
             return false;
         }
+    }
+
+    public void destroyThread() {
+        clientReceiveThread.Abort();
+    }
+
+    void OnApplicationQuit()
+    {
+        Debug.Log("Application ending after " + Time.time + " seconds");
     }
 }

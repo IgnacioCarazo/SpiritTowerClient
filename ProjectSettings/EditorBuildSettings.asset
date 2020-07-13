@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: dc00e6a8b414c49ed8ed92c5cbc9e4e5
   - enabled: 1
-    path: Assets/Scenes/Forest.unity
+    path: Assets/Scenes/ForestLvl1.unity
     guid: d68a32745601c4c73af826cecfb4972f
   - enabled: 1
-    path: Assets/Scenes/Dungeon.unity
+    path: Assets/Scenes/DungeonLvl2.unity
     guid: 93fe199051d82ce4e97fa4613e07c996
+  - enabled: 1
+    path: Assets/Scenes/DungeonLvl3.unity
+    guid: 52d11787884e280428769b0b133ff923
   m_configObjects: {}

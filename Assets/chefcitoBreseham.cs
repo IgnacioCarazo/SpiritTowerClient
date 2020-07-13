@@ -27,10 +27,10 @@ public class chefcitoBreseham : MonoBehaviour
            float coordinatex= GameObject.Find("Chefcito").transform.position.x;
            float coordinatey= GameObject.Find("Chefcito").transform.position.y;
            rutabresenham(coordinatex,coordinatey,greivincoordinatex,greivincoordinatey);
-           Debug.Log(moveCoorX);
-           Debug.Log(moveCoorY);
-           Debug.Log(coordinatex);
-           Debug.Log(coordinatey);
+           //Debug.Log(moveCoorX);
+           //Debug.Log(moveCoorY);
+           // Debug.Log(coordinatex);
+           //Debug.Log(coordinatey);
            newCoorx = (transform.position.x + moveCoorX);
            newCoory = (transform.position.y + moveCoorY);
            moveCoorX = 0;
