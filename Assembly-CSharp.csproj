@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\Greivin\Greivin.cs" />
      <Compile Include="Assets\Scripts\Greivin\GreivinHitDetector.cs" />
      <Compile Include="Assets\Scripts\Greivin\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\Jarrones\JarronesScript.cs" />
      <Compile Include="Assets\Scripts\SceneManagement\LevelController.cs" />
      <Compile Include="Assets\Scripts\SceneManagement\SceneSwitcher.cs" />
      <Compile Include="Assets\chefcitoBreseham.cs" />

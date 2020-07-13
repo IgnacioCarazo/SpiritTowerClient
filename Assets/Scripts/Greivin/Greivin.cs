@@ -19,6 +19,7 @@ public class Greivin : MonoBehaviour
     public GameObject crumb;
     float minCrumbDistance = 3.0f;
     Vector2 movement;
+    private int puntaje;
 
     TcpClient greivinClient;
     // Start is called before the first frame update

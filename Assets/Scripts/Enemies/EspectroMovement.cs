@@ -16,6 +16,7 @@ public class EspectroMovement : MonoBehaviour
     private float minDistance = 0.1f;
     private int lastWaypointIndex;
     private float movementSpeed = 5f;
+    private float runningSpeed =10f;
     private int greivinVisto = 0;
 
     private Animator animator;
@@ -35,7 +36,7 @@ public class EspectroMovement : MonoBehaviour
     public Transform player;
     float minCrumbDistance = 3.0f;
     private Transform lastKnownWaypoint;
-    private float inRange = 2.0f;
+    private float inRange = 5.0f;
     private float escapeDistance = 6.0f;
 
     #endregion
@@ -61,7 +62,7 @@ public class EspectroMovement : MonoBehaviour
             UpdateTransform();   
         }else if (eyeScript.greivinVisto)
         {
-            float movementStep = movementSpeed * Time.deltaTime;
+            float movementStep = runningSpeed * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, player.position,movementStep);
         }
         
@@ -104,8 +105,17 @@ public class EspectroMovement : MonoBehaviour
 
     void UpdateTransform()
     {
-        float movementStep = movementSpeed * Time.deltaTime;
-        transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+        if (greivinVisto > 0)
+        {
+            float movementStep = runningSpeed * Time.deltaTime;
+            transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+        }
+        else
+        {
+            float movementStep = movementSpeed * Time.deltaTime;
+            transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+
+        }
     }
 
     void CheckDistanceToPlayer()
