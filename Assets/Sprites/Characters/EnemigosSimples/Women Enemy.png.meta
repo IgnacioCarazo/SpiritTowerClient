@@ -1,0 +1,1556 @@
+fileFormatVersion: 2
+guid: 3fb4c8ca3cf6212439ea9fadabad4b01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 822043008515747516
+    second: Women Enemy_0
+  - first:
+      213: -5764525302501709609
+    second: Women Enemy_1
+  - first:
+      213: -5878194836346056772
+    second: Women Enemy_2
+  - first:
+      213: -6653154696581184528
+    second: Women Enemy_3
+  - first:
+      213: -2060201258253578283
+    second: Women Enemy_4
+  - first:
+      213: -3511193729189911586
+    second: Women Enemy_5
+  - first:
+      213: 4036567304279226996
+    second: Women Enemy_6
+  - first:
+      213: 5445363959385754984
+    second: Women Enemy_7
+  - first:
+      213: 1408224537556810981
+    second: Women Enemy_8
+  - first:
+      213: -4111633677694986651
+    second: Women Enemy_9
+  - first:
+      213: -8717521769453326498
+    second: Women Enemy_10
+  - first:
+      213: -9207386522448719951
+    second: Women Enemy_11
+  - first:
+      213: -5147632339983738694
+    second: Women Enemy_12
+  - first:
+      213: 8888841430916661864
+    second: Women Enemy_13
+  - first:
+      213: 3165659649488391108
+    second: Women Enemy_14
+  - first:
+      213: -8194526947915838515
+    second: Women Enemy_15
+  - first:
+      213: 5088435563067331470
+    second: Women Enemy_16
+  - first:
+      213: -2600783918749439431
+    second: Women Enemy_17
+  - first:
+      213: -6266530777637647669
+    second: Women Enemy_18
+  - first:
+      213: -7044345765399987042
+    second: Women Enemy_19
+  - first:
+      213: 5706154004947874122
+    second: Women Enemy_20
+  - first:
+      213: 5552385064044830937
+    second: Women Enemy_21
+  - first:
+      213: -8638103410046005069
+    second: Women Enemy_22
+  - first:
+      213: 1473677593120850149
+    second: Women Enemy_23
+  - first:
+      213: -460499687719011398
+    second: Women Enemy_24
+  - first:
+      213: 5385383962866547240
+    second: Women Enemy_25
+  - first:
+      213: -4680003736958930299
+    second: Women Enemy_26
+  - first:
+      213: 838427748903508065
+    second: Women Enemy_27
+  - first:
+      213: 6394667404396527436
+    second: Women Enemy_28
+  - first:
+      213: 1197530465645766284
+    second: Women Enemy_29
+  - first:
+      213: 7630068924488322925
+    second: Women Enemy_30
+  - first:
+      213: 4993519458807534871
+    second: Women Enemy_31
+  - first:
+      213: -8745117504488535833
+    second: Women Enemy_32
+  - first:
+      213: 6161173846677986998
+    second: Women Enemy_33
+  - first:
+      213: 1871672002565080514
+    second: Women Enemy_34
+  - first:
+      213: 501726494162993247
+    second: Women Enemy_35
+  - first:
+      213: -8319070010694767711
+    second: Women Enemy_36
+  - first:
+      213: -5490877431943387816
+    second: Women Enemy_37
+  - first:
+      213: -3391357534480331941
+    second: Women Enemy_38
+  - first:
+      213: -8554794488090414056
+    second: Women Enemy_39
+  - first:
+      213: 94701714710756861
+    second: Women Enemy_40
+  - first:
+      213: -3193926608007840222
+    second: Women Enemy_41
+  - first:
+      213: 7546180391411972401
+    second: Women Enemy_42
+  - first:
+      213: 1220724806337787862
+    second: Women Enemy_43
+  - first:
+      213: -2014804273812688961
+    second: Women Enemy_44
+  - first:
+      213: -645302292286360231
+    second: Women Enemy_45
+  - first:
+      213: -6413824039841054376
+    second: Women Enemy_46
+  - first:
+      213: -6848919072144641735
+    second: Women Enemy_47
+  - first:
+      213: -2068665696109946002
+    second: Women Enemy_48
+  - first:
+      213: -7450074032317584946
+    second: Women Enemy_49
+  - first:
+      213: 5890353072498587115
+    second: Women Enemy_50
+  - first:
+      213: -6843824359435810091
+    second: Women Enemy_51
+  - first:
+      213: 3423178092929023692
+    second: Women Enemy_52
+  - first:
+      213: 2893389308954561044
+    second: Women Enemy_53
+  - first:
+      213: 5111292865501096793
+    second: Women Enemy_54
+  - first:
+      213: -6347414913038882203
+    second: Women Enemy_55
+  - first:
+      213: -3344839298310538126
+    second: Women Enemy_56
+  - first:
+      213: 955905339324210849
+    second: Women Enemy_57
+  - first:
+      213: 7902008591197353846
+    second: Women Enemy_58
+  - first:
+      213: 1079964235006845398
+    second: Women Enemy_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Women Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 896
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeaca8c2cb786b00800000000000000
+      internalID: 822043008515747516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 896
+        width: 71
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d862a577ca4000b0800000000000000
+      internalID: -5764525302501709609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 897
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfce0bb0f47c6ea0800000000000000
+      internalID: -5878194836346056772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 897
+        width: 70
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f38e8aad0f3ba3a0800000000000000
+      internalID: -6653154696581184528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 896
+        width: 71
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df8bfbfed1b863e0800000000000000
+      internalID: -2060201258253578283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 897
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed36e0a08ebb54fc0800000000000000
+      internalID: -3511193729189911586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 894
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47af48b9394c40830800000000000000
+      internalID: 4036567304279226996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 860
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d07e79ba1d19b40800000000000000
+      internalID: 5445363959385754984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 748
+        width: 58
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecff0d71c40b8310800000000000000
+      internalID: 1408224537556810981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 748
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566157a54fa80f6c0800000000000000
+      internalID: -4111633677694986651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 749
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5feff95324250780800000000000000
+      internalID: -8717521769453326498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 749
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf89bb9dbac83080800000000000000
+      internalID: -9207386522448719951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 750
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8d4fcf8afef88b0800000000000000
+      internalID: -5147632339983738694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_13
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 750
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8620092bf228b5b70800000000000000
+      internalID: 8888841430916661864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 825
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb0b87cdaeaeeb20800000000000000
+      internalID: 3165659649488391108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 603
+        width: 33
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb4c174821374e80800000000000000
+      internalID: -8194526947915838515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 602
+        width: 35
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83d7175f21cd9640800000000000000
+      internalID: 5088435563067331470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 603
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a24613ec828ebd0800000000000000
+      internalID: -2600783918749439431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_18
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 605
+        width: 34
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca0bd0957fc809a0800000000000000
+      internalID: -6266530777637647669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_19
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 604
+        width: 30
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c7e4259d47d3e90800000000000000
+      internalID: -7044345765399987042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 605
+        width: 33
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a413792c5d4503f40800000000000000
+      internalID: 5706154004947874122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_21
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 607
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0a3964cc80e0d40800000000000000
+      internalID: 5552385064044830937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_22
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 604
+        width: 37
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b01e1717ba4f1880800000000000000
+      internalID: -8638103410046005069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_23
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 600
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0cb6b86fd837410800000000000000
+      internalID: 1473677593120850149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_24
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 566
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb745e49f9fb99f0800000000000000
+      internalID: -460499687719011398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 464
+        width: 31
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82afeb56e2abcba40800000000000000
+      internalID: 5385383962866547240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_26
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 462
+        width: 34
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582ff0f95694d0fb0800000000000000
+      internalID: -4680003736958930299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_27
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 464
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168593f6891b2ab00800000000000000
+      internalID: 838427748903508065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_28
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 460
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ff2d7bf1c6eb850800000000000000
+      internalID: 6394667404396527436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_29
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 457
+        width: 34
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86268c1d9b7e9010800000000000000
+      internalID: 1197530465645766284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_30
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 459
+        width: 34
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f8fdfc24373e960800000000000000
+      internalID: 7630068924488322925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_31
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 459
+        width: 36
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7155931bd7b8c4540800000000000000
+      internalID: 4993519458807534871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_32
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 460
+        width: 34
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e809e996f913a680800000000000000
+      internalID: -8745117504488535833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_33
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 531
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be1ba268f2e08550800000000000000
+      internalID: 6161173846677986998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_34
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 308
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c58fe015c389f910800000000000000
+      internalID: 1871672002565080514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 306
+        width: 56
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50ccf2969d76f600800000000000000
+      internalID: 501726494162993247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_36
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 314
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abeeeec6e9bc8c80800000000000000
+      internalID: -8319070010694767711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_37
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 315
+        width: 50
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8552ecb411c7cc3b0800000000000000
+      internalID: -5490877431943387816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_38
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 314
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b84f26a4a7fe0d0800000000000000
+      internalID: -3391357534480331941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_39
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 319
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b6e20db3474980800000000000000
+      internalID: -8554794488090414056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_40
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 320
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd74f035b2705100800000000000000
+      internalID: 94701714710756861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_41
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 298
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e36031ca4eca3d0800000000000000
+      internalID: -3193926608007840222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_42
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 269
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139f029a51b69b860800000000000000
+      internalID: 7546180391411972401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_43
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 160
+        width: 58
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d775426eb2e0f010800000000000000
+      internalID: 1220724806337787862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_44
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 153
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfa477103af904e0800000000000000
+      internalID: -2014804273812688961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_45
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 158
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955b68febfc6b07f0800000000000000
+      internalID: -645302292286360231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_46
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 159
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851c96584058df6a0800000000000000
+      internalID: -6413824039841054376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_47
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 161
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931bb691460c3f0a0800000000000000
+      internalID: -6848919072144641735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_48
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 165
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b9458728f9a43e0800000000000000
+      internalID: -2068665696109946002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_49
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 166
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec92959c3250c9890800000000000000
+      internalID: -7450074032317584946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_50
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5b8e739ecbeb150800000000000000
+      internalID: 5890353072498587115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_51
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 10
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dac9a6510ad501a0800000000000000
+      internalID: -6843824359435810091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_52
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 13
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccefee7b652918f20800000000000000
+      internalID: 3423178092929023692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_53
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 14
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a46252f32672820800000000000000
+      internalID: 2893389308954561044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_54
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 14
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b6e27c7c5fee640800000000000000
+      internalID: 5111292865501096793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_55
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 29
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aec4244c379e7a0800000000000000
+      internalID: -6347414913038882203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_56
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 16
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cfe61416eb491d0800000000000000
+      internalID: -3344839298310538126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_57
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 29
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae915d67de044d00800000000000000
+      internalID: 955905339324210849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_58
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 29
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677376272f299ad60800000000000000
+      internalID: 7902008591197353846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Women Enemy_59
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 44
+        width: 100
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1a5b5ffbdccfe00800000000000000
+      internalID: 1079964235006845398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
