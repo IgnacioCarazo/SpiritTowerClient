@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DungeonLvl3.unity
+- path: Assets/Scenes/ForestLvl1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
