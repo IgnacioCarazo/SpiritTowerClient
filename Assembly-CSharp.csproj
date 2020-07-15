@@ -66,6 +66,8 @@
      <Compile Include="Assets\Scripts\Enemies\DemonEye.cs" />
      <Compile Include="Assets\Scripts\Enemies\EnemyTest.cs" />
      <Compile Include="Assets\Scripts\Enemies\EspectroMovement.cs" />
+     <Compile Include="Assets\Scripts\GoldChest\Chest.cs" />
+     <Compile Include="Assets\Scripts\GoldChest\Interactable.cs" />
      <Compile Include="Assets\Scripts\Greivin\Greivin.cs" />
      <Compile Include="Assets\Scripts\Greivin\GreivinHitDetector.cs" />
      <Compile Include="Assets\Scripts\Greivin\HealthBar.cs" />

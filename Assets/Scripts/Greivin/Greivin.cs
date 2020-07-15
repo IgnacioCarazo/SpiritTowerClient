@@ -21,6 +21,7 @@ public class Greivin : MonoBehaviour
     float minCrumbDistance = 3.0f;
     Vector2 movement;
     private int puntaje;
+    private Interactable interactable;
     public bool isSafe;
 
     TcpClient greivinClient;
@@ -56,6 +57,7 @@ public class Greivin : MonoBehaviour
         playerShield();
     }
 
+    
     void FixedUpdate() {
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
 
