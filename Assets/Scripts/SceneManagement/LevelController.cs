@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
-    Greivin greivinScript;
+    SocketConnection socketConnection;
 
     void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Greivin")) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            greivinScript = GameObject.FindObjectOfType(typeof(Greivin)) as Greivin;
-            greivinScript.destroyThread();
+            socketConnection = GameObject.FindObjectOfType(typeof(SocketConnection)) as SocketConnection;
+            socketConnection.destroyThread();
         }
     }
 }
