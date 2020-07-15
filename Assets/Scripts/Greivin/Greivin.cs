@@ -38,9 +38,26 @@ public class Greivin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        string sceneName = SceneManager.GetActiveScene().name;
         if (healthBar.numOfHearts<=0)
         {
-            SceneManager.LoadScene("ForestLvl1");
+            if (sceneName =="ForestLvl1")
+            {
+                SceneManager.LoadScene("ForestLvl1");    
+            }else if (sceneName =="DungeonLvl2")
+            {
+                SceneManager.LoadScene("DungeonLvl2");
+            }else if (sceneName =="DungeonLvl3")
+            {
+                 SceneManager.LoadScene("DungeonLvl3");
+            }else if (sceneName =="DungeonLvl4")
+            {
+                SceneManager.LoadScene("DungeonLvl4");
+            }else if (sceneName == "DungeonBossLevel")
+            {
+                SceneManager.LoadScene("DungeonBossLevel");
+            }
+            
         }
         
        movement.x = Input.GetAxisRaw("Horizontal");
@@ -87,6 +104,22 @@ public class Greivin : MonoBehaviour
         {
             healthBar.numOfHearts -= 5;
         }
+        if (other.gameObject.name== "RedSpectre1")
+        {
+            healthBar.numOfHearts -= 5;
+        }
+        if (other.gameObject.name== "RedSpectre2")
+        {
+            healthBar.numOfHearts -= 5;
+        }
+        if (other.gameObject.name== "RedSpectre3")
+        {
+            healthBar.numOfHearts -= 5;
+        }
+        if (other.gameObject.name== "RedSpectre4")
+        {
+            healthBar.numOfHearts -= 5;
+        }
         if (other.gameObject.name== "GreySpectre")
         {
             healthBar.numOfHearts -= 5;
@@ -104,7 +137,7 @@ public class Greivin : MonoBehaviour
 	/// </summary> 	
     void playerShield() {
         if (Input.GetMouseButton(0)){
-            socketConnection.SendData("GreivinShield");
+            //socketConnection.SendData("GreivinShield");
             animator.SetBool("Shield", true);
             movement.y = 0; 
             movement.x = 0; 
@@ -120,7 +153,7 @@ public class Greivin : MonoBehaviour
     void playerAttack() {
         if (Input.GetMouseButtonDown(1)){
             FindObjectOfType<AudioManager>().Play("Sword");
-            socketConnection.SendData("GreivinAttack");
+           // socketConnection.SendData("GreivinAttack");
             animator.SetBool("Attack", true);
             movement.y = 0; 
             movement.x = 0; 
