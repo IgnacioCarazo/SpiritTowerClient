@@ -24,8 +24,8 @@ public class chefcitoBreseham : MonoBehaviour
            
            float greivincoordinatex = GameObject.Find("Greivin").transform.position.x;
            float greivincoordinatey = GameObject.Find("Greivin").transform.position.y;
-           float coordinatex= GameObject.Find("Chefcito").transform.position.x;
-           float coordinatey= GameObject.Find("Chefcito").transform.position.y;
+           float coordinatex= GameObject.Find("Chuchu").transform.position.x;
+           float coordinatey= GameObject.Find("Chuchu").transform.position.y;
            rutabresenham(coordinatex,coordinatey,greivincoordinatex,greivincoordinatey);
            //Debug.Log(moveCoorX);
            //Debug.Log(moveCoorY);

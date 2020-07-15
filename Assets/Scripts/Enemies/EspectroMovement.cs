@@ -22,6 +22,7 @@ public class EspectroMovement : MonoBehaviour
     private Animator animator;
     TcpClient EspectroRojoClient;
     Vector2 pos;
+    SocketConnection socketConnection;
 
     #region breadcrumb variables
 
@@ -45,9 +46,10 @@ public class EspectroMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-
+        socketConnection = GameObject.FindObjectOfType(typeof(SocketConnection)) as SocketConnection;
         lastWaypointIndex = waypoints.Count - 1;
         targetWaypoint = waypoints[targetWaypointIndex];
+        InvokeRepeating("spectrePosition",  0.5f,  2f);
     }
 
     void Update()
@@ -64,6 +66,10 @@ public class EspectroMovement : MonoBehaviour
             float movementStep = runningSpeed * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, player.position, movementStep);
         }
+    }
+
+    void spectrePosition(){
+        socketConnection.SendData(name + transform.position);
     }
 
     void ControllEnemyState()
