@@ -9,6 +9,10 @@ using System;
 public class EspectroMovement : MonoBehaviour
 {
     public Greivin greivinScript;
+
+    public Unit AStar;
+    
+    
     public DemonEye eyeScript;
     public List<Transform> waypoints = new List<Transform>();
     private Transform targetWaypoint;
@@ -50,12 +54,14 @@ public class EspectroMovement : MonoBehaviour
         lastWaypointIndex = waypoints.Count - 1;
         targetWaypoint = waypoints[targetWaypointIndex];
         InvokeRepeating("spectrePosition",  0.5f,  2f);
+
+        
+        AStar.enabled = false;
+
     }
 
     void Update()
     {
-        pos = transform.position;
-        animator.SetFloat("Speed", pos.sqrMagnitude);
         if (!eyeScript.greivinVisto)
         {
             ControllEnemyState();
@@ -63,8 +69,8 @@ public class EspectroMovement : MonoBehaviour
         }
         else if (eyeScript.greivinVisto)
         {
-            float movementStep = runningSpeed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, player.position, movementStep);
+            AStar.enabled = true;
+
         }
     }
 
@@ -85,6 +91,8 @@ public class EspectroMovement : MonoBehaviour
                 animator.SetFloat("Vertical", targetWaypoint.position.y - transform.position.y);
                 break;
             case EnemyState.FOLLOWING_PLAYER:
+            AStar.enabled = true;
+            
                 ReturnToStartingPoint();
                 if (greivinVisto > 0)
                 {

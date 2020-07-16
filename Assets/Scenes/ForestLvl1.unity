@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -168,7 +168,7 @@ MonoBehaviour:
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 256
-  gridWorldSize: {x: 158.79, y: 71.95}
+  gridWorldSize: {x: 200, y: 71.95}
   nodeRadius: 0.5
 --- !u!4 &28259778
 Transform:
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28259775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.5, y: -10, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -293,7 +293,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &68388514
 GameObject:
@@ -450,7 +450,7 @@ Transform:
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &106385212
 GameObject:
@@ -515,6 +515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
+  AStar: {fileID: 0}
   eyeScript: {fileID: 1596457866}
   waypoints:
   - {fileID: 1242749218}
@@ -637,7 +638,7 @@ Transform:
   m_Children:
   - {fileID: 1847873941}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &120256596
 GameObject:
@@ -859,7 +860,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &156716666
 SpriteRenderer:
@@ -995,7 +996,7 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &165839987
 MonoBehaviour:
@@ -1433,7 +1434,7 @@ Transform:
   - {fileID: 1174343521}
   - {fileID: 692656925}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &294367455
 GameObject:
@@ -1838,7 +1839,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &325288768
 GameObject:
@@ -1853,8 +1854,9 @@ GameObject:
   - component: {fileID: 325288769}
   - component: {fileID: 325288772}
   - component: {fileID: 325288774}
+  - component: {fileID: 325288773}
   m_Layer: 9
-  m_Name: RedSpectre
+  m_Name: GreySpectre 3
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1877,7 +1879,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.16}
+    oldSize: {x: 0.12, y: 0.14}
     newSize: {x: 0.14, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1930,7 +1932,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2607629695218216528, guid: 785d3616cc02d13458aedc064330f8d3,
+  m_Sprite: {fileID: 1843227709775292191, guid: 00215449e07fcf444b1252096e53ca73,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1949,13 +1951,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325288768}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.65, y: 2.9, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.835548, y: -0.20597363, z: 1.5038553}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 1993851390}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 2089615538}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &325288772
 Animator:
@@ -1976,6 +1978,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &325288773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325288768}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9938dfe6490236499985ee11ee938ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2018922647}
+  speed: 7
 --- !u!114 &325288774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,6 +2005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
+  AStar: {fileID: 325288773}
   eyeScript: {fileID: 1596457866}
   waypoints:
   - {fileID: 1626402164}
@@ -2091,6 +2108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
+  AStar: {fileID: 0}
   eyeScript: {fileID: 1596457866}
   waypoints:
   - {fileID: 1934083581}
@@ -2214,7 +2232,7 @@ Transform:
   m_Children:
   - {fileID: 468883568}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &457152793
 GameObject:
@@ -2949,10 +2967,10 @@ GameObject:
   - component: {fileID: 654081171}
   - component: {fileID: 654081170}
   - component: {fileID: 654081173}
-  - component: {fileID: 654081174}
   - component: {fileID: 654081175}
+  - component: {fileID: 654081174}
   m_Layer: 9
-  m_Name: BlueSpectre
+  m_Name: GreySpectre 2
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3016,7 +3034,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1390501288358316360, guid: efe89c8bd95493844999951667eb0835,
+  m_Sprite: {fileID: 1843227709775292191, guid: 00215449e07fcf444b1252096e53ca73,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3035,13 +3053,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654081169}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.21, y: 3.45, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.724449, y: 0.34402633, z: 1.5038553}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 921153171}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 2089615538}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &654081173
 PolygonCollider2D:
@@ -3083,9 +3101,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 654081169}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8d6618f15d2f7a41b4c343c3b024004, type: 3}
+  m_Script: {fileID: 11500000, guid: f9938dfe6490236499985ee11ee938ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 2018922647}
+  speed: 7
 --- !u!114 &654081175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3099,6 +3119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
+  AStar: {fileID: 654081174}
   eyeScript: {fileID: 1596457866}
   waypoints:
   - {fileID: 1143026940}
@@ -3426,7 +3447,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: 0, y: -23, z: 0}
-  m_Size: {x: 5, y: 23, z: 1}
+  m_Size: {x: 14, y: 29, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -3744,7 +3765,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &842330653
 GameObject:
@@ -4063,7 +4084,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1058421855
 GameObject:
@@ -4287,7 +4308,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1118638175
 GameObject:
@@ -123554,7 +123575,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1197569278
 GameObject:
@@ -124048,6 +124069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
+  AStar: {fileID: 0}
   eyeScript: {fileID: 1596457866}
   waypoints:
   - {fileID: 371594807}
@@ -124170,7 +124192,7 @@ Transform:
   m_Children:
   - {fileID: 1197569279}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1380452600
 GameObject:
@@ -124184,8 +124206,8 @@ GameObject:
   - component: {fileID: 1380452602}
   - component: {fileID: 1380452601}
   - component: {fileID: 1380452604}
+  - component: {fileID: 1380452608}
   - component: {fileID: 1380452605}
-  - component: {fileID: 1380452606}
   m_Layer: 9
   m_Name: GreySpectre
   m_TagString: canAttack
@@ -124270,13 +124292,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380452600}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.1, y: -25, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -61.38555, y: -28.105974, z: 1.5038553}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 1510932735}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  - {fileID: 2079953447}
+  m_Father: {fileID: 2089615538}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1380452604
 PolygonCollider2D:
@@ -124318,10 +124341,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1380452600}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8d6618f15d2f7a41b4c343c3b024004, type: 3}
+  m_Script: {fileID: 11500000, guid: f9938dfe6490236499985ee11ee938ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1380452606
+  target: {fileID: 2018922647}
+  speed: 7
+--- !u!114 &1380452608
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124334,12 +124359,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
+  AStar: {fileID: 1380452605}
   eyeScript: {fileID: 1596457866}
-  waypoints:
-  - {fileID: 2083953157}
-  - {fileID: 2099291070}
-  - {fileID: 422811248}
-  - {fileID: 1501422359}
+  waypoints: []
   player: {fileID: 2018922647}
 --- !u!1 &1383479723
 GameObject:
@@ -124405,7 +124427,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383691664
 GameObject:
@@ -129671,7 +129693,7 @@ Transform:
   m_LocalScale: {x: 117.139915, y: 59.824944, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1595164972
 MonoBehaviour:
@@ -129768,7 +129790,7 @@ Transform:
   m_Children:
   - {fileID: 745111512}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1596457865
 Rigidbody2D:
@@ -130174,7 +130196,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1766190033
 GameObject:
@@ -130205,7 +130227,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1766190035
 SpriteRenderer:
@@ -130376,7 +130398,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1778101711
 SpriteRenderer:
@@ -130461,7 +130483,7 @@ Transform:
   - {fileID: 195325467}
   - {fileID: 498031329}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1839442208
 GameObject:
@@ -130504,7 +130526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1847873940
 GameObject:
@@ -130734,7 +130756,7 @@ Transform:
   - {fileID: 500807346}
   - {fileID: 1273529414}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1982917610
 GameObject:
@@ -130770,7 +130792,7 @@ Transform:
   - {fileID: 1082056215}
   - {fileID: 1896065279}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1993851389
 GameObject:
@@ -130941,7 +130963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea1db9d8ef47ca4f92a22b87d586e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10.94
+  movementSpeed: 12
   rb: {fileID: 2018922645}
   animator: {fileID: 2018922643}
   healthBar: {fileID: 0}
@@ -131040,7 +131062,7 @@ Transform:
   - {fileID: 1624936788}
   - {fileID: 798482427}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2041853605
 GameObject:
@@ -131242,8 +131264,8 @@ RectTransform:
   - {fileID: 565693332}
   - {fileID: 1118638176}
   - {fileID: 300198095}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1380452603}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -131309,6 +131331,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 788744308}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2089615537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2089615538}
+  m_Layer: 0
+  m_Name: Spectres
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2089615538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089615537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 74.48555, y: 3.1059737, z: -1.5038553}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1380452603}
+  - {fileID: 654081172}
+  - {fileID: 325288771}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2091439089
 GameObject:

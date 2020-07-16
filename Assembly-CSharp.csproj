@@ -36,14 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\AudioManager.cs" />
      <Compile Include="Assets\Scripts\A star\Grid.cs" />
      <Compile Include="Assets\Scripts\A star\Heap.cs" />
      <Compile Include="Assets\Scripts\A star\Node.cs" />
      <Compile Include="Assets\Scripts\A star\Pathfinding.cs" />
      <Compile Include="Assets\Scripts\A star\Unit.cs" />
+     <Compile Include="Assets\Scripts\Audio\Sound.cs" />
      <Compile Include="Assets\Scripts\Enemies\DemonEye.cs" />
      <Compile Include="Assets\Scripts\Enemies\EnemyTest.cs" />
      <Compile Include="Assets\Scripts\Enemies\EspectroMovement.cs" />
+     <Compile Include="Assets\Scripts\GoldChest\Chest.cs" />
+     <Compile Include="Assets\Scripts\GoldChest\Interactable.cs" />
      <Compile Include="Assets\Scripts\Greivin\Greivin.cs" />
      <Compile Include="Assets\Scripts\Greivin\GreivinHitDetector.cs" />
      <Compile Include="Assets\Scripts\Greivin\HealthBar.cs" />
@@ -52,6 +56,7 @@
      <Compile Include="Assets\Scripts\SceneManagement\LevelController.cs" />
      <Compile Include="Assets\Scripts\SceneManagement\MainManu.cs" />
      <Compile Include="Assets\Scripts\SceneManagement\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Sockets\SocketConnection.cs" />
      <Compile Include="Assets\chefcitoBreseham.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
