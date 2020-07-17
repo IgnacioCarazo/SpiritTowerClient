@@ -361,6 +361,12 @@ MonoBehaviour:
     type: 3}
   closedSprite: {fileID: 1336440320741484319, guid: 0083c07bd4276dd4bae45847c891e3f3,
     type: 3}
+  coin: {fileID: 226815182}
+  coin1: {fileID: 2091439089}
+  coin2: {fileID: 1349700056}
+  coin3: {fileID: 1475934249}
+  coin4: {fileID: 1082056214}
+  coin5: {fileID: 1896065278}
 --- !u!61 &82007818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1317,9 +1323,10 @@ GameObject:
   m_Component:
   - component: {fileID: 226815183}
   - component: {fileID: 226815184}
+  - component: {fileID: 226815185}
   m_Layer: 0
   m_Name: coin1
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1389,6 +1396,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &226815185
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226815182}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.055
 --- !u!1 &273498156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4156,9 +4179,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1082056215}
   - component: {fileID: 1082056216}
+  - component: {fileID: 1082056217}
   m_Layer: 0
   m_Name: coin5
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4228,6 +4252,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1082056217
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082056214}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.055
 --- !u!1 &1082816850
 GameObject:
   m_ObjectHideFlags: 0
@@ -123964,9 +124004,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1349700057}
   - component: {fileID: 1349700058}
+  - component: {fileID: 1349700059}
   m_Layer: 0
   m_Name: coin3
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124036,6 +124077,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1349700059
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349700056}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.055
 --- !u!1 &1349770513
 GameObject:
   m_ObjectHideFlags: 0
@@ -124361,7 +124418,11 @@ MonoBehaviour:
   greivinScript: {fileID: 2018922644}
   AStar: {fileID: 1380452605}
   eyeScript: {fileID: 1596457866}
-  waypoints: []
+  waypoints:
+  - {fileID: 2083953157}
+  - {fileID: 2099291070}
+  - {fileID: 422811248}
+  - {fileID: 1501422359}
   player: {fileID: 2018922647}
 --- !u!1 &1383479723
 GameObject:
@@ -124712,9 +124773,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1475934250}
   - component: {fileID: 1475934251}
+  - component: {fileID: 1475934252}
   m_Layer: 0
   m_Name: coin4
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124784,6 +124846,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1475934252
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475934249}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000009536743}
+  serializedVersion: 2
+  m_Radius: 0.055
 --- !u!1 &1501422358
 GameObject:
   m_ObjectHideFlags: 0
@@ -130619,9 +130697,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1896065279}
   - component: {fileID: 1896065280}
+  - component: {fileID: 1896065281}
   m_Layer: 0
   m_Name: coin6
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130691,6 +130770,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1896065281
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896065278}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.055
 --- !u!1 &1934083580
 GameObject:
   m_ObjectHideFlags: 0
@@ -131375,9 +131470,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2091439090}
   - component: {fileID: 2091439091}
+  - component: {fileID: 2091439092}
   m_Layer: 0
   m_Name: coin2
-  m_TagString: Untagged
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131447,6 +131543,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2091439092
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091439089}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000009536743}
+  serializedVersion: 2
+  m_Radius: 0.055
 --- !u!1 &2099291069
 GameObject:
   m_ObjectHideFlags: 0

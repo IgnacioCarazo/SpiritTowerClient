@@ -20,7 +20,7 @@ public class Greivin : MonoBehaviour
     public GameObject crumb;
     float minCrumbDistance = 3.0f;
     public Vector2 movement;
-    private int puntaje;
+    private int score=0;
     private Interactable interactable;
     public bool isSafe;
     public bool isDead;
@@ -127,6 +127,13 @@ public class Greivin : MonoBehaviour
         if (other.gameObject.name== "BlueSpectre")
         {
             healthBar.numOfHearts -= 5;
+        }
+
+        if (other.gameObject.tag== "coin")
+        {
+            score += 10;
+            Debug.Log("Score : "+score);
+            other.gameObject.SetActive(false);
         }
     }
 

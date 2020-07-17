@@ -9,6 +9,7 @@ TagManager:
   - Greivin
   - Jarron
   - SafeZone
+  - coin
   layers:
   - Default
   - TransparentFX
