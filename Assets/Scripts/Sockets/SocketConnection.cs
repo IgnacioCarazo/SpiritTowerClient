@@ -100,7 +100,8 @@ public class SocketConnection : MonoBehaviour
 
     void OnApplicationQuit()
     {
+		
         clientReceiveThread.Abort();
-        
+        tcpClient.Close();
     }
 }

@@ -10,6 +10,7 @@ TagManager:
   - Jarron
   - SafeZone
   - coin
+  - EnemigoSimple
   layers:
   - Default
   - TransparentFX

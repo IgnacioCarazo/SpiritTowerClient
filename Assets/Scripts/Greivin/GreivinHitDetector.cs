@@ -30,6 +30,8 @@ public class GreivinHitDetector : MonoBehaviour
                 greivinScript.healthBar.numOfHearts += 1;
             }
             collision.GetComponent<JarronesScript>().onHit();
+        } if (collision.CompareTag("EnemigoSimple")) {
+            collision.GetComponent<SimpleEnemyDeath>().onDeath();
         }
     }
 

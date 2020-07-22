@@ -91,7 +91,7 @@ public class Greivin : MonoBehaviour
     }
 
     public void greivinPosition() {
-        socketConnection.SendData("Greivin Position: " + transform.position);
+        socketConnection.SendData("Greivin Position: ");
     
     }
     public void greivinLives() {

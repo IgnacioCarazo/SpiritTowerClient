@@ -12,7 +12,7 @@ public class EspectroMovement : MonoBehaviour
 
     public Unit AStar;
     
-    
+    public bool dead;
     public DemonEye eyeScript;
     public List<Transform> waypoints = new List<Transform>();
     private Transform targetWaypoint;
@@ -49,6 +49,7 @@ public class EspectroMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        dead = false;
         animator = GetComponent<Animator>();
         socketConnection = GameObject.FindObjectOfType(typeof(SocketConnection)) as SocketConnection;
         lastWaypointIndex = waypoints.Count - 1;
@@ -75,7 +76,10 @@ public class EspectroMovement : MonoBehaviour
     }
 
     void spectrePosition(){
-        socketConnection.SendData(name + transform.position);
+        if (dead == true){
+            socketConnection.SendData(name + transform.position);
+        }
+        
     }
 
     void ControllEnemyState()
@@ -128,7 +132,10 @@ public class EspectroMovement : MonoBehaviour
         else
         {
             float movementStep = movementSpeed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+            if (dead == false){
+                transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+            }
+            
         }
     }
 
@@ -245,7 +252,8 @@ public class EspectroMovement : MonoBehaviour
 
 
     public void onDeath()
-    {
+    {   
+        dead = true;
         animator.SetBool("isDead", true);
         StartCoroutine(destroyEn());
         foreach (Transform breadcrumb in greivinScript.crumbs)

@@ -100,7 +100,7 @@ TextureImporter:
     second: DungeonObjects_31
   - first:
       213: 1071548517469262705
-    second: DungeonObjects_32
+    second: ChuchuBat
   - first:
       213: -1306944343305625788
     second: DungeonObjects_33
@@ -924,15 +924,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DungeonObjects_32
+      name: ChuchuBat
       rect:
         serializedVersion: 2
-        x: 51
-        y: 32
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 63
+        y: 103
+        width: 17
+        height: 9
+      alignment: 9
+      pivot: {x: 0.541559, y: 0.4999996}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
