@@ -128,7 +128,12 @@ public class Greivin : MonoBehaviour
         {
             healthBar.numOfHearts -= 5;
         }
-
+        if (other.gameObject.name== "Chuchu")
+        { 
+            healthBar.numOfHearts -= 1;
+            Debug.Log("Corazones " + healthBar.numOfHearts);
+        }
+        
         if (other.gameObject.tag== "coin")
         {
             score += 10;

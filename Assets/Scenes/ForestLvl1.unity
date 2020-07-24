@@ -2122,7 +2122,7 @@ GameObject:
   - component: {fileID: 325288774}
   - component: {fileID: 325288773}
   m_Layer: 9
-  m_Name: GreySpectre 3
+  m_Name: GreySpectre
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2281,6 +2281,8 @@ MonoBehaviour:
   - {fileID: 528982082}
   - {fileID: 2109605921}
   - {fileID: 2086909237}
+  teleport: 0
+  DemonEye: {fileID: 1596457864}
   player: {fileID: 2018922647}
 --- !u!1 &355657230
 GameObject:
@@ -3330,7 +3332,7 @@ GameObject:
   - component: {fileID: 654081175}
   - component: {fileID: 654081174}
   m_Layer: 9
-  m_Name: GreySpectre 2
+  m_Name: GreySpectre
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3489,6 +3491,8 @@ MonoBehaviour:
   - {fileID: 106385213}
   - {fileID: 1618431725}
   - {fileID: 842330654}
+  teleport: 0
+  DemonEye: {fileID: 1596457864}
   player: {fileID: 2018922647}
 --- !u!1 &692656924
 GameObject:
@@ -124964,6 +124968,8 @@ MonoBehaviour:
   - {fileID: 2099291070}
   - {fileID: 422811248}
   - {fileID: 1501422359}
+  teleport: 0
+  DemonEye: {fileID: 1596457864}
   player: {fileID: 2018922647}
 --- !u!1 &1383479723
 GameObject:

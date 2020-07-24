@@ -22,6 +22,8 @@ public class EspectroMovement : MonoBehaviour
     private float movementSpeed = 5f;
     private float runningSpeed = 10f;
     private int greivinVisto = 0;
+    public bool teleport = false;
+    public Transform DemonEye;
 
     private Animator animator;
     TcpClient EspectroRojoClient;
@@ -70,6 +72,11 @@ public class EspectroMovement : MonoBehaviour
         }
         else if (eyeScript.greivinVisto)
         {
+            if (this.gameObject.name == "BlueSpectre" && !teleport)
+            {
+                this.gameObject.transform.position = DemonEye.transform.position;
+                teleport = true;
+            }
             AStar.enabled = true;
 
         }
