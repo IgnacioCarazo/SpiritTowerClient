@@ -2122,7 +2122,7 @@ GameObject:
   - component: {fileID: 325288774}
   - component: {fileID: 325288773}
   m_Layer: 9
-  m_Name: GreySpectre
+  m_Name: GreySpectre3
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2257,7 +2257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2018922647}
-  speed: 7
+  speed: 10
 --- !u!114 &325288774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,6 +2272,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
   AStar: {fileID: 325288773}
+  AStar2: {fileID: 654081174}
+  AStar3: {fileID: 1380452605}
+  Movement: {fileID: 1380452608}
+  Movement2: {fileID: 654081175}
   dead: 0
   eyeScript: {fileID: 1596457866}
   waypoints:
@@ -3332,7 +3336,7 @@ GameObject:
   - component: {fileID: 654081175}
   - component: {fileID: 654081174}
   m_Layer: 9
-  m_Name: GreySpectre
+  m_Name: GreySpectre2
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3467,7 +3471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2018922647}
-  speed: 7
+  speed: 10
 --- !u!114 &654081175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3482,6 +3486,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
   AStar: {fileID: 654081174}
+  AStar2: {fileID: 1380452605}
+  AStar3: {fileID: 325288773}
+  Movement: {fileID: 1380452608}
+  Movement2: {fileID: 325288774}
   dead: 0
   eyeScript: {fileID: 1596457866}
   waypoints:
@@ -124946,7 +124954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2018922647}
-  speed: 7
+  speed: 10
 --- !u!114 &1380452608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124961,6 +124969,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   greivinScript: {fileID: 2018922644}
   AStar: {fileID: 1380452605}
+  AStar2: {fileID: 654081174}
+  AStar3: {fileID: 325288773}
+  Movement: {fileID: 654081175}
+  Movement2: {fileID: 325288774}
   dead: 0
   eyeScript: {fileID: 1596457866}
   waypoints:

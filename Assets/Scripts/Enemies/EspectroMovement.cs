@@ -11,7 +11,11 @@ public class EspectroMovement : MonoBehaviour
     public Greivin greivinScript;
 
     public Unit AStar;
-    
+    public Unit AStar2;
+    public Unit AStar3;
+
+    public EspectroMovement Movement;
+    public EspectroMovement Movement2;
     public bool dead;
     public DemonEye eyeScript;
     public List<Transform> waypoints = new List<Transform>();
@@ -58,9 +62,30 @@ public class EspectroMovement : MonoBehaviour
         targetWaypoint = waypoints[targetWaypointIndex];
         InvokeRepeating("spectrePosition",  0.5f,  2f);
 
+        greivinScript = GameObject.FindObjectOfType(typeof(Greivin)) as Greivin;
+
         
         AStar.enabled = false;
+        AStar2.enabled = false;
+        AStar3.enabled = false;
 
+        Movement.enabled = true;
+        Movement2.enabled = true;
+
+    }
+
+     void OnTriggerStay2D(Collider2D other) {
+        if (other.CompareTag("Greivin")) {
+            greivinScript.isSafe = true;
+ 
+            
+        }
+    }
+    void OnTriggerExit2D(Collider2D other) {
+        if (other.CompareTag("Greivin")) {
+            greivinScript.isSafe = false;
+            
+        }
     }
 
     void Update()
@@ -78,8 +103,8 @@ public class EspectroMovement : MonoBehaviour
                 teleport = true;
             }
             AStar.enabled = true;
-
         }
+
     }
 
     void spectrePosition(){
@@ -102,8 +127,10 @@ public class EspectroMovement : MonoBehaviour
                 animator.SetFloat("Vertical", targetWaypoint.position.y - transform.position.y);
                 break;
             case EnemyState.FOLLOWING_PLAYER:
-            AStar.enabled = true;
-            
+            AStar2.enabled = true;
+            AStar3.enabled = true;
+            Movement.enabled = false;
+            Movement2.enabled = false; 
                 ReturnToStartingPoint();
                 if (greivinVisto > 0)
                 {
@@ -128,6 +155,8 @@ public class EspectroMovement : MonoBehaviour
                 break;
         }
     }
+
+   
 
     void UpdateTransform()
     {
@@ -169,6 +198,17 @@ public class EspectroMovement : MonoBehaviour
                         greivinScript.putcrumb(true);
                     }
                 }
+
+                // if(greivinScript.isSafe){
+                //     AStar2.enabled = false;
+                //     AStar3.enabled = false;
+                //     // Movement2.enabled= true;
+                //     // Movement.enabled = true;
+                //     Movement2.state = EnemyState.PATROLLING;
+                //     Movement.state = EnemyState.PATROLLING;
+                //     state = EnemyState.PATROLLING;
+                 
+                // }
 
 
                 break;
