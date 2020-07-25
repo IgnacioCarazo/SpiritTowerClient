@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -6616,7 +6616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9938dfe6490236499985ee11ee938ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1373335976}
   speed: 10
 --- !u!114 &455451462
 MonoBehaviour:
@@ -6630,7 +6630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3022e27dca2b4143b60a8a5bb345367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greivinScript: {fileID: 0}
+  greivinScript: {fileID: 1373335971}
   AStar: {fileID: 455451461}
   AStar2: {fileID: 1267363830}
   AStar3: {fileID: 793289729}
@@ -28617,7 +28617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9938dfe6490236499985ee11ee938ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1373335976}
   speed: 10
 --- !u!114 &793289730
 MonoBehaviour:
@@ -28631,7 +28631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3022e27dca2b4143b60a8a5bb345367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greivinScript: {fileID: 0}
+  greivinScript: {fileID: 1373335971}
   AStar: {fileID: 793289729}
   AStar2: {fileID: 1267363830}
   AStar3: {fileID: 455451461}
@@ -30367,7 +30367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9938dfe6490236499985ee11ee938ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1373335976}
   speed: 10
 --- !u!114 &1267363831
 MonoBehaviour:
@@ -30381,7 +30381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3022e27dca2b4143b60a8a5bb345367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greivinScript: {fileID: 0}
+  greivinScript: {fileID: 1373335971}
   AStar: {fileID: 1267363830}
   AStar2: {fileID: 455451461}
   AStar3: {fileID: 793289729}
