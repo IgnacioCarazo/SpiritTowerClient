@@ -96,7 +96,7 @@ public class Greivin : MonoBehaviour
     }
 
     public void greivinPosition() {
-        socketConnection.SendData("Greivin Position: ");
+        socketConnection.SendData("Greivin Position: " + transform.position);
     
     }
     public void greivinLives() {
@@ -156,6 +156,10 @@ public class Greivin : MonoBehaviour
             other.gameObject.SetActive(false);
             }
             
+        } if (other.gameObject.name== "Rata") { 
+            healthBar.numOfHearts -= 1; 
+        }  if (other.gameObject.name== "DemonEye") { 
+            healthBar.numOfHearts -= 1; 
         }
     }
 

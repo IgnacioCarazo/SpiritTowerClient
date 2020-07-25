@@ -10,6 +10,6 @@ public class SimpleEnemyDeath : MonoBehaviour
 
     IEnumerator destroyEn(){
     yield return new WaitForSeconds(.3f);
-       this.gameObject.SetActive(false);
+       Destroy(gameObject);
     }
 }
