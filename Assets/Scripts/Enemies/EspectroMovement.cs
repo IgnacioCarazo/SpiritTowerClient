@@ -100,7 +100,7 @@ public class EspectroMovement : MonoBehaviour
     }
 
     void spectrePosition(){
-        if (dead == true){
+        if (dead != true){
             socketConnection.SendData(name + transform.position);
         }
         

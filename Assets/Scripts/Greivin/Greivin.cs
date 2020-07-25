@@ -21,18 +21,23 @@ public class Greivin : MonoBehaviour
     float minCrumbDistance = 3.0f;
     public Vector2 movement;
     private int score=0;
+    public string scoreText;
     private Interactable interactable;
     public bool isSafe;
     public bool isDead;
+    public bool shield;
     SocketConnection socketConnection;
 
     // Start is called before the first frame update
     void Start()
     {
+        scoreText = "Score: ";
         socketConnection = GameObject.FindObjectOfType(typeof(SocketConnection)) as SocketConnection;
         healthBar = GameObject.FindObjectOfType(typeof(HealthBar)) as HealthBar;
-        InvokeRepeating("greivinPosition",  0.2f,  5f);
-        InvokeRepeating("greivinLives",  0.4f,  5f);
+        healthBar.numOfHearts = 5;
+        InvokeRepeating("greivinPosition",  1.2f,  5f);
+        InvokeRepeating("greivinLives",  1f,  5f);
+        InvokeRepeating("scoreUpdate",  0.1f,  2f);
     }
 
     // Update is called once per frame
@@ -97,6 +102,10 @@ public class Greivin : MonoBehaviour
     public void greivinLives() {
         socketConnection.SendData("Greivin Lives: " + healthBar.numOfHearts);        
     }
+
+    public void scoreUpdate(){
+        socketConnection.SendData("score");
+    }
     
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -136,9 +145,17 @@ public class Greivin : MonoBehaviour
         
         if (other.gameObject.tag== "coin")
         {
-            score += 10;
-            Debug.Log("Score : "+score);
+            socketConnection.SendData("coin");
             other.gameObject.SetActive(false);
+        }
+
+        if (other.gameObject.name== "arrow(Clone)")
+        {
+            if (!shield) {
+            healthBar.numOfHearts -= 1;
+            other.gameObject.SetActive(false);
+            }
+            
         }
     }
 
@@ -151,10 +168,12 @@ public class Greivin : MonoBehaviour
         if (Input.GetMouseButton(0)){
             //socketConnection.SendData("GreivinShield");
             animator.SetBool("Shield", true);
+            shield = true;
             movement.y = 0; 
             movement.x = 0; 
         } else {
             animator.SetBool("Shield", false);
+            shield = false;
         }
     }
 

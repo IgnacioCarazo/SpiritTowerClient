@@ -18,7 +18,6 @@ public class SocketConnection : MonoBehaviour
     void Start()
     {
         greivinScript = GameObject.FindObjectOfType(typeof(Greivin)) as Greivin;
-
         tcpClient = new TcpClient();
         tcpClient.ConnectAsync("127.0.0.1", 5050);
         clientReceiveThread = new Thread (new ThreadStart(ListenForData)); 			
@@ -81,7 +80,9 @@ public class SocketConnection : MonoBehaviour
                         }  if (serverMessage == "GreivinDown"){
                             greivinScript.movement.x = 0;
                             greivinScript.movement.y = -1;
-                        } 
+                        } if (serverMessage.Substring(0,3) == "Sco") {
+							greivinScript.scoreText = serverMessage;
+						}
                         Debug.Log(serverMessage);
 					
 					} 				

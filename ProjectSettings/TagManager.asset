@@ -11,6 +11,7 @@ TagManager:
   - SafeZone
   - coin
   - EnemigoSimple
+  - Arrow
   layers:
   - Default
   - TransparentFX

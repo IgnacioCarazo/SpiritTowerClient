@@ -38,7 +38,7 @@ public class Chest : MonoBehaviour
       if (other.gameObject.name == "Greivin" & openChest==false)
       {
          spriteRenderer.sprite = openSprite;
-         Debug.Log("Colision :VAVAVAV");
+         
          coin.SetActive(true);
          coin1.SetActive(true);
          coin2.SetActive(true);
