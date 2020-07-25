@@ -2122,7 +2122,7 @@ GameObject:
   - component: {fileID: 325288774}
   - component: {fileID: 325288773}
   m_Layer: 9
-  m_Name: GreySpectre3
+  m_Name: GreySpectre
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2287,6 +2287,8 @@ MonoBehaviour:
   - {fileID: 2086909237}
   teleport: 0
   DemonEye: {fileID: 1596457864}
+  rataCerca: 0
+  rata: {fileID: 892241171}
   player: {fileID: 2018922647}
 --- !u!1 &355657230
 GameObject:
@@ -3336,7 +3338,7 @@ GameObject:
   - component: {fileID: 654081175}
   - component: {fileID: 654081174}
   m_Layer: 9
-  m_Name: GreySpectre2
+  m_Name: GreySpectre
   m_TagString: canAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3501,6 +3503,8 @@ MonoBehaviour:
   - {fileID: 842330654}
   teleport: 0
   DemonEye: {fileID: 1596457864}
+  rataCerca: 0
+  rata: {fileID: 892241171}
   player: {fileID: 2018922647}
 --- !u!1 &692656924
 GameObject:
@@ -4344,7 +4348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892241166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.8, y: 2.4, z: 0}
+  m_LocalPosition: {x: 26.76, y: -18.12, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -124982,6 +124986,8 @@ MonoBehaviour:
   - {fileID: 1501422359}
   teleport: 0
   DemonEye: {fileID: 1596457864}
+  rataCerca: 0
+  rata: {fileID: 892241171}
   player: {fileID: 2018922647}
 --- !u!1 &1383479723
 GameObject:

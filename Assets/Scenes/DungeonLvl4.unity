@@ -6694,6 +6694,8 @@ MonoBehaviour:
   - {fileID: 1352985411}
   teleport: 0
   DemonEye: {fileID: 1838749894}
+  rataCerca: 0
+  rata: {fileID: 681982742}
   player: {fileID: 525742517}
 --- !u!95 &455451463
 Animator:
@@ -28700,6 +28702,8 @@ MonoBehaviour:
   - {fileID: 5206438}
   teleport: 0
   DemonEye: {fileID: 1838749894}
+  rataCerca: 0
+  rata: {fileID: 681982742}
   player: {fileID: 525742517}
 --- !u!95 &793289731
 Animator:
@@ -30132,6 +30136,8 @@ MonoBehaviour:
   - {fileID: 2109433346}
   teleport: 0
   DemonEye: {fileID: 1838749894}
+  rataCerca: 0
+  rata: {fileID: 681982742}
   player: {fileID: 525742517}
 --- !u!95 &1267363832
 Animator:

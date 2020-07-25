@@ -25,9 +25,12 @@ public class EspectroMovement : MonoBehaviour
     private int lastWaypointIndex;
     private float movementSpeed = 5f;
     private float runningSpeed = 10f;
+    private float movementStep;
     private int greivinVisto = 0;
     public bool teleport = false;
     public Transform DemonEye;
+    public bool rataCerca = false;
+    public Transform rata;
 
     private Animator animator;
     TcpClient EspectroRojoClient;
@@ -162,15 +165,37 @@ public class EspectroMovement : MonoBehaviour
     {
         if (greivinVisto > 0)
         {
-            float movementStep = runningSpeed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
-        }
+            if (Vector2.Distance(transform.position, rata.transform.position) < 5.0f)
+            {
+                movementStep = 0;
+                transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+
+            }
+            else
+            {
+                movementStep = runningSpeed * Time.deltaTime;
+                transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+
+            }
+
+             }
         else
         {
-            float movementStep = movementSpeed * Time.deltaTime;
+            
             if (dead == false){
-                transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
-            }
+                if (Vector2.Distance(transform.position, rata.transform.position) < 5.0f)
+                {
+                    movementStep = 0;
+                    transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+
+                }
+                else
+                {
+                    movementStep = movementSpeed * Time.deltaTime;
+                    transform.position = Vector2.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+
+                }
+                }
             
         }
     }
