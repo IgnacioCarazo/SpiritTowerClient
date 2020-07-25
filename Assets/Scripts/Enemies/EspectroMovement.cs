@@ -13,6 +13,7 @@ public class EspectroMovement : MonoBehaviour
     public Unit AStar;
     public Unit AStar2;
     public Unit AStar3;
+    public SafeZoneScript SafeZone;
 
     public EspectroMovement Movement;
     public EspectroMovement Movement2;
@@ -75,20 +76,8 @@ public class EspectroMovement : MonoBehaviour
         Movement.enabled = true;
         Movement2.enabled = true;
 
-    }
+    
 
-     void OnTriggerStay2D(Collider2D other) {
-        if (other.CompareTag("Greivin")) {
-            greivinScript.isSafe = true;
- 
-            
-        }
-    }
-    void OnTriggerExit2D(Collider2D other) {
-        if (other.CompareTag("Greivin")) {
-            greivinScript.isSafe = false;
-            
-        }
     }
 
     void Update()
@@ -148,6 +137,16 @@ public class EspectroMovement : MonoBehaviour
                     {
                         greivinScript.DropBreadcrumb();
                     }
+                }
+                   if(greivinScript.isSafe){
+                    AStar2.enabled = false;
+                    AStar3.enabled = false;
+
+                    Movement2.enabled = true;
+                    Movement.enabled = true;
+                    
+                    state = EnemyState.PATROLLING;
+                 
                 }
 
                 // uses the correct animation comparing greivin position vs "Espectro" position
@@ -224,16 +223,7 @@ public class EspectroMovement : MonoBehaviour
                     }
                 }
 
-                // if(greivinScript.isSafe){
-                //     AStar2.enabled = false;
-                //     AStar3.enabled = false;
-                //     // Movement2.enabled= true;
-                //     // Movement.enabled = true;
-                //     Movement2.state = EnemyState.PATROLLING;
-                //     Movement.state = EnemyState.PATROLLING;
-                //     state = EnemyState.PATROLLING;
-                 
-                // }
+             
 
 
                 break;
